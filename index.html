@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>English Mastery · Saber 11</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══════════════ TOPBAR ═══════════════ -->
+<header class="topbar">
+  <div class="topbar-left">
+    <span class="logo-icon">🎓</span>
+    <span class="logo-text">English<strong>Mastery</strong> <em>Saber 11</em></span>
+  </div>
+  <nav class="topnav" id="topnav">
+    <a href="#" class="nav-link active" data-section="home">Inicio</a>
+    <a href="#" class="nav-link" data-section="levels">Niveles</a>
+    <a href="#" class="nav-link" data-section="study">Estudiar</a>
+    <a href="#" class="nav-link" data-section="stats">Progreso</a>
+    <a href="#" class="nav-link" data-section="resources">Recursos</a>
+  </nav>
+  <div class="topbar-right">
+    <button id="themeToggle" class="btn-icon" title="Cambiar tema">🌙</button>
+    <button class="btn-icon menu-toggle" id="menuToggle">☰</button>
+  </div>
+</header>
+
+<!-- ═══════════════ SECTIONS ═══════════════ -->
+<main class="main-content">
+
+  <!-- ── HOME ── -->
+  <section id="home" class="section active">
+    <div class="hero">
+      <div class="hero-badge">🇬🇧 Preparación Saber 11</div>
+      <h1 class="hero-title">Domina el <span class="accent">Inglés</span><br/>para tu Saber 11</h1>
+      <p class="hero-sub">Vocabulario, comprensión lectora y gramática con los textos exactos del examen.</p>
+      <div class="hero-btns">
+        <button class="btn-primary" id="btnContinue">▶ Continuar donde quedé</button>
+        <button class="btn-outline" data-nav="levels">Ver Niveles</button>
+      </div>
+    </div>
+
+    <!-- Stats row -->
+    <div class="stats-row" id="dashStats">
+      <div class="stat-card">
+        <div class="stat-num" id="statTotal">0</div>
+        <div class="stat-label">Preguntas respondidas</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num green" id="statCorrect">0</div>
+        <div class="stat-label">Correctas</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num red" id="statWrong">0</div>
+        <div class="stat-label">Incorrectas</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num accent" id="statPct">0%</div>
+        <div class="stat-label">Precisión global</div>
+      </div>
+    </div>
+
+    <!-- Level progress -->
+    <div class="progress-section">
+      <h2 class="section-title">Tu Progreso por Nivel</h2>
+      <div class="progress-cards">
+        <div class="prog-card" data-lvl="easy">
+          <div class="prog-icon">🌱</div>
+          <div class="prog-info">
+            <div class="prog-name">Sencillo <span class="badge badge-green">A1</span></div>
+            <div class="prog-bar-wrap"><div class="prog-bar" id="progBarEasy"></div></div>
+            <div class="prog-pct" id="progPctEasy">0%</div>
+          </div>
+          <button class="btn-sm" data-nav="study" data-lvl="easy">Estudiar</button>
+        </div>
+        <div class="prog-card" data-lvl="medium">
+          <div class="prog-icon">⚡</div>
+          <div class="prog-info">
+            <div class="prog-name">Medio <span class="badge badge-yellow">A2</span></div>
+            <div class="prog-bar-wrap"><div class="prog-bar" id="progBarMedium"></div></div>
+            <div class="prog-pct" id="progPctMedium">0%</div>
+          </div>
+          <button class="btn-sm" data-nav="study" data-lvl="medium">Estudiar</button>
+        </div>
+        <div class="prog-card" data-lvl="hard">
+          <div class="prog-icon">🔥</div>
+          <div class="prog-info">
+            <div class="prog-name">Complejo <span class="badge badge-red">B1</span></div>
+            <div class="prog-bar-wrap"><div class="prog-bar" id="progBarHard"></div></div>
+            <div class="prog-pct" id="progPctHard">0%</div>
+          </div>
+          <button class="btn-sm" data-nav="study" data-lvl="hard">Estudiar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mode cards -->
+    <div class="modes-section">
+      <h2 class="section-title">Modos de Estudio</h2>
+      <div class="mode-grid">
+        <div class="mode-card" data-nav="study" data-mode="flashcards">
+          <div class="mode-icon">🃏</div>
+          <div class="mode-name">Flashcards</div>
+          <div class="mode-desc">Aprende vocabulario con tarjetas interactivas</div>
+        </div>
+        <div class="mode-card" data-nav="study" data-mode="multiple">
+          <div class="mode-icon">✅</div>
+          <div class="mode-name">Opción Múltiple</div>
+          <div class="mode-desc">Practica con preguntas estilo Saber 11</div>
+        </div>
+        <div class="mode-card" data-nav="study" data-mode="reading">
+          <div class="mode-icon">📖</div>
+          <div class="mode-name">Comprensión Lectora</div>
+          <div class="mode-desc">Textos reales del examen con preguntas</div>
+        </div>
+        <div class="mode-card" data-nav="study" data-mode="dialogs">
+          <div class="mode-icon">💬</div>
+          <div class="mode-name">Conversaciones</div>
+          <div class="mode-desc">Diálogos y situaciones comunicativas</div>
+        </div>
+        <div class="mode-card" data-nav="study" data-mode="exam">
+          <div class="mode-icon">🏆</div>
+          <div class="mode-name">Examen Mixto</div>
+          <div class="mode-desc">Simula el examen completo Saber 11</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── LEVELS ── -->
+  <section id="levels" class="section">
+    <h1 class="page-title">Niveles de Inglés</h1>
+    <p class="page-sub">Selecciona tu nivel y modo de estudio</p>
+
+    <div class="levels-grid">
+      <!-- A1 -->
+      <div class="level-big-card green-card">
+        <div class="level-header">
+          <span class="level-emoji">🌱</span>
+          <div>
+            <h2>Sencillo</h2>
+            <span class="badge badge-green">A1 – Básico</span>
+          </div>
+        </div>
+        <p>Vocabulario cotidiano, saludos, lugares, señales y conversaciones básicas.</p>
+        <ul class="topic-list">
+          <li>🏫 Lugares (escuela, zoo, playa, centro comercial)</li>
+          <li>🎂 Expresiones sociales (cumpleaños, felicitaciones)</li>
+          <li>🚌 Señales y avisos</li>
+          <li>🍽️ Horarios y comidas</li>
+          <li>👔 Profesiones</li>
+        </ul>
+        <div class="level-btns">
+          <button class="btn-primary" data-nav="study" data-lvl="easy" data-mode="flashcards">🃏 Flashcards</button>
+          <button class="btn-outline" data-nav="study" data-lvl="easy" data-mode="multiple">✅ Quiz</button>
+        </div>
+      </div>
+
+      <!-- A2 -->
+      <div class="level-big-card yellow-card">
+        <div class="level-header">
+          <span class="level-emoji">⚡</span>
+          <div>
+            <h2>Medio</h2>
+            <span class="badge badge-yellow">A2 – Elemental</span>
+          </div>
+        </div>
+        <p>Vocabulario de salud, hábitos, rutinas, emociones y tiempos verbales.</p>
+        <ul class="topic-list">
+          <li>🏥 Vocabulario médico y hospitalario</li>
+          <li>⏰ Rutinas matutinas y hábitos</li>
+          <li>📚 Tiempos verbales (Present/Past/Future)</li>
+          <li>😊 Emociones y estados</li>
+          <li>🎯 Comprensión lectora media</li>
+        </ul>
+        <div class="level-btns">
+          <button class="btn-primary" data-nav="study" data-lvl="medium" data-mode="flashcards">🃏 Flashcards</button>
+          <button class="btn-outline" data-nav="study" data-lvl="medium" data-mode="reading">📖 Lectura</button>
+        </div>
+      </div>
+
+      <!-- B1 -->
+      <div class="level-big-card red-card">
+        <div class="level-header">
+          <span class="level-emoji">🔥</span>
+          <div>
+            <h2>Complejo</h2>
+            <span class="badge badge-red">B1 – Intermedio</span>
+          </div>
+        </div>
+        <p>Textos literarios, inferencia, vocabulario avanzado y comprensión profunda.</p>
+        <ul class="topic-list">
+          <li>📰 Textos académicos y literarios</li>
+          <li>🔍 Lectura inferencial</li>
+          <li>🧩 Vocabulario complejo</li>
+          <li>☕ Textos científicos/culturales</li>
+          <li>✍️ Examen tipo Saber 11</li>
+        </ul>
+        <div class="level-btns">
+          <button class="btn-primary" data-nav="study" data-lvl="hard" data-mode="reading">📖 Lectura</button>
+          <button class="btn-outline" data-nav="study" data-lvl="hard" data-mode="exam">🏆 Examen</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── STUDY ── -->
+  <section id="study" class="section">
+    <!-- Selector panel -->
+    <div id="studySelector">
+      <h1 class="page-title">Estudiar</h1>
+      <div class="selector-row">
+        <div class="selector-group">
+          <label>Nivel</label>
+          <div class="btn-group" id="lvlGroup">
+            <button class="toggle-btn active" data-val="easy">🌱 Sencillo</button>
+            <button class="toggle-btn" data-val="medium">⚡ Medio</button>
+            <button class="toggle-btn" data-val="hard">🔥 Complejo</button>
+          </div>
+        </div>
+        <div class="selector-group">
+          <label>Modo</label>
+          <div class="btn-group" id="modeGroup">
+            <button class="toggle-btn active" data-val="flashcards">🃏 Flashcards</button>
+            <button class="toggle-btn" data-val="multiple">✅ Quiz</button>
+            <button class="toggle-btn" data-val="reading">📖 Lectura</button>
+            <button class="toggle-btn" data-val="dialogs">💬 Diálogos</button>
+            <button class="toggle-btn" data-val="exam">🏆 Examen</button>
+          </div>
+        </div>
+        <button class="btn-primary big-start-btn" id="btnStartStudy">Comenzar ▶</button>
+      </div>
+    </div>
+
+    <!-- Study arena -->
+    <div id="studyArena" class="hidden">
+      <div class="arena-header">
+        <button class="btn-icon" id="btnBackStudy">← Volver</button>
+        <div class="arena-info">
+          <span id="arenaMode">Flashcards</span>
+          <span class="dot">·</span>
+          <span id="arenaLevel">Sencillo A1</span>
+        </div>
+        <div class="arena-score">
+          <span class="score-good" id="arenaCorrect">✓ 0</span>
+          <span class="score-bad" id="arenaWrong">✗ 0</span>
+          <span class="score-total" id="arenaProgress">0/0</span>
+        </div>
+      </div>
+      <div class="progress-thin"><div id="arenaPBar" class="progress-thin-fill"></div></div>
+
+      <!-- FLASHCARD mode -->
+      <div id="modeFlashcards" class="mode-panel hidden">
+        <div class="card-wrap">
+          <div class="flashcard" id="flashcard">
+            <div class="fc-front">
+              <div class="fc-word" id="fcWord">Word</div>
+              <div class="fc-hint">Toca para voltear</div>
+            </div>
+            <div class="fc-back">
+              <div class="fc-translation" id="fcTranslation">Traducción</div>
+              <div class="fc-example" id="fcExample">Ejemplo de uso</div>
+            </div>
+          </div>
+        </div>
+        <div class="fc-controls">
+          <button class="btn-wrong" id="fcWrong">✗ No lo sé</button>
+          <button class="btn-flip" id="fcFlip">↺ Voltear</button>
+          <button class="btn-correct" id="fcCorrect">✓ Lo sé</button>
+        </div>
+      </div>
+
+      <!-- MULTIPLE CHOICE mode -->
+      <div id="modeMultiple" class="mode-panel hidden">
+        <div class="quiz-card">
+          <div class="quiz-context" id="qContext"></div>
+          <div class="quiz-question" id="qQuestion"></div>
+          <div class="quiz-options" id="qOptions"></div>
+          <div class="quiz-feedback hidden" id="qFeedback">
+            <div class="feedback-result" id="fbResult"></div>
+            <div class="feedback-explanation" id="fbExplanation"></div>
+            <div class="feedback-example" id="fbExample"></div>
+            <a href="#" target="_blank" class="btn-video" id="fbVideo">▶ Ver video explicativo</a>
+            <button class="btn-primary" id="btnNextQ">Siguiente →</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- READING mode -->
+      <div id="modeReading" class="mode-panel hidden">
+        <div class="reading-wrap">
+          <div class="reading-text-card">
+            <h3 class="reading-title" id="readTitle"></h3>
+            <div class="reading-body" id="readBody"></div>
+          </div>
+          <div class="reading-questions" id="readQuestions"></div>
+          <div class="quiz-feedback hidden" id="readFeedback">
+            <div class="feedback-result" id="readFbResult"></div>
+            <div class="feedback-explanation" id="readFbExpl"></div>
+            <button class="btn-primary" id="btnNextRead">Siguiente →</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- DIALOGS mode -->
+      <div id="modeDialogs" class="mode-panel hidden">
+        <div class="dialog-card">
+          <div class="dialog-scene" id="dialogScene"></div>
+          <div class="dialog-question" id="dialogQ"></div>
+          <div class="dialog-options" id="dialogOpts"></div>
+          <div class="quiz-feedback hidden" id="dialogFeedback">
+            <div class="feedback-result" id="dialogFbResult"></div>
+            <div class="feedback-explanation" id="dialogFbExpl"></div>
+            <button class="btn-primary" id="btnNextDialog">Siguiente →</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- EXAM mode -->
+      <div id="modeExam" class="mode-panel hidden">
+        <div class="quiz-card">
+          <div class="exam-info">📝 <strong>Examen Mixto</strong> — Estilo Saber 11</div>
+          <div class="quiz-context" id="examContext"></div>
+          <div class="quiz-question" id="examQuestion"></div>
+          <div class="quiz-options" id="examOptions"></div>
+          <div class="quiz-feedback hidden" id="examFeedback">
+            <div class="feedback-result" id="examFbResult"></div>
+            <div class="feedback-explanation" id="examFbExpl"></div>
+            <button class="btn-primary" id="btnNextExam">Siguiente →</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- RESULT panel -->
+      <div id="modeResult" class="mode-panel hidden">
+        <div class="result-card">
+          <div class="result-emoji" id="resultEmoji">🏆</div>
+          <h2 id="resultTitle">¡Módulo completado!</h2>
+          <div class="result-score" id="resultScore"></div>
+          <div class="result-bars">
+            <div class="result-bar-row"><span>Correctas</span><div class="rb-wrap"><div class="rb-fill green-fill" id="rbCorrect"></div></div></div>
+            <div class="result-bar-row"><span>Incorrectas</span><div class="rb-wrap"><div class="rb-fill red-fill" id="rbWrong"></div></div></div>
+          </div>
+          <div class="result-feedback" id="resultFeedback"></div>
+          <div class="result-btns">
+            <button class="btn-primary" id="btnRetry">↺ Reintentar</button>
+            <button class="btn-outline" data-nav="home">🏠 Inicio</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── STATS ── -->
+  <section id="stats" class="section">
+    <h1 class="page-title">Progreso y Estadísticas</h1>
+    <div class="stats-full">
+      <div class="stats-big-row">
+        <div class="big-stat-card">
+          <div class="big-stat-num green" id="statsCorrect">0</div>
+          <div>Respuestas Correctas</div>
+        </div>
+        <div class="big-stat-card">
+          <div class="big-stat-num red" id="statsWrong">0</div>
+          <div>Respuestas Incorrectas</div>
+        </div>
+        <div class="big-stat-card">
+          <div class="big-stat-num accent" id="statsPct">0%</div>
+          <div>Precisión Global</div>
+        </div>
+        <div class="big-stat-card">
+          <div class="big-stat-num" id="statsStreak">0</div>
+          <div>Racha Actual 🔥</div>
+        </div>
+      </div>
+
+      <h2 class="section-title">Progreso por Nivel</h2>
+      <div class="level-stats" id="levelStats"></div>
+
+      <h2 class="section-title">Historial Reciente</h2>
+      <div class="history-list" id="historyList"></div>
+
+      <div class="reset-row">
+        <button class="btn-danger" id="btnReset">🗑️ Reiniciar Todo el Progreso</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── RESOURCES ── -->
+  <section id="resources" class="section">
+    <h1 class="page-title">Recursos de Estudio</h1>
+    <p class="page-sub">Videos de YouTube seleccionados para preparar el Saber 11</p>
+
+    <div class="resources-grid" id="resourcesGrid"></div>
+  </section>
+
+</main>
+
+<!-- Toast notification -->
+<div class="toast hidden" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
