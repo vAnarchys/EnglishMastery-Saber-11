@@ -1304,6 +1304,20 @@ function navigate(sectionId){
   if(sectionId==="home") updateDashboard();
   if(sectionId==="stats") updateStatsPage();
   if(sectionId==="resources") renderResources();
+  if(sectionId==="fullexam"){ renderExamHistory(); }
+}
+
+function renderResources(){
+  const grid=document.getElementById("resourcesGrid");
+  if(!grid) return;
+  grid.innerHTML="";
+  RESOURCES.forEach(r=>{
+    const card=document.createElement("div");
+    card.className="resource-card";
+    const icon=r.icon||"📺";
+    card.innerHTML='<div class="rc-thumb"><span style="font-size:2.2rem">'+icon+'</span><div class="rc-play">&#9654;</div></div><div class="rc-body"><div class="rc-topic">'+r.topic+'</div><div class="rc-title">'+r.title+'</div><div class="rc-channel">&#128250; '+r.channel+' &middot; '+r.duration+'</div><a href="'+r.url+'" target="_blank" class="rc-link">&#9654; Ver en YouTube</a></div>';
+    grid.appendChild(card);
+  });
 }
 
 document.querySelectorAll(".nav-link").forEach(l=>{
@@ -1401,12 +1415,12 @@ function startStudy(){
   else if(selectedMode==="multiple") initMultiple();
   else if(selectedMode==="reading") initReading();
   else if(selectedMode==="dialogs") initDialogs();
-  else if(selectedMode==="exam") initExam();
 }
 
+
 function hideModes(){
-  ["modeFlashcards","modeMultiple","modeReading","modeDialogs","modeExam","modeResult"]
-    .forEach(id=>document.getElementById(id).classList.add("hidden"));
+  ["modeFlashcards","modeMultiple","modeReading","modeDialogs","modeResult"]
+    .forEach(id=>{ const el=document.getElementById(id); if(el) el.classList.add("hidden"); });
 }
 
 let arenaCorrect=0,arenaWrong=0,arenaTotal=0,arenaIdx=0;
