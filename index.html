@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>English Mastery · Saber 11</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<!-- ═══════════════ TOPBAR ═══════════════ -->
+<!-- ═══════════ TOPBAR ═══════════ -->
 <header class="topbar">
   <div class="topbar-left">
     <span class="logo-icon">🎓</span>
@@ -20,32 +20,41 @@
     <a href="#" class="nav-link active" data-section="home">Inicio</a>
     <a href="#" class="nav-link" data-section="levels">Niveles</a>
     <a href="#" class="nav-link" data-section="study">Estudiar</a>
+    <a href="#" class="nav-link" data-section="fullexam">🏆 Examen</a>
     <a href="#" class="nav-link" data-section="stats">Progreso</a>
     <a href="#" class="nav-link" data-section="resources">Recursos</a>
   </nav>
   <div class="topbar-right">
+    <button id="soundToggle" class="btn-icon" title="Sonido">🔊</button>
     <button id="themeToggle" class="btn-icon" title="Cambiar tema">🌙</button>
     <button class="btn-icon menu-toggle" id="menuToggle">☰</button>
   </div>
 </header>
 
-<!-- ═══════════════ SECTIONS ═══════════════ -->
 <main class="main-content">
 
-  <!-- ── HOME ── -->
+  <!-- ══════════════ HOME ══════════════ -->
   <section id="home" class="section active">
     <div class="hero">
-      <div class="hero-badge">🇬🇧 Preparación Saber 11</div>
+      <div class="hero-badge">🇨🇴 Preparación Oficial Saber 11 · ICFES</div>
       <h1 class="hero-title">Domina el <span class="accent">Inglés</span><br/>para tu Saber 11</h1>
-      <p class="hero-sub">Vocabulario, comprensión lectora y gramática con los textos exactos del examen.</p>
+      <p class="hero-sub">Vocabulario, comprensión lectora y gramática con los textos exactos del examen ICFES.</p>
       <div class="hero-btns">
         <button class="btn-primary" id="btnContinue">▶ Continuar donde quedé</button>
         <button class="btn-outline" data-nav="levels">Ver Niveles</button>
+        <button class="btn-exam-hero" data-nav="fullexam">🏆 Examen Completo</button>
       </div>
     </div>
 
-    <!-- Stats row -->
-    <div class="stats-row" id="dashStats">
+    <div class="mcer-banner">
+      <div class="mcer-icon">📋</div>
+      <div class="mcer-text">
+        <strong>¿Qué evalúa el Saber 11?</strong>
+        El ICFES evalúa inglés hasta nivel <strong>B1 del MCER</strong>. El examen es <strong>100% escrito</strong> — no incluye producción oral ni listening formal. Cubre: uso lexical, uso comunicativo, comprensión literal e inferencial y gramática.
+      </div>
+    </div>
+
+    <div class="stats-row">
       <div class="stat-card">
         <div class="stat-num" id="statTotal">0</div>
         <div class="stat-label">Preguntas respondidas</div>
@@ -64,32 +73,31 @@
       </div>
     </div>
 
-    <!-- Level progress -->
     <div class="progress-section">
       <h2 class="section-title">Tu Progreso por Nivel</h2>
       <div class="progress-cards">
-        <div class="prog-card" data-lvl="easy">
+        <div class="prog-card">
           <div class="prog-icon">🌱</div>
           <div class="prog-info">
-            <div class="prog-name">Sencillo <span class="badge badge-green">A1</span></div>
+            <div class="prog-name">Básico <span class="badge badge-green">A1–A2</span></div>
             <div class="prog-bar-wrap"><div class="prog-bar" id="progBarEasy"></div></div>
             <div class="prog-pct" id="progPctEasy">0%</div>
           </div>
           <button class="btn-sm" data-nav="study" data-lvl="easy">Estudiar</button>
         </div>
-        <div class="prog-card" data-lvl="medium">
+        <div class="prog-card">
           <div class="prog-icon">⚡</div>
           <div class="prog-info">
-            <div class="prog-name">Medio <span class="badge badge-yellow">A2</span></div>
+            <div class="prog-name">Intermedio <span class="badge badge-yellow">A2–B1</span></div>
             <div class="prog-bar-wrap"><div class="prog-bar" id="progBarMedium"></div></div>
             <div class="prog-pct" id="progPctMedium">0%</div>
           </div>
           <button class="btn-sm" data-nav="study" data-lvl="medium">Estudiar</button>
         </div>
-        <div class="prog-card" data-lvl="hard">
+        <div class="prog-card">
           <div class="prog-icon">🔥</div>
           <div class="prog-info">
-            <div class="prog-name">Complejo <span class="badge badge-red">B1</span></div>
+            <div class="prog-name">Avanzado <span class="badge badge-red">B1</span></div>
             <div class="prog-bar-wrap"><div class="prog-bar" id="progBarHard"></div></div>
             <div class="prog-pct" id="progPctHard">0%</div>
           </div>
@@ -98,128 +106,117 @@
       </div>
     </div>
 
-    <!-- Mode cards -->
     <div class="modes-section">
       <h2 class="section-title">Modos de Estudio</h2>
       <div class="mode-grid">
         <div class="mode-card" data-nav="study" data-mode="flashcards">
           <div class="mode-icon">🃏</div>
           <div class="mode-name">Flashcards</div>
-          <div class="mode-desc">Aprende vocabulario con tarjetas interactivas</div>
+          <div class="mode-desc">Escribe la traducción antes de ver la respuesta. Con repetición espaciada.</div>
         </div>
         <div class="mode-card" data-nav="study" data-mode="multiple">
           <div class="mode-icon">✅</div>
           <div class="mode-name">Opción Múltiple</div>
-          <div class="mode-desc">Practica con preguntas estilo Saber 11</div>
+          <div class="mode-desc">Preguntas estilo Saber 11 con explicación detallada</div>
         </div>
         <div class="mode-card" data-nav="study" data-mode="reading">
           <div class="mode-icon">📖</div>
           <div class="mode-name">Comprensión Lectora</div>
-          <div class="mode-desc">Textos reales del examen con preguntas</div>
+          <div class="mode-desc">Textos reales del examen con preguntas de comprensión</div>
         </div>
         <div class="mode-card" data-nav="study" data-mode="dialogs">
           <div class="mode-icon">💬</div>
           <div class="mode-name">Conversaciones</div>
-          <div class="mode-desc">Diálogos y situaciones comunicativas</div>
+          <div class="mode-desc">Diálogos y situaciones comunicativas estilo Parte 3</div>
         </div>
-        <div class="mode-card" data-nav="study" data-mode="exam">
+        <div class="mode-card" data-nav="fullexam">
           <div class="mode-icon">🏆</div>
-          <div class="mode-name">Examen Mixto</div>
-          <div class="mode-desc">Simula el examen completo Saber 11</div>
+          <div class="mode-name">Examen Completo</div>
+          <div class="mode-desc">Simulacro con temporizador, revisión y análisis de resultados</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ── LEVELS ── -->
+  <!-- ══════════════ LEVELS ══════════════ -->
   <section id="levels" class="section">
     <h1 class="page-title">Niveles de Inglés</h1>
-    <p class="page-sub">Selecciona tu nivel y modo de estudio</p>
-
+    <p class="page-sub">El Saber 11 evalúa inglés hasta <strong>B1 del MCER</strong> — examen escrito únicamente.</p>
+    <div class="mcer-info-row">
+      <div class="mcer-step green-step"><span>A1</span><small>Principiante</small></div>
+      <div class="mcer-arrow">→</div>
+      <div class="mcer-step yellow-step"><span>A2</span><small>Elemental</small></div>
+      <div class="mcer-arrow">→</div>
+      <div class="mcer-step red-step active-step"><span>B1 ★</span><small>Saber 11</small></div>
+      <div class="mcer-arrow muted-arrow">→</div>
+      <div class="mcer-step muted-step"><span>B2</span><small>No evaluado</small></div>
+      <div class="mcer-arrow muted-arrow">→</div>
+      <div class="mcer-step muted-step"><span>C1/C2</span><small>No evaluado</small></div>
+    </div>
     <div class="levels-grid">
-      <!-- A1 -->
       <div class="level-big-card green-card">
-        <div class="level-header">
-          <span class="level-emoji">🌱</span>
-          <div>
-            <h2>Sencillo</h2>
-            <span class="badge badge-green">A1 – Básico</span>
-          </div>
-        </div>
-        <p>Vocabulario cotidiano, saludos, lugares, señales y conversaciones básicas.</p>
+        <div class="level-header"><span class="level-emoji">🌱</span><div><h2>Básico</h2><span class="badge badge-green">A1 – A2</span></div></div>
+        <p>Vocabulario cotidiano, saludos, señales, lugares y conversaciones simples.</p>
         <ul class="topic-list">
           <li>🏫 Lugares (escuela, zoo, playa, centro comercial)</li>
           <li>🎂 Expresiones sociales (cumpleaños, felicitaciones)</li>
-          <li>🚌 Señales y avisos</li>
-          <li>🍽️ Horarios y comidas</li>
-          <li>👔 Profesiones</li>
+          <li>🚌 Señales y avisos públicos</li>
+          <li>🍽️ Horarios, comidas y rutinas</li>
+          <li>👔 Profesiones y ocupaciones</li>
+          <li>👟 Ropa y accesorios</li>
+          <li>⚽ Deportes y actividades</li>
         </ul>
         <div class="level-btns">
           <button class="btn-primary" data-nav="study" data-lvl="easy" data-mode="flashcards">🃏 Flashcards</button>
           <button class="btn-outline" data-nav="study" data-lvl="easy" data-mode="multiple">✅ Quiz</button>
         </div>
       </div>
-
-      <!-- A2 -->
       <div class="level-big-card yellow-card">
-        <div class="level-header">
-          <span class="level-emoji">⚡</span>
-          <div>
-            <h2>Medio</h2>
-            <span class="badge badge-yellow">A2 – Elemental</span>
-          </div>
-        </div>
-        <p>Vocabulario de salud, hábitos, rutinas, emociones y tiempos verbales.</p>
+        <div class="level-header"><span class="level-emoji">⚡</span><div><h2>Intermedio</h2><span class="badge badge-yellow">A2 – B1</span></div></div>
+        <p>Vocabulario de salud, hábitos, rutinas, tiempos verbales y comprensión de textos.</p>
         <ul class="topic-list">
           <li>🏥 Vocabulario médico y hospitalario</li>
-          <li>⏰ Rutinas matutinas y hábitos</li>
-          <li>📚 Tiempos verbales (Present/Past/Future)</li>
-          <li>😊 Emociones y estados</li>
-          <li>🎯 Comprensión lectora media</li>
+          <li>⏰ Rutinas matutinas y hábitos saludables</li>
+          <li>📚 Tiempos verbales (Simple, Continuous, Perfect)</li>
+          <li>😊 Emociones, ambiciones y logros</li>
+          <li>🎯 Comprensión lectora con inferencias</li>
+          <li>🌍 Tecnología, medio ambiente, ciencia</li>
         </ul>
         <div class="level-btns">
           <button class="btn-primary" data-nav="study" data-lvl="medium" data-mode="flashcards">🃏 Flashcards</button>
           <button class="btn-outline" data-nav="study" data-lvl="medium" data-mode="reading">📖 Lectura</button>
         </div>
       </div>
-
-      <!-- B1 -->
       <div class="level-big-card red-card">
-        <div class="level-header">
-          <span class="level-emoji">🔥</span>
-          <div>
-            <h2>Complejo</h2>
-            <span class="badge badge-red">B1 – Intermedio</span>
-          </div>
-        </div>
-        <p>Textos literarios, inferencia, vocabulario avanzado y comprensión profunda.</p>
+        <div class="level-header"><span class="level-emoji">🔥</span><div><h2>Avanzado</h2><span class="badge badge-red">B1 ★ Saber 11</span></div></div>
+        <p>Textos literarios, inferencia profunda, vocabulario complejo. Nivel exacto del Saber 11.</p>
         <ul class="topic-list">
-          <li>📰 Textos académicos y literarios</li>
-          <li>🔍 Lectura inferencial</li>
-          <li>🧩 Vocabulario complejo</li>
-          <li>☕ Textos científicos/culturales</li>
-          <li>✍️ Examen tipo Saber 11</li>
+          <li>📰 Textos académicos, biográficos y literarios</li>
+          <li>🔍 Lectura inferencial profunda</li>
+          <li>🧩 Vocabulario complejo en contexto</li>
+          <li>☕ Textos científicos y culturales</li>
+          <li>✍️ Gramática avanzada — relleno de espacios</li>
+          <li>🏆 Simulacro tipo Saber 11 completo</li>
         </ul>
         <div class="level-btns">
           <button class="btn-primary" data-nav="study" data-lvl="hard" data-mode="reading">📖 Lectura</button>
-          <button class="btn-outline" data-nav="study" data-lvl="hard" data-mode="exam">🏆 Examen</button>
+          <button class="btn-outline" data-nav="fullexam">🏆 Examen</button>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ── STUDY ── -->
+  <!-- ══════════════ STUDY ══════════════ -->
   <section id="study" class="section">
-    <!-- Selector panel -->
     <div id="studySelector">
       <h1 class="page-title">Estudiar</h1>
       <div class="selector-row">
         <div class="selector-group">
           <label>Nivel</label>
           <div class="btn-group" id="lvlGroup">
-            <button class="toggle-btn active" data-val="easy">🌱 Sencillo</button>
-            <button class="toggle-btn" data-val="medium">⚡ Medio</button>
-            <button class="toggle-btn" data-val="hard">🔥 Complejo</button>
+            <button class="toggle-btn active" data-val="easy">🌱 Básico</button>
+            <button class="toggle-btn" data-val="medium">⚡ Intermedio</button>
+            <button class="toggle-btn" data-val="hard">🔥 Avanzado</button>
           </div>
         </div>
         <div class="selector-group">
@@ -229,21 +226,19 @@
             <button class="toggle-btn" data-val="multiple">✅ Quiz</button>
             <button class="toggle-btn" data-val="reading">📖 Lectura</button>
             <button class="toggle-btn" data-val="dialogs">💬 Diálogos</button>
-            <button class="toggle-btn" data-val="exam">🏆 Examen</button>
           </div>
         </div>
         <button class="btn-primary big-start-btn" id="btnStartStudy">Comenzar ▶</button>
       </div>
     </div>
 
-    <!-- Study arena -->
     <div id="studyArena" class="hidden">
       <div class="arena-header">
         <button class="btn-icon" id="btnBackStudy">← Volver</button>
         <div class="arena-info">
           <span id="arenaMode">Flashcards</span>
           <span class="dot">·</span>
-          <span id="arenaLevel">Sencillo A1</span>
+          <span id="arenaLevel">Básico</span>
         </div>
         <div class="arena-score">
           <span class="score-good" id="arenaCorrect">✓ 0</span>
@@ -253,28 +248,50 @@
       </div>
       <div class="progress-thin"><div id="arenaPBar" class="progress-thin-fill"></div></div>
 
-      <!-- FLASHCARD mode -->
+      <!-- ── FLASHCARD ── -->
       <div id="modeFlashcards" class="mode-panel hidden">
+        <div class="fc-instruction">💡 ¿Sabes la traducción? Decide <strong>antes</strong> de escribirla.</div>
+        <div class="srs-badge-row" id="srsBadgeRow"></div>
         <div class="card-wrap">
           <div class="flashcard" id="flashcard">
             <div class="fc-front">
+              <div class="fc-tag" id="fcTag">Vocabulario</div>
               <div class="fc-word" id="fcWord">Word</div>
-              <div class="fc-hint">Toca para voltear</div>
+              <div class="fc-prompt">¿Sabes qué significa en español?</div>
             </div>
             <div class="fc-back">
               <div class="fc-translation" id="fcTranslation">Traducción</div>
+              <div class="fc-divider"></div>
+              <div class="fc-example-label">Ejemplo en inglés:</div>
               <div class="fc-example" id="fcExample">Ejemplo de uso</div>
+              <div class="fc-example-es-label">Traducción del ejemplo:</div>
+              <div class="fc-example-es" id="fcExampleEs">Traducción del ejemplo</div>
             </div>
           </div>
         </div>
-        <div class="fc-controls">
-          <button class="btn-wrong" id="fcWrong">✗ No lo sé</button>
-          <button class="btn-flip" id="fcFlip">↺ Voltear</button>
-          <button class="btn-correct" id="fcCorrect">✓ Lo sé</button>
+
+        <!-- Step 1: initial buttons -->
+        <div class="fc-controls" id="fcControls">
+          <button class="btn-wrong" id="fcWrong">✗ No lo sé — Ver respuesta</button>
+          <button class="btn-correct" id="fcKnow">✓ Lo sé — Escribir traducción</button>
+        </div>
+
+        <!-- Step 2: write answer (shown after "Lo sé") -->
+        <div class="fc-write-panel hidden" id="fcWritePanel">
+          <div class="fc-write-label">Escribe la traducción en español:</div>
+          <input type="text" id="fcUserAnswer" class="fc-input" placeholder="Escribe aquí tu traducción..." autocomplete="off" />
+          <button class="btn-primary" id="fcSubmit">Enviar respuesta ▶</button>
+        </div>
+
+        <!-- Step 3: result after submit or "No lo sé" -->
+        <div class="fc-result-panel hidden" id="fcResultPanel">
+          <div class="fc-result-badge" id="fcResultBadge"></div>
+          <div class="fc-result-detail" id="fcResultDetail"></div>
+          <button class="btn-primary" id="fcNext">Siguiente tarjeta →</button>
         </div>
       </div>
 
-      <!-- MULTIPLE CHOICE mode -->
+      <!-- ── MULTIPLE CHOICE ── -->
       <div id="modeMultiple" class="mode-panel hidden">
         <div class="quiz-card">
           <div class="quiz-context" id="qContext"></div>
@@ -282,68 +299,68 @@
           <div class="quiz-options" id="qOptions"></div>
           <div class="quiz-feedback hidden" id="qFeedback">
             <div class="feedback-result" id="fbResult"></div>
+            <div class="feedback-correct-answer" id="fbCorrectAnswer"></div>
             <div class="feedback-explanation" id="fbExplanation"></div>
             <div class="feedback-example" id="fbExample"></div>
-            <a href="#" target="_blank" class="btn-video" id="fbVideo">▶ Ver video explicativo</a>
+            <a href="#" target="_blank" class="btn-video hidden" id="fbVideo">▶ Ver video explicativo</a>
             <button class="btn-primary" id="btnNextQ">Siguiente →</button>
           </div>
         </div>
       </div>
 
-      <!-- READING mode -->
+      <!-- ── READING ── -->
       <div id="modeReading" class="mode-panel hidden">
         <div class="reading-wrap">
           <div class="reading-text-card">
+            <div class="reading-meta" id="readMeta"></div>
             <h3 class="reading-title" id="readTitle"></h3>
             <div class="reading-body" id="readBody"></div>
           </div>
+          <div class="reading-q-header">📝 Preguntas sobre el texto — <span id="readQProgress">1/1</span></div>
           <div class="reading-questions" id="readQuestions"></div>
           <div class="quiz-feedback hidden" id="readFeedback">
             <div class="feedback-result" id="readFbResult"></div>
+            <div class="feedback-correct-answer" id="readFbCorrect"></div>
             <div class="feedback-explanation" id="readFbExpl"></div>
             <button class="btn-primary" id="btnNextRead">Siguiente →</button>
           </div>
         </div>
       </div>
 
-      <!-- DIALOGS mode -->
+      <!-- ── DIALOGS ── -->
       <div id="modeDialogs" class="mode-panel hidden">
         <div class="dialog-card">
+          <div class="dialog-label">💬 Situación comunicativa</div>
           <div class="dialog-scene" id="dialogScene"></div>
+          <div class="dialog-bubble-wrap" id="dialogBubbles"></div>
           <div class="dialog-question" id="dialogQ"></div>
           <div class="dialog-options" id="dialogOpts"></div>
           <div class="quiz-feedback hidden" id="dialogFeedback">
             <div class="feedback-result" id="dialogFbResult"></div>
+            <div class="feedback-correct-answer" id="dialogFbCorrect"></div>
             <div class="feedback-explanation" id="dialogFbExpl"></div>
             <button class="btn-primary" id="btnNextDialog">Siguiente →</button>
           </div>
         </div>
       </div>
 
-      <!-- EXAM mode -->
-      <div id="modeExam" class="mode-panel hidden">
-        <div class="quiz-card">
-          <div class="exam-info">📝 <strong>Examen Mixto</strong> — Estilo Saber 11</div>
-          <div class="quiz-context" id="examContext"></div>
-          <div class="quiz-question" id="examQuestion"></div>
-          <div class="quiz-options" id="examOptions"></div>
-          <div class="quiz-feedback hidden" id="examFeedback">
-            <div class="feedback-result" id="examFbResult"></div>
-            <div class="feedback-explanation" id="examFbExpl"></div>
-            <button class="btn-primary" id="btnNextExam">Siguiente →</button>
-          </div>
-        </div>
-      </div>
-
-      <!-- RESULT panel -->
+      <!-- ── RESULT ── -->
       <div id="modeResult" class="mode-panel hidden">
         <div class="result-card">
           <div class="result-emoji" id="resultEmoji">🏆</div>
           <h2 id="resultTitle">¡Módulo completado!</h2>
           <div class="result-score" id="resultScore"></div>
           <div class="result-bars">
-            <div class="result-bar-row"><span>Correctas</span><div class="rb-wrap"><div class="rb-fill green-fill" id="rbCorrect"></div></div></div>
-            <div class="result-bar-row"><span>Incorrectas</span><div class="rb-wrap"><div class="rb-fill red-fill" id="rbWrong"></div></div></div>
+            <div class="result-bar-row">
+              <span>✓ Correctas</span>
+              <div class="rb-wrap"><div class="rb-fill green-fill" id="rbCorrect"></div></div>
+              <span class="rb-num" id="rbCorrectNum">0</span>
+            </div>
+            <div class="result-bar-row">
+              <span>✗ Incorrectas</span>
+              <div class="rb-wrap"><div class="rb-fill red-fill" id="rbWrong"></div></div>
+              <span class="rb-num" id="rbWrongNum">0</span>
+            </div>
           </div>
           <div class="result-feedback" id="resultFeedback"></div>
           <div class="result-btns">
@@ -355,54 +372,147 @@
     </div>
   </section>
 
-  <!-- ── STATS ── -->
-  <section id="stats" class="section">
-    <h1 class="page-title">Progreso y Estadísticas</h1>
-    <div class="stats-full">
-      <div class="stats-big-row">
-        <div class="big-stat-card">
-          <div class="big-stat-num green" id="statsCorrect">0</div>
-          <div>Respuestas Correctas</div>
+  <!-- ══════════════ FULL EXAM ══════════════ -->
+  <section id="fullexam" class="section">
+    <!-- Config screen -->
+    <div id="examConfig">
+      <h1 class="page-title">🏆 Examen Completo Saber 11</h1>
+      <p class="page-sub">Simulacro con temporizador, revisión detallada y análisis de resultados.</p>
+      <div class="exam-config-card">
+        <h3>⏱️ Duración del examen</h3>
+        <div class="btn-group" id="timerGroup">
+          <button class="toggle-btn" data-val="30">30 minutos</button>
+          <button class="toggle-btn active" data-val="45">45 minutos</button>
+          <button class="toggle-btn" data-val="60">60 minutos</button>
         </div>
-        <div class="big-stat-card">
-          <div class="big-stat-num red" id="statsWrong">0</div>
-          <div>Respuestas Incorrectas</div>
+        <h3 style="margin-top:1.5rem">📊 Nivel de dificultad</h3>
+        <div class="btn-group" id="examDiffGroup">
+          <button class="toggle-btn" data-val="easy">🌱 Solo Básico</button>
+          <button class="toggle-btn active" data-val="mixed">⚡ Mixto (recomendado)</button>
+          <button class="toggle-btn" data-val="hard">🔥 Solo Avanzado</button>
         </div>
-        <div class="big-stat-card">
-          <div class="big-stat-num accent" id="statsPct">0%</div>
-          <div>Precisión Global</div>
+        <div class="exam-config-info">
+          <div class="eci-item">📝 <strong>25 preguntas</strong> mezcladas automáticamente</div>
+          <div class="eci-item">📖 <strong>Comprensión lectora</strong> + vocabulario + gramática</div>
+          <div class="eci-item">🔍 <strong>Revisión completa</strong> al finalizar</div>
+          <div class="eci-item">💾 <strong>Historial guardado</strong> en tu dispositivo</div>
         </div>
-        <div class="big-stat-card">
-          <div class="big-stat-num" id="statsStreak">0</div>
-          <div>Racha Actual 🔥</div>
-        </div>
+        <button class="btn-primary big-start-btn" id="btnStartFullExam">🚀 Iniciar Examen</button>
       </div>
 
-      <h2 class="section-title">Progreso por Nivel</h2>
-      <div class="level-stats" id="levelStats"></div>
+      <!-- Past exams -->
+      <div id="examHistory" style="margin-top:2rem"></div>
+    </div>
 
-      <h2 class="section-title">Historial Reciente</h2>
-      <div class="history-list" id="historyList"></div>
+    <!-- Exam arena -->
+    <div id="examArena" class="hidden">
+      <!-- Timer bar -->
+      <div class="exam-timer-bar">
+        <div class="exam-timer-left">
+          <span class="exam-timer-icon" id="examTimerIcon">⏱️</span>
+          <span class="exam-timer-display" id="examTimerDisplay">45:00</span>
+        </div>
+        <div class="exam-timer-progress-wrap">
+          <div class="exam-timer-progress" id="examTimerProgress"></div>
+        </div>
+        <div class="exam-q-counter" id="examQCounter">1/25</div>
+      </div>
+      <div class="exam-warn hidden" id="examWarn">⚠️ ¡Quedan menos de 5 minutos!</div>
 
-      <div class="reset-row">
-        <button class="btn-danger" id="btnReset">🗑️ Reiniciar Todo el Progreso</button>
+      <!-- Question area -->
+      <div class="quiz-card" id="examQuestionCard">
+        <div class="exam-info">📝 <strong>Examen Completo</strong> — Estilo Saber 11</div>
+        <div class="quiz-context" id="feContext"></div>
+        <div class="exam-text-block hidden" id="feTextBlock">
+          <div class="exam-text-title" id="feTextTitle"></div>
+          <div class="exam-text-body" id="feTextBody"></div>
+        </div>
+        <div class="quiz-question" id="feQuestion"></div>
+        <div class="quiz-options" id="feOptions"></div>
+        <div class="quiz-feedback hidden" id="feFeedback">
+          <div class="feedback-result" id="feFbResult"></div>
+          <div class="feedback-correct-answer" id="feFbCorrect"></div>
+          <div class="feedback-explanation" id="feFbExpl"></div>
+          <button class="btn-primary" id="btnNextFE">Siguiente →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Exam result screen -->
+    <div id="examResultScreen" class="hidden">
+      <div class="fe-result-card">
+        <div class="result-emoji" id="feResultEmoji">🏆</div>
+        <h2 id="feResultTitle">¡Examen completado!</h2>
+        <div class="fe-score-big" id="feScoreBig"></div>
+        <div class="fe-result-grid" id="feResultGrid"></div>
+        <div class="fe-cat-breakdown" id="feCatBreakdown"></div>
+        <h3 style="margin:1.5rem 0 .75rem;font-family:'Syne',sans-serif">📋 Revisión de respuestas</h3>
+        <div class="fe-review-list" id="feReviewList"></div>
+        <div class="result-btns" style="margin-top:1.5rem">
+          <button class="btn-primary" id="btnRetryFE">↺ Nuevo Examen</button>
+          <button class="btn-outline" data-nav="home">🏠 Inicio</button>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ── RESOURCES ── -->
+  <!-- ══════════════ STATS ══════════════ -->
+  <section id="stats" class="section">
+    <h1 class="page-title">Progreso y Estadísticas</h1>
+    <div class="stats-tabs">
+      <button class="stats-tab active" data-tab="overview">📊 General</button>
+      <button class="stats-tab" data-tab="words">📚 Palabras</button>
+      <button class="stats-tab" data-tab="history">📅 Historial</button>
+    </div>
+
+    <!-- Overview tab -->
+    <div class="stats-tab-panel active" id="tabOverview">
+      <div class="stats-big-row">
+        <div class="big-stat-card"><div class="big-stat-num green" id="statsCorrect">0</div><div>Respuestas Correctas</div></div>
+        <div class="big-stat-card"><div class="big-stat-num red" id="statsWrong">0</div><div>Respuestas Incorrectas</div></div>
+        <div class="big-stat-card"><div class="big-stat-num accent" id="statsPct">0%</div><div>Precisión Global</div></div>
+        <div class="big-stat-card"><div class="big-stat-num" id="statsStreak">0</div><div>Mejor Racha 🔥</div></div>
+      </div>
+      <h2 class="section-title">Progreso por Nivel</h2>
+      <div class="level-stats" id="levelStats"></div>
+      <h2 class="section-title">Precisión por Modo</h2>
+      <div class="mode-stats" id="modeStats"></div>
+    </div>
+
+    <!-- Words tab -->
+    <div class="stats-tab-panel" id="tabWords">
+      <div class="words-stats-grid">
+        <div class="words-col">
+          <h3 class="words-col-title">🔴 Palabras más difíciles</h3>
+          <div id="hardWordsList" class="words-list"></div>
+        </div>
+        <div class="words-col">
+          <h3 class="words-col-title">🟢 Palabras dominadas</h3>
+          <div id="masteredWordsList" class="words-list"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- History tab -->
+    <div class="stats-tab-panel" id="tabHistory">
+      <div class="history-list" id="historyList"></div>
+    </div>
+
+    <div class="reset-row">
+      <button class="btn-danger" id="btnReset">🗑️ Reiniciar Todo el Progreso</button>
+    </div>
+  </section>
+
+  <!-- ══════════════ RESOURCES ══════════════ -->
   <section id="resources" class="section">
     <h1 class="page-title">Recursos de Estudio</h1>
-    <p class="page-sub">Videos de YouTube seleccionados para preparar el Saber 11</p>
-
+    <p class="page-sub">Videos de YouTube organizados por tema para preparar el Saber 11</p>
     <div class="resources-grid" id="resourcesGrid"></div>
   </section>
 
 </main>
 
-<!-- Toast notification -->
 <div class="toast hidden" id="toast"></div>
-
 <script src="script.js"></script>
 </body>
 </html>
