@@ -55,6 +55,32 @@ const FLASHCARDS = {
     { word:"Bookstore", tag:"Lugar - Centro comercial", translation:"Librería / Tienda de libros", example:"A bookstore is a shop to find things to read.", exampleEs:"Una librería es una tienda para encontrar cosas que leer." },
     { word:"Café", tag:"Lugar - Centro comercial", translation:"Cafetería / Café", example:"People buy a cup of coffee at a café.", exampleEs:"La gente compra una taza de café en una cafetería." },
     { word:"Playground (mall)", tag:"Lugar - Centro comercial", translation:"Zona de juegos", example:"A playground is a fun park for children to jump and run.", exampleEs:"Una zona de juegos es un parque divertido para que los niños salten y corran." },
+
+    // ── Extra Basic Flashcards ──
+    { word:"Doctor", tag:"Profesión", translation:"Médico / Doctor", example:"The doctor will see you now.", exampleEs:"El médico te verá ahora." },
+    { word:"Police officer", tag:"Profesión", translation:"Policía / Oficial de policía", example:"The police officer helped us find our way.", exampleEs:"El policía nos ayudó a encontrar el camino." },
+    { word:"Firefighter", tag:"Profesión", translation:"Bombero", example:"Firefighters put out the fire quickly.", exampleEs:"Los bomberos apagaron el incendio rápidamente." },
+    { word:"Pilot", tag:"Profesión", translation:"Piloto", example:"The pilot announced we would land in ten minutes.", exampleEs:"El piloto anunció que aterrizaríamos en diez minutos." },
+    { word:"Engineer", tag:"Profesión", translation:"Ingeniero", example:"She works as an engineer in a technology company.", exampleEs:"Ella trabaja como ingeniera en una compañía de tecnología." },
+    { word:"Supermarket", tag:"Lugar", translation:"Supermercado", example:"We buy vegetables and meat at the supermarket.", exampleEs:"Compramos verduras y carne en el supermercado." },
+    { word:"Post office", tag:"Lugar", translation:"Correos / Oficina de correos", example:"I need to go to the post office to send a package.", exampleEs:"Necesito ir a la oficina de correos para enviar un paquete." },
+    { word:"Pharmacy", tag:"Lugar", translation:"Farmacia", example:"You can buy medicine at the pharmacy.", exampleEs:"Puedes comprar medicamentos en la farmacia." },
+    { word:"Bank", tag:"Lugar", translation:"Banco", example:"I need to go to the bank to get some money.", exampleEs:"Necesito ir al banco a sacar dinero." },
+    { word:"Airport", tag:"Lugar", translation:"Aeropuerto", example:"We arrived at the airport two hours before the flight.", exampleEs:"Llegamos al aeropuerto dos horas antes del vuelo." },
+    { word:"Train station", tag:"Lugar", translation:"Estación de tren", example:"The train station is in the center of the city.", exampleEs:"La estación de tren está en el centro de la ciudad." },
+    { word:"Museum", tag:"Lugar", translation:"Museo", example:"The museum has a great collection of ancient art.", exampleEs:"El museo tiene una gran colección de arte antiguo." },
+    { word:"Park", tag:"Lugar", translation:"Parque", example:"Children love to play in the park after school.", exampleEs:"A los niños les encanta jugar en el parque después del colegio." },
+    { word:"Football / Soccer", tag:"Deporte", translation:"Fútbol", example:"Football is the most popular sport in the world.", exampleEs:"El fútbol es el deporte más popular del mundo." },
+    { word:"Tennis", tag:"Deporte", translation:"Tenis", example:"She plays tennis every Saturday morning.", exampleEs:"Ella juega tenis cada sábado por la mañana." },
+    { word:"Volleyball", tag:"Deporte", translation:"Voleibol", example:"They formed a volleyball team at school.", exampleEs:"Formaron un equipo de voleibol en el colegio." },
+    { word:"Gym", tag:"Actividad", translation:"Gimnasio", example:"He goes to the gym three times a week.", exampleEs:"Él va al gimnasio tres veces a la semana." },
+    { word:"Hat", tag:"Ropa / Accesorios", translation:"Sombrero / Gorra", example:"Don't forget your hat — it's very sunny today.", exampleEs:"No olvides tu sombrero — hoy hace mucho sol." },
+    { word:"Jacket", tag:"Ropa / Accesorios", translation:"Chaqueta / Saco", example:"Take your jacket — it's cold outside.", exampleEs:"Lleva tu chaqueta — hace frío afuera." },
+    { word:"Boots", tag:"Ropa / Accesorios", translation:"Botas", example:"She wears boots in the rainy season.", exampleEs:"Ella usa botas en la temporada de lluvia." },
+    { word:"Warning sign", tag:"Aviso / señal", translation:"Señal de advertencia", example:"The warning sign says: Danger — do not enter!", exampleEs:"La señal de advertencia dice: ¡Peligro — no entre!" },
+    { word:"Exit", tag:"Aviso / señal", translation:"Salida", example:"The exit is at the end of the corridor.", exampleEs:"La salida está al final del corredor." },
+    { word:"Keep out", tag:"Aviso / señal", translation:"Prohibida la entrada / No pasar", example:"The sign on the door says: Keep out!", exampleEs:"El letrero en la puerta dice: ¡No pasar!" },
+    { word:"No smoking", tag:"Aviso / señal", translation:"Prohibido fumar", example:"There is a no smoking sign in the restaurant.", exampleEs:"Hay un letrero de prohibido fumar en el restaurante." },
   ],
   medium: [
     { word:"Ambulance", tag:"Salud", translation:"Ambulancia", example:"They found an ambulance and took me to the hospital.", exampleEs:"Encontraron una ambulancia y me llevaron al hospital." },
@@ -88,6 +114,28 @@ const FLASHCARDS = {
     { word:"Component", tag:"Ciencia", translation:"Componente / Ingrediente", example:"The most important component of coffee is caffeine.", exampleEs:"El componente más importante del café es la cafeína." },
     { word:"Benefits", tag:"Ciencia / Salud", translation:"Beneficios / Ventajas", example:"Coffee has lots of benefits for your health.", exampleEs:"El café tiene muchos beneficios para tu salud." },
     { word:"Reduce", tag:"Ciencia / Salud", translation:"Reducir / Disminuir", example:"Coffee can reduce headaches and blood problems.", exampleEs:"El café puede reducir los dolores de cabeza y los problemas de presión." },
+
+    // ── Extra Intermediate Flashcards ──
+    { word:"Determined", tag:"Cualidad personal", translation:"Determinado / Decidido", example:"She was determined to pass the English exam.", exampleEs:"Ella estaba determinada a pasar el examen de inglés." },
+    { word:"Curious", tag:"Cualidad personal", translation:"Curioso", example:"He is curious about science and always asks questions.", exampleEs:"Él es curioso sobre la ciencia y siempre hace preguntas." },
+    { word:"Responsible", tag:"Cualidad personal", translation:"Responsable", example:"A good nurse must be responsible and careful.", exampleEs:"Una buena enfermera debe ser responsable y cuidadosa." },
+    { word:"Patient", tag:"Cualidad personal", translation:"Paciente", example:"Teaching requires you to be very patient.", exampleEs:"Enseñar requiere que seas muy paciente." },
+    { word:"Creative", tag:"Cualidad personal", translation:"Creativo", example:"She is very creative and loves painting.", exampleEs:"Ella es muy creativa y le encanta pintar." },
+    { word:"Ingredient", tag:"Alimentación", translation:"Ingrediente", example:"The main ingredient of this dish is rice.", exampleEs:"El ingrediente principal de este plato es el arroz." },
+    { word:"Recipe", tag:"Alimentación", translation:"Receta", example:"My grandmother's recipe for soup is the best.", exampleEs:"La receta de sopa de mi abuela es la mejor." },
+    { word:"Vegetarian", tag:"Alimentación", translation:"Vegetariano", example:"She became vegetarian because she loves animals.", exampleEs:"Se volvió vegetariana porque ama a los animales." },
+    { word:"Organic", tag:"Alimentación", translation:"Orgánico / Ecológico", example:"Organic food is grown without pesticides.", exampleEs:"Los alimentos orgánicos se cultivan sin pesticidas." },
+    { word:"Nutrition", tag:"Alimentación", translation:"Nutrición", example:"Good nutrition is essential for a healthy life.", exampleEs:"Una buena nutrición es esencial para una vida saludable." },
+    { word:"Pollution", tag:"Medio ambiente", translation:"Contaminación", example:"Air pollution is a serious problem in big cities.", exampleEs:"La contaminación del aire es un problema grave en las grandes ciudades." },
+    { word:"Recycle", tag:"Medio ambiente", translation:"Reciclar", example:"We should recycle paper, plastic and glass.", exampleEs:"Debemos reciclar papel, plástico y vidrio." },
+    { word:"Endangered", tag:"Medio ambiente", translation:"En peligro de extinción", example:"Many animal species are endangered due to deforestation.", exampleEs:"Muchas especies animales están en peligro de extinción debido a la deforestación." },
+    { word:"Renewable", tag:"Medio ambiente", translation:"Renovable", example:"Solar energy is a great example of renewable energy.", exampleEs:"La energía solar es un gran ejemplo de energía renovable." },
+    { word:"Deforestation", tag:"Medio ambiente", translation:"Deforestación", example:"Deforestation destroys the habitat of many animals.", exampleEs:"La deforestación destruye el hábitat de muchos animales." },
+    { word:"Scholarship", tag:"Educación", translation:"Beca", example:"She won a scholarship to study at a US university.", exampleEs:"Ella ganó una beca para estudiar en una universidad de EE.UU." },
+    { word:"Graduation", tag:"Educación", translation:"Graduación", example:"His graduation ceremony was a very special day.", exampleEs:"Su ceremonia de graduación fue un día muy especial." },
+    { word:"Research", tag:"Educación", translation:"Investigación", example:"Scientists conduct research to find new medicines.", exampleEs:"Los científicos realizan investigaciones para encontrar nuevos medicamentos." },
+    { word:"Application", tag:"Educación", translation:"Solicitud / Aplicación", example:"She submitted her university application last week.", exampleEs:"Ella presentó su solicitud universitaria la semana pasada." },
+    { word:"Assignment", tag:"Educación", translation:"Tarea / Asignación", example:"The assignment is due on Friday at 9 a.m.", exampleEs:"La tarea debe entregarse el viernes a las 9 a.m." },
   ],
   hard: [
     { word:"Passionate Falsehoods", tag:"Literatura", translation:"Falsedades apasionadas (título de obra)", example:"In Passionate Falsehoods, Salter tells the story of his life in film.", exampleEs:"En Falsedades Apasionadas, Salter cuenta la historia de su vida en el cine." },
@@ -111,7 +159,24 @@ const FLASHCARDS = {
     { word:"Declared", tag:"Verbo - Literatura", translation:"Declaró / Afirmó", example:"Kincaid declared that she was depressed upon her arrival in the US.", exampleEs:"Kincaid declaró que estaba deprimida a su llegada a EE.UU." },
     { word:"Resilient", tag:"Cualidad", translation:"Resiliente / Resistente", example:"Good nurses must be resilient and face challenges with courage.", exampleEs:"Las buenas enfermeras deben ser resilientes y enfrentar desafíos con valentía." },
     { word:"Deal with", tag:"Phrasal verb", translation:"Tratar de / Ser sobre / Manejar", example:"Her texts often deal with relationships between mothers and daughters.", exampleEs:"Sus textos a menudo tratan sobre las relaciones entre madres e hijas." },
-  ]
+  
+    // ── Extra Advanced Flashcards ──
+    { word:"Controversial", tag:"Adjetivo académico", translation:"Controvertido / Polémico", example:"The scientist's research was controversial but important.", exampleEs:"La investigación del científico era controvertida pero importante." },
+    { word:"Significant", tag:"Adjetivo académico", translation:"Significativo / Importante", example:"The discovery had a significant impact on medicine.", exampleEs:"El descubrimiento tuvo un impacto significativo en la medicina." },
+    { word:"Comprehensive", tag:"Adjetivo académico", translation:"Exhaustivo / Completo", example:"She wrote a comprehensive report about the topic.", exampleEs:"Ella escribió un informe exhaustivo sobre el tema." },
+    { word:"Sustainable", tag:"Medio ambiente / Académico", translation:"Sostenible", example:"We need sustainable solutions to fight climate change.", exampleEs:"Necesitamos soluciones sostenibles para combatir el cambio climático." },
+    { word:"Hypothesis", tag:"Ciencia", translation:"Hipótesis", example:"The scientist formed a hypothesis and then tested it.", exampleEs:"El científico formuló una hipótesis y luego la probó." },
+    { word:"Phenomenon", tag:"Ciencia / Literatura", translation:"Fenómeno", example:"The northern lights are a beautiful natural phenomenon.", exampleEs:"Las auroras boreales son un hermoso fenómeno natural." },
+    { word:"Perspective", tag:"Concepto literario", translation:"Perspectiva / Punto de vista", example:"The novel is told from the perspective of a child.", exampleEs:"La novela está narrada desde la perspectiva de un niño." },
+    { word:"Implication", tag:"Concepto académico", translation:"Implicación / Consecuencia", example:"The implications of this discovery are enormous.", exampleEs:"Las implicaciones de este descubrimiento son enormes." },
+    { word:"Contemporary", tag:"Adjetivo literario", translation:"Contemporáneo / Actual", example:"She is one of the most celebrated contemporary writers.", exampleEs:"Ella es una de las escritoras contemporáneas más célebres." },
+    { word:"Ideology", tag:"Concepto académico", translation:"Ideología", example:"Political ideology shapes how people see the world.", exampleEs:"La ideología política moldea cómo las personas ven el mundo." },
+    { word:"Infrastructure", tag:"Economía / Sociedad", translation:"Infraestructura", example:"The government invested heavily in transport infrastructure.", exampleEs:"El gobierno invirtió mucho en infraestructura de transporte." },
+    { word:"Consumption", tag:"Economía", translation:"Consumo", example:"Energy consumption has increased dramatically in recent years.", exampleEs:"El consumo de energía ha aumentado dramáticamente en los últimos años." },
+    { word:"Demographic", tag:"Sociedad", translation:"Demográfico / Demografía", example:"Demographic changes are affecting labour markets worldwide.", exampleEs:"Los cambios demográficos están afectando los mercados laborales en todo el mundo." },
+    { word:"Narrative", tag:"Literatura", translation:"Narrativa / Relato", example:"The narrative of the novel is complex and multi-layered.", exampleEs:"La narrativa de la novela es compleja y tiene múltiples capas." },
+    { word:"Subsequently", tag:"Conector temporal", translation:"Posteriormente / A continuación", example:"She graduated from university and subsequently found a job.", exampleEs:"Ella se graduó de la universidad y posteriormente encontró un trabajo." },
+]
 };
 
 
@@ -815,6 +880,306 @@ The social and geopolitical dimensions of the transition are equally complex. Co
         correctEs:"B. Copy or reproduce = copiar o reproducir (las tensiones geopoliticas)" },
     ]
   },
+
+  // ══════════ SPORTS & CULTURE TEXTS ══════════
+
+  {
+    id:"formula1", level:"medium",
+    meta:"Texto Intermedio — Deportes / Historia",
+    title:"The History of Formula 1",
+    body:`Formula 1 is the highest level of single-seater motor racing in the world. The first official Formula 1 World Championship race took place at Silverstone in the United Kingdom on 13 May 1950. Since then, it has grown into one of the most popular and expensive sporting events on the planet.
+
+The name 'Formula 1' comes from the set of rules, or formula, that all cars must follow. These rules cover the design of the car, the engine, the tyres and safety features. Engineers spend millions of dollars developing cars that can reach speeds of over 350 kilometres per hour.
+
+Ferrari, McLaren, Mercedes and Red Bull are among the most famous teams in the sport. Each team employs hundreds of engineers, mechanics and data analysts who work together to make the car as fast and reliable as possible. A single Formula 1 car costs between five and fifteen million dollars to build.
+
+The drivers are some of the most skilled athletes in the world. They must be physically strong, mentally focused and able to make split-second decisions at extremely high speeds. Great champions like Ayrton Senna, Michael Schumacher and Lewis Hamilton have become global icons, inspiring millions of fans around the world.`,
+    questions:[
+      { q:"When and where did the first official Formula 1 World Championship race take place?", options:["A. In Monaco in 1955","B. At Silverstone on 13 May 1950","C. In Italy in 1949","D. At Le Mans in 1952"], answer:1,
+        explanation:"El texto dice: 'The first official Formula 1 World Championship race took place at Silverstone in the United Kingdom on 13 May 1950.'",
+        correctEs:"B. At Silverstone on 13 May 1950 = en Silverstone el 13 de mayo de 1950" },
+      { q:"What does the 'Formula' in Formula 1 refer to?", options:["A. A mathematical calculation","B. The name of the first race track","C. A set of rules that all cars must follow","D. The number of wheels on the car"], answer:2,
+        explanation:"El texto dice: 'The name Formula 1 comes from the set of rules, or formula, that all cars must follow.'",
+        correctEs:"C. A set of rules that all cars must follow = un conjunto de reglas que todos los autos deben seguir" },
+      { q:"According to the text, how much can a single Formula 1 car cost?", options:["A. Between one and five million dollars","B. Up to one hundred million dollars","C. Between five and fifteen million dollars","D. Around five hundred thousand dollars"], answer:2,
+        explanation:"El texto dice: 'A single Formula 1 car costs between five and fifteen million dollars to build.'",
+        correctEs:"C. Between five and fifteen million dollars = entre cinco y quince millones de dólares" },
+      { q:"The word 'split-second' in the last paragraph means:", options:["A. Very slow","B. Extremely fast and brief","C. Carefully planned","D. Emotionally difficult"], answer:1,
+        explanation:"'Split-second decisions' = decisiones en fracciones de segundo = muy rápidas.",
+        correctEs:"B. Extremely fast and brief = extremadamente rápido y breve (fracción de segundo)" },
+    ]
+  },
+  {
+    id:"lewis_hamilton", level:"medium",
+    meta:"Texto Intermedio — Deportes / Biografía",
+    title:"Lewis Hamilton: A Champion's Journey",
+    body:`Lewis Hamilton is widely considered one of the greatest Formula 1 drivers of all time. Born in Stevenage, England, in 1985, he grew up in a modest family. His father Anthony worked multiple jobs to support Lewis's early karting career, and from the very beginning it was clear that Lewis had exceptional talent.
+
+Hamilton joined the McLaren junior driver programme at the age of thirteen, becoming one of the youngest drivers to receive factory support. He made his Formula 1 debut in 2007 with McLaren and nearly won the World Championship in his first season. The following year, in 2008, he became World Champion for the first time with a dramatic last-corner overtake in the final race.
+
+After joining Mercedes in 2013, Hamilton dominated the sport for nearly a decade. He won six more World Championships, breaking Michael Schumacher's record to become the most successful Formula 1 driver in history with seven titles. He also holds records for the most race victories and the most pole positions in Formula 1 history.
+
+Beyond racing, Hamilton has used his platform to advocate for diversity and racial equality in motorsport. He established the Hamilton Commission, a body dedicated to improving the representation of Black people in British motorsport. He was awarded a knighthood in 2021 for his services to motorsport.`,
+    questions:[
+      { q:"Where was Lewis Hamilton born?", options:["A. London, England","B. Stevenage, England","C. Manchester, England","D. Birmingham, England"], answer:1,
+        explanation:"El texto dice: 'Born in Stevenage, England, in 1985.'",
+        correctEs:"B. Stevenage, England = Stevenage, Inglaterra" },
+      { q:"When did Hamilton win his first Formula 1 World Championship?", options:["A. In his first season in 2007","B. In 2008 with Mercedes","C. In 2008 with McLaren","D. In 2013 after joining Mercedes"], answer:2,
+        explanation:"El texto dice: 'in 2008, he became World Champion for the first time with a dramatic last-corner overtake.' Estaba en McLaren, no en Mercedes.",
+        correctEs:"C. In 2008 with McLaren = en 2008 con McLaren" },
+      { q:"What does the Hamilton Commission focus on?", options:["A. Improving Formula 1 safety regulations","B. Increasing representation of Black people in British motorsport","C. Developing new racing technologies","D. Training young drivers from poor backgrounds"], answer:1,
+        explanation:"El texto dice: 'He established the Hamilton Commission, a body dedicated to improving the representation of Black people in British motorsport.'",
+        correctEs:"B. Improving representation of Black people in motorsport = mejorar la representación de personas negras en el automovilismo" },
+      { q:"It can be inferred from the text that Hamilton's success was partly due to:", options:["A. Being born into a wealthy racing family","B. Having natural talent supported by family sacrifice","C. Winning his first race at age thirteen","D. Joining Ferrari at the start of his career"], answer:1,
+        explanation:"El texto dice que su padre trabajó múltiples empleos para apoyar su carrera, mostrando que el sacrificio familiar fue clave además de su talento excepcional.",
+        correctEs:"B. Natural talent supported by family sacrifice = talento natural apoyado por sacrificio familiar" },
+    ]
+  },
+  {
+    id:"michael_jordan", level:"medium",
+    meta:"Texto Intermedio — Deportes / Biografía",
+    title:"Michael Jordan: The Greatest Basketball Player",
+    body:`Michael Jordan is universally regarded as the greatest basketball player of all time. Born in Brooklyn, New York, in 1963, Jordan grew up in Wilmington, North Carolina. As a teenager, he was actually cut from his high school basketball team, an experience that, according to Jordan himself, motivated him to work harder than anyone else.
+
+Jordan played college basketball at the University of North Carolina before being selected by the Chicago Bulls in the 1984 NBA Draft. He quickly became the most exciting player in the league, winning the NBA Rookie of the Year award in his first season. His athleticism, competitive drive and ability to perform under pressure made him unlike any player the sport had seen before.
+
+During his career with the Bulls, Jordan led the team to six NBA Championships, winning the Most Valuable Player award in all six Finals. His rivalry with Magic Johnson and Larry Bird elevated the popularity of basketball worldwide. The documentary series 'The Last Dance', released in 2020, introduced his story to a new generation of fans.
+
+Off the court, Jordan became one of the most recognised brands in the world. His partnership with Nike produced the Air Jordan shoe line, which revolutionised sports marketing and continues to generate billions of dollars in revenue every year.`,
+    questions:[
+      { q:"What happened to Michael Jordan as a teenager that motivated him?", options:["A. He injured his knee and had to stop playing","B. He was cut from his high school basketball team","C. He lost an important championship game","D. He was told he was too short to play professionally"], answer:1,
+        explanation:"El texto dice: 'he was actually cut from his high school basketball team, an experience that motivated him to work harder than anyone else.'",
+        correctEs:"B. He was cut from his high school basketball team = lo cortaron del equipo de baloncesto de su escuela secundaria" },
+      { q:"How many NBA Championships did Jordan win with the Chicago Bulls?", options:["A. Four","B. Five","C. Six","D. Seven"], answer:2,
+        explanation:"El texto dice: 'Jordan led the team to six NBA Championships.'",
+        correctEs:"C. Six = seis campeonatos de la NBA" },
+      { q:"According to the text, what did the Air Jordan shoe line do?", options:["A. Made Jordan the first athlete with a shoe deal","B. Revolutionised sports marketing","C. Replaced Nike as a brand","D. Made Jordan more famous than his basketball career"], answer:1,
+        explanation:"El texto dice: 'His partnership with Nike produced the Air Jordan shoe line, which revolutionised sports marketing.'",
+        correctEs:"B. Revolutionised sports marketing = revolucionó el marketing deportivo" },
+    ]
+  },
+  {
+    id:"toyota_supra", level:"medium",
+    meta:"Texto Intermedio — Vehículos / Cultura",
+    title:"The Toyota Supra: A Legend on Wheels",
+    body:`The Toyota Supra is one of the most iconic sports cars ever produced. First introduced in 1978 as a variant of the Toyota Celica, the Supra gradually developed its own distinct identity over five generations. It became particularly famous through its appearance in the Fast and Furious film franchise, which introduced the car to a whole new generation of fans around the world.
+
+The fourth generation Supra, produced between 1993 and 2002, is considered the most legendary. It was powered by the 2JZ-GTE engine, a 3.0-litre twin-turbocharged inline-six that produced 280 horsepower in standard form. However, the engine was so well-engineered that with modifications it could produce over 1,000 horsepower, making it one of the most tunable engines ever made. This reliability and tunability made the fourth-generation Supra a favourite among car enthusiasts and street racers globally.
+
+After a seventeen-year production break, Toyota revived the Supra in 2019 in collaboration with BMW. The new model, known as the A90, uses a BMW B58 turbocharged engine producing around 340 horsepower. While enthusiasts debated whether the collaboration diluted the car's Japanese identity, the A90 was praised for its sharp handling and attractive design.
+
+The Supra has become more than just a car — it is a cultural symbol representing Japanese automotive engineering excellence and the global car modification culture that grew around it.`,
+    questions:[
+      { q:"What year was the Toyota Supra first introduced?", options:["A. 1970","B. 1978","C. 1993","D. 2019"], answer:1,
+        explanation:"El texto dice: 'First introduced in 1978 as a variant of the Toyota Celica.'",
+        correctEs:"B. 1978 = fue introducido por primera vez en 1978" },
+      { q:"Why is the 2JZ-GTE engine considered special according to the text?", options:["A. It was the most expensive engine ever made","B. It could only be used in Toyota cars","C. It was highly tunable and could produce over 1,000 horsepower with modifications","D. It was the first engine to use turbocharging"], answer:2,
+        explanation:"El texto dice: 'with modifications it could produce over 1,000 horsepower, making it one of the most tunable engines ever made.'",
+        correctEs:"C. Highly tunable, over 1,000 hp with modifications = altamente modificable, más de 1,000 hp con modificaciones" },
+      { q:"What controversy surrounded the 2019 Supra revival?", options:["A. The price was too high for most buyers","B. It was slower than the previous generation","C. The collaboration with BMW diluted its Japanese identity","D. The design was too similar to a Nissan model"], answer:2,
+        explanation:"El texto dice: 'enthusiasts debated whether the collaboration diluted the car's Japanese identity.'",
+        correctEs:"C. Collaboration with BMW diluted its Japanese identity = la colaboración con BMW diluyó su identidad japonesa" },
+    ]
+  },
+  {
+    id:"steve_jobs", level:"hard",
+    meta:"Texto Avanzado — Tecnología / Biografía",
+    title:"Steve Jobs and the Apple Revolution",
+    body:`Steve Jobs, co-founder of Apple Inc., is widely regarded as one of the most visionary and transformative figures in the history of technology. Born in San Francisco in 1955 and adopted as an infant, Jobs grew up in the Silicon Valley area of California, surrounded by the early pioneers of the electronics industry. From a young age he demonstrated an unusual combination of technical curiosity and aesthetic sensitivity that would define both his personal style and his approach to product design.
+
+Jobs co-founded Apple Computer with Steve Wozniak and Ronald Wayne in 1976, initially operating from his parents' garage. The Apple II, launched in 1977, became one of the first commercially successful personal computers. However, it was the Macintosh in 1984 — marketed with a celebrated Super Bowl advertisement that reimagined George Orwell's novel 1984 — that established Apple's reputation for combining advanced technology with intuitive, beautiful design.
+
+After being forced out of Apple in 1985, Jobs founded NeXT, a computer company focused on higher education, and acquired Pixar, the animation studio that would later produce Toy Story and transform the film industry. When Apple acquired NeXT in 1997 and Jobs returned as CEO, he orchestrated one of the most remarkable corporate turnarounds in business history. The iMac, iPod, iPhone and iPad — introduced over the following decade — redefined entire industries.
+
+Jobs died in October 2011 from pancreatic cancer. His legacy is immense and contested: admirers celebrate his ability to anticipate what consumers wanted before they knew it themselves; critics point to his demanding management style and the labour conditions in Apple's supply chain. Both perspectives acknowledge, however, that Jobs permanently changed the relationship between human beings and technology.`,
+    questions:[
+      { q:"Where did Apple Computer begin operations?", options:["A. In a Silicon Valley office building","B. In Jobs's parents' garage","C. At Stanford University","D. In a San Francisco apartment"], answer:1,
+        explanation:"El texto dice: 'initially operating from his parents' garage.'",
+        correctEs:"B. In Jobs's parents' garage = en el garaje de los padres de Jobs" },
+      { q:"What was significant about the 1984 Macintosh advertisement?", options:["A. It was the first television advertisement for a computer","B. It reimagined George Orwell's novel and aired during the Super Bowl","C. It featured Steve Jobs speaking directly to customers","D. It showed the computer being used by children"], answer:1,
+        explanation:"El texto dice: 'marketed with a celebrated Super Bowl advertisement that reimagined George Orwell's novel 1984.'",
+        correctEs:"B. Reimagined Orwell's novel, aired during the Super Bowl = reimaginó la novela de Orwell, emitida durante el Super Bowl" },
+      { q:"What did Jobs do after being forced out of Apple in 1985?", options:["A. He retired from the technology industry","B. He joined Microsoft as a consultant","C. He founded NeXT and acquired Pixar","D. He returned immediately as CEO"], answer:2,
+        explanation:"El texto dice: 'Jobs founded NeXT, a computer company focused on higher education, and acquired Pixar.'",
+        correctEs:"C. He founded NeXT and acquired Pixar = fundó NeXT y adquirió Pixar" },
+      { q:"What does the word 'contested' mean as used in the last paragraph?", options:["A. Widely admired and celebrated","B. Disputed or debated by different people","C. Completely forgotten","D. Officially recognised by the government"], answer:1,
+        explanation:"'Contested' = debatido / disputado. El legado de Jobs es grande pero la gente no está de acuerdo sobre él.",
+        correctEs:"B. Disputed or debated by different people = disputado o debatido por diferentes personas" },
+    ]
+  },
+  {
+    id:"nintendo", level:"medium",
+    meta:"Texto Intermedio — Cultura Popular / Tecnología",
+    title:"Nintendo: From Playing Cards to Video Games",
+    body:`Nintendo is one of the most recognisable names in entertainment history. Founded in Kyoto, Japan, in 1889 by Fusajiro Yamauchi, the company originally produced handmade playing cards called Hanafuda. For nearly a century, Nintendo remained primarily a card and toy manufacturer before making a decisive shift that would change popular culture worldwide.
+
+In the 1970s, Nintendo entered the emerging video game market. The company found early success with arcade games and then, in 1983, launched the Famicom in Japan — known outside Japan as the Nintendo Entertainment System (NES). Released in North America in 1985, the NES helped revive a video game industry that had nearly collapsed following the video game crash of 1983. Games like Super Mario Bros. and The Legend of Zelda became instant classics and established Nintendo's reputation for high-quality, creative game design.
+
+Nintendo's philosophy has always prioritised fun and accessibility over technological superiority. While competitors focused on increasingly powerful hardware, Nintendo consistently pursued innovation in how people interact with games. The Nintendo DS introduced dual screens and touch controls. The Wii used motion controls to bring gaming to older adults and casual players. The Nintendo Switch, released in 2017, combined home console and portable gaming in a single device.
+
+Characters created by Nintendo — particularly Mario, Link from Zelda, Pikachu from Pokémon and Kirby — have become global cultural icons recognised by children and adults across generations and cultures.`,
+    questions:[
+      { q:"What did Nintendo originally produce when it was founded in 1889?", options:["A. Arcade machines","B. Handmade playing cards","C. Mechanical toys","D. Board games"], answer:1,
+        explanation:"El texto dice: 'the company originally produced handmade playing cards called Hanafuda.'",
+        correctEs:"B. Handmade playing cards = naipes hechos a mano (llamados Hanafuda)" },
+      { q:"What was the NES known as in Japan?", options:["A. Super Famicom","B. Game Boy","C. Famicom","D. Nintendo 64"], answer:2,
+        explanation:"El texto dice: 'Nintendo launched the Famicom in Japan — known outside Japan as the Nintendo Entertainment System (NES).'",
+        correctEs:"C. Famicom = el NES se llamaba Famicom en Japón" },
+      { q:"According to the text, what has always been Nintendo's philosophy?", options:["A. Building the most powerful hardware","B. Competing directly with Sony and Microsoft","C. Prioritising fun and accessibility over technological superiority","D. Making games only for children"], answer:2,
+        explanation:"El texto dice: 'Nintendo's philosophy has always prioritised fun and accessibility over technological superiority.'",
+        correctEs:"C. Fun and accessibility over technological superiority = diversión y accesibilidad sobre superioridad tecnológica" },
+    ]
+  },
+  {
+    id:"akira_toriyama", level:"hard",
+    meta:"Texto Avanzado — Cultura Popular / Biografía",
+    title:"Akira Toriyama and the Dragon Ball Legacy",
+    body:`Akira Toriyama, born in Nagoya, Japan, in 1955, became one of the most influential manga artists and character designers in the history of Japanese popular culture. His work on Dragon Ball, which began serialisation in Weekly Shonen Jump magazine in 1984, would go on to define the shonen manga genre and inspire generations of artists, writers and fans worldwide.
+
+Dragon Ball began as a lighthearted adventure story inspired by the classic Chinese novel Journey to the West, following a young boy named Goku in search of mystical Dragon Balls. As the series progressed, it evolved into Dragon Ball Z, a more intense story of increasingly powerful warriors defending Earth against alien threats. The concept of power levels and transformations — most famously the Super Saiyan transformation — became central not only to Dragon Ball but to the wider conventions of battle manga as a genre.
+
+Toriyama's character design work extended well beyond manga. He created the iconic monster and character designs for the Dragon Quest video game franchise, which became one of Japan's most beloved gaming series. His distinctive style — characterised by round, expressive faces, dynamic action poses and a playful balance between comedy and drama — influenced countless subsequent artists.
+
+Toriyama passed away in March 2024 at the age of 68. The global outpouring of tributes from artists, game developers and fans across every continent reflected the extraordinary reach of his creative legacy. Dragon Ball alone has generated over twenty-three billion dollars in merchandise revenue, making it one of the highest-grossing media franchises in history.`,
+    questions:[
+      { q:"What classic work inspired the original Dragon Ball story?", options:["A. A Japanese folklore legend","B. The Chinese novel Journey to the West","C. A Western comic book series","D. A Greek mythological tale"], answer:1,
+        explanation:"El texto dice: 'a lighthearted adventure story inspired by the classic Chinese novel Journey to the West.'",
+        correctEs:"B. Journey to the West = la novela clásica china Viaje al Oeste" },
+      { q:"What was Toriyama's contribution to the Dragon Quest franchise?", options:["A. He wrote the story and dialogue","B. He composed the music","C. He created the monster and character designs","D. He programmed the game engine"], answer:2,
+        explanation:"El texto dice: 'He created the iconic monster and character designs for the Dragon Quest video game franchise.'",
+        correctEs:"C. He created the monster and character designs = creó el diseño de monstruos y personajes" },
+      { q:"According to the text, how much merchandise revenue has Dragon Ball alone generated?", options:["A. Over five billion dollars","B. Over ten billion dollars","C. Over twenty-three billion dollars","D. Over fifty billion dollars"], answer:2,
+        explanation:"El texto dice: 'Dragon Ball alone has generated over twenty-three billion dollars in merchandise revenue.'",
+        correctEs:"C. Over twenty-three billion dollars = más de veintitrés mil millones de dólares" },
+      { q:"The phrase 'outpouring of tributes' in the last paragraph means:", options:["A. A small number of formal statements","B. An organised official ceremony","C. A large spontaneous expression of admiration and grief","D. A financial donation by companies"], answer:2,
+        explanation:"'Outpouring of tributes' = desbordamiento de homenajes = una gran cantidad espontánea de expresiones de admiración y pesar.",
+        correctEs:"C. Large spontaneous expression of admiration and grief = gran expresión espontánea de admiración y pesar" },
+    ]
+  },
+  {
+    id:"space_exploration", level:"hard",
+    meta:"Texto Avanzado — Ciencia / Historia",
+    title:"The New Space Race",
+    body:`The original space race between the United States and the Soviet Union, which culminated in the Apollo 11 Moon landing in July 1969, was driven primarily by Cold War geopolitical competition. Today, a new and fundamentally different space race is underway — one shaped not by rivalry between superpowers but by a complex mixture of national ambition, scientific curiosity and, increasingly, commercial enterprise.
+
+SpaceX, founded by Elon Musk in 2002, has arguably done more to transform space exploration than any other entity since NASA's Apollo programme. By developing reusable rocket technology — most dramatically demonstrated by the simultaneous landing of two Falcon Heavy boosters in 2018 — SpaceX dramatically reduced the cost of reaching orbit. The company's Starship vehicle, currently under development, is designed to carry humans to the Moon and eventually to Mars.
+
+Other private companies have entered the arena. Blue Origin, founded by Amazon's Jeff Bezos, is developing the New Glenn rocket and has conducted suborbital tourism flights. Virgin Galactic, founded by Richard Branson, targets the space tourism market for wealthy individuals seeking a brief experience of weightlessness. Meanwhile, national space agencies from China, India and the United Arab Emirates have all achieved significant milestones in recent years, including lunar missions and Mars orbiters.
+
+The commercialisation of space raises profound questions. Who owns resources extracted from asteroids or the Moon? How should debris in Earth orbit be managed to prevent catastrophic collisions? What obligations do private companies have to future generations when making decisions that affect the long-term accessibility of outer space? These are questions for which international law currently has no satisfactory answers.`,
+    questions:[
+      { q:"What primarily drove the original space race according to the text?", options:["A. Scientific curiosity between universities","B. Cold War geopolitical competition","C. Commercial profit from space tourism","D. The desire to explore Mars"], answer:1,
+        explanation:"El texto dice: 'driven primarily by Cold War geopolitical competition.'",
+        correctEs:"B. Cold War geopolitical competition = competencia geopolítica de la Guerra Fría" },
+      { q:"What technological innovation made SpaceX particularly significant?", options:["A. Sending the first humans to Mars","B. Building the largest rocket ever","C. Developing reusable rocket technology","D. Creating the first private space station"], answer:2,
+        explanation:"El texto dice: 'By developing reusable rocket technology... SpaceX dramatically reduced the cost of reaching orbit.'",
+        correctEs:"C. Developing reusable rocket technology = desarrollar tecnología de cohetes reutilizables" },
+      { q:"What unresolved legal question does the text mention about space?", options:["A. Whether private companies can launch rockets","B. Who owns resources extracted from asteroids or the Moon","C. How many astronauts can travel at once","D. Whether space tourism should be taxed"], answer:1,
+        explanation:"El texto dice: 'Who owns resources extracted from asteroids or the Moon? These are questions for which international law currently has no satisfactory answers.'",
+        correctEs:"B. Who owns resources extracted from asteroids or the Moon = quién posee los recursos extraídos de asteroides o la Luna" },
+      { q:"The word 'culminated' in the first sentence means:", options:["A. Started a new competition","B. Reached its highest or final point","C. Ended in failure","D. Was officially recognised"], answer:1,
+        explanation:"'Culminated' = culminó = llegó a su punto más alto o conclusión. La carrera espacial culminó (llegó a su clímax) con el alunizaje del Apolo 11.",
+        correctEs:"B. Reached its highest or final point = llegó a su punto más alto o conclusión" },
+    ]
+  },
+  {
+    id:"ducati", level:"medium",
+    meta:"Texto Intermedio — Vehículos / Cultura",
+    title:"Ducati: Italian Passion on Two Wheels",
+    body:`Ducati is one of the most prestigious motorcycle manufacturers in the world. Founded in Bologna, Italy, in 1926, the company originally produced radio components before transitioning to motorcycles after World War II. Today, Ducati motorcycles are celebrated globally for their combination of Italian style, engineering innovation and thrilling performance.
+
+The brand is closely associated with MotoGP, the premier class of motorcycle road racing. Ducati has won numerous World Constructor Championships and has been ridden to championship victories by legendary riders including Casey Stoner and Francesco Bagnaia. The Ducati Desmosedici GP, the company's MotoGP prototype, is a technological marvel capable of reaching speeds exceeding 340 kilometres per hour.
+
+What distinguishes Ducati from many competitors is its use of the Desmodromic valve system, a unique engine technology in which the valves are mechanically closed rather than relying on springs. This system, which requires greater mechanical complexity and more frequent maintenance, allows the engine to rev higher and produce more power. While most manufacturers abandoned the concept decades ago, Ducati has continued to develop and refine it as a defining characteristic of its engines.
+
+Ducati motorcycles are not just machines — they are emotional objects that represent a lifestyle. Owners often describe their relationship with their Ducati as a passion rather than simple ownership. The brand's striking red colour, the distinctive sound of its V-twin or V4 engine, and the racing heritage combine to create an experience that enthusiasts find uniquely compelling.`,
+    questions:[
+      { q:"What did Ducati originally produce when it was founded in 1926?", options:["A. Sports cars","B. Military vehicles","C. Radio components","D. Bicycles"], answer:2,
+        explanation:"El texto dice: 'the company originally produced radio components before transitioning to motorcycles after World War II.'",
+        correctEs:"C. Radio components = componentes de radio" },
+      { q:"What is the Desmodromic valve system?", options:["A. A type of suspension technology","B. A system where valves are mechanically closed instead of spring-operated","C. A special tyre compound used in racing","D. An electronic fuel injection system"], answer:1,
+        explanation:"El texto dice: 'a unique engine technology in which the valves are mechanically closed rather than relying on springs.'",
+        correctEs:"B. Valves mechanically closed instead of spring-operated = válvulas cerradas mecánicamente en lugar de por resortes" },
+      { q:"According to the text, how do Ducati owners typically describe their relationship with their motorcycle?", options:["A. As a practical daily tool","B. As an expensive investment","C. As a passion rather than simple ownership","D. As a competitive racing machine"], answer:2,
+        explanation:"El texto dice: 'Owners often describe their relationship with their Ducati as a passion rather than simple ownership.'",
+        correctEs:"C. As a passion rather than simple ownership = como una pasión más que como una simple posesión" },
+    ]
+  },
+  {
+    id:"bill_gates", level:"hard",
+    meta:"Texto Avanzado — Tecnología / Biografía",
+    title:"Bill Gates and the Personal Computer Revolution",
+    body:`Bill Gates, born in Seattle in 1955, co-founded Microsoft with his childhood friend Paul Allen in 1975. The company's founding mission — "a computer on every desk and in every home" — was widely considered absurdly ambitious at a time when computers were enormous, expensive machines operated exclusively by universities and large corporations. Within two decades, however, that vision had been substantially realised, and Gates had become the wealthiest person in the world.
+
+Microsoft's pivotal moment came in 1980 when IBM contracted the company to provide an operating system for its new personal computer. Gates and Allen acquired an existing system, modified it and licensed it to IBM as MS-DOS. Crucially, Microsoft retained the rights to license the software to other manufacturers — a contractual arrangement that generated enormous wealth as the personal computer market exploded.
+
+The launch of Windows in 1985, and its subsequent refinement through the 1990s, established Microsoft's dominance of the PC software market. The bundling of Microsoft Office applications with Windows, combined with aggressive business practices that drew repeated antitrust scrutiny from regulators in the United States and Europe, ensured that Microsoft products were installed on the vast majority of the world's computers by the end of the twentieth century.
+
+In 2008, Gates stepped back from his day-to-day role at Microsoft to focus on the Bill and Melinda Gates Foundation, which has become one of the largest private philanthropic organisations in history. The Foundation focuses primarily on global health, poverty reduction and education, having donated over sixty billion dollars to causes including malaria prevention, polio eradication and vaccine distribution in developing countries.`,
+    questions:[
+      { q:"What was Microsoft's founding mission?", options:["A. To build the world's fastest computers","B. To put a computer on every desk and in every home","C. To develop software for military use","D. To compete directly with Apple"], answer:1,
+        explanation:"El texto dice: 'The company's founding mission — a computer on every desk and in every home.'",
+        correctEs:"B. A computer on every desk and in every home = una computadora en cada escritorio y en cada hogar" },
+      { q:"What was the key business advantage in Microsoft's deal with IBM?", options:["A. IBM paid Microsoft an enormous sum upfront","B. Microsoft received free advertising from IBM","C. Microsoft retained the rights to license the software to other manufacturers","D. IBM gave Microsoft exclusive access to its technology"], answer:2,
+        explanation:"El texto dice: 'Microsoft retained the rights to license the software to other manufacturers — a contractual arrangement that generated enormous wealth as the personal computer market exploded.'",
+        correctEs:"C. Microsoft retained rights to license software to other manufacturers = Microsoft conservó los derechos de licenciar el software a otros fabricantes" },
+      { q:"What does the word 'scrutiny' mean as used in paragraph 3?", options:["A. Financial support","B. Close and critical examination","C. Legal protection","D. Public praise"], answer:1,
+        explanation:"'Antitrust scrutiny' = examen minucioso y crítico por parte de reguladores antimonopolio.",
+        correctEs:"B. Close and critical examination = examen minucioso y crítico" },
+      { q:"What are the main areas of focus for the Bill and Melinda Gates Foundation?", options:["A. Technology research and space exploration","B. Global health, poverty reduction and education","C. Climate change and renewable energy","D. Arts, culture and media"], answer:1,
+        explanation:"El texto dice: 'The Foundation focuses primarily on global health, poverty reduction and education.'",
+        correctEs:"B. Global health, poverty reduction and education = salud global, reducción de la pobreza y educación" },
+    ]
+  },
+  {
+    id:"pokemon", level:"medium",
+    meta:"Texto Intermedio — Cultura Popular / Tecnología",
+    title:"Pokemon: A Global Phenomenon",
+    body:`Pokémon is one of the most successful entertainment franchises in history. Created by Satoshi Tajiri and Ken Sugimori, Pokémon was first launched in Japan in 1996 as a pair of video games for the original Game Boy handheld console. Tajiri, who loved collecting insects as a child, envisioned a game in which players could catch, train and battle creatures in a world where humans and these fantastical animals coexisted.
+
+The concept proved enormously popular. The Pokémon anime series, following the adventures of ten-year-old Ash Ketchum and his partner Pikachu, quickly became one of the most-watched cartoons in the world. The trading card game, launched in 1996, became a global craze that schools across many countries attempted — with limited success — to ban because students were spending class time trading cards instead of studying.
+
+Pokémon Go, released in 2016, demonstrated the franchise's ability to reinvent itself for new generations and technologies. Using augmented reality technology, the mobile game encouraged players to walk around their physical environments to catch virtual Pokémon superimposed onto the real world. Within weeks of its release, the game had been downloaded over one hundred million times and was generating fifteen million dollars per day in revenue.
+
+Today, Pokémon is the highest-grossing media franchise in history, having surpassed Hello Kitty, Star Wars and Marvel. The franchise has generated over one hundred and fifty billion dollars in revenue across video games, trading cards, merchandise, movies and the anime series. New Pokémon games, animated series and trading card expansions continue to be released regularly, ensuring the franchise's relevance for both original fans and new ones.`,
+    questions:[
+      { q:"What inspired Satoshi Tajiri to create Pokémon?", options:["A. A Japanese folktale about magical animals","B. His childhood hobby of collecting insects","C. A science fiction novel he read as a teenager","D. His experience working at Nintendo"], answer:1,
+        explanation:"El texto dice: 'Tajiri, who loved collecting insects as a child, envisioned a game in which players could catch, train and battle creatures.'",
+        correctEs:"B. His childhood hobby of collecting insects = su pasatiempo de coleccionar insectos de niño" },
+      { q:"Why did many schools try to ban the Pokémon trading card game?", options:["A. The cards contained violent imagery","B. The game was too expensive for students","C. Students were trading cards instead of studying","D. The cards were being stolen from students"], answer:2,
+        explanation:"El texto dice: 'schools across many countries attempted to ban because students were spending class time trading cards instead of studying.'",
+        correctEs:"C. Students were trading cards instead of studying = los estudiantes cambiaban cartas en lugar de estudiar" },
+      { q:"What technology did Pokémon Go use that made it innovative?", options:["A. Virtual reality headsets","B. Augmented reality on mobile phones","C. Artificial intelligence opponents","D. Online multiplayer competition"], answer:1,
+        explanation:"El texto dice: 'Using augmented reality technology, the mobile game encouraged players to walk around their physical environments to catch virtual Pokémon.'",
+        correctEs:"B. Augmented reality on mobile phones = realidad aumentada en teléfonos móviles" },
+    ]
+  },
+  {
+    id:"robotics", level:"hard",
+    meta:"Texto Avanzado — Ciencia / Tecnología",
+    title:"The Rise of Robotics and Automation",
+    body:`Robotics has evolved from a concept of science fiction into one of the most consequential technologies of the twenty-first century. The word 'robot' itself was coined by Czech playwright Karel Capek in his 1920 play R.U.R., derived from the Czech word 'robota' meaning forced labour. Today, robots are no longer fictional — they assemble cars, perform surgery, explore the surface of Mars and increasingly walk, talk and exhibit behaviours that were once considered exclusively human.
+
+Industrial robots have been transforming manufacturing since the 1960s when General Motors introduced the first industrial robot arm, the Unimate, on its assembly line. Modern industrial robots are extraordinarily precise, tireless and consistent, making them far superior to human workers for repetitive tasks requiring high accuracy. The automotive and electronics industries rely heavily on robotic automation, with some factories now operating almost entirely without human workers on the production floor.
+
+Surgical robots represent perhaps the most significant medical development in this field. The da Vinci Surgical System, introduced in the early 2000s, enables surgeons to perform complex minimally invasive procedures with greater precision than is possible with the human hand alone. Studies suggest that robotic-assisted surgeries result in shorter recovery times, reduced blood loss and lower rates of complications.
+
+The ethical and economic implications of automation are profound and unresolved. The World Economic Forum estimates that automation could displace eighty-five million jobs globally by 2025, while simultaneously creating ninety-seven million new roles. However, critics argue that the transition will be neither automatic nor equitable: new jobs will require different skills and appear in different places than the jobs that are lost, potentially causing significant social disruption in communities dependent on automatable work.`,
+    questions:[
+      { q:"What is the origin of the word 'robot' according to the text?", options:["A. A German word meaning mechanical worker","B. A Latin term from ancient engineering texts","C. A Czech word meaning forced labour, from a play by Karel Capek","D. An acronym created by General Motors engineers"], answer:2,
+        explanation:"El texto dice: 'The word robot was coined by Czech playwright Karel Capek in his 1920 play R.U.R., derived from the Czech word robota meaning forced labour.'",
+        correctEs:"C. Czech word for forced labour, from Karel Capek's play = palabra checa para trabajo forzado, de la obra de Karel Capek" },
+      { q:"What does the text say about the da Vinci Surgical System?", options:["A. It completely replaces surgeons in operating rooms","B. It enables more precise minimally invasive procedures","C. It was the first robot ever used in medicine","D. It is mainly used for emergency procedures"], answer:1,
+        explanation:"El texto dice: 'enables surgeons to perform complex minimally invasive procedures with greater precision than is possible with the human hand alone.'",
+        correctEs:"B. Enables more precise minimally invasive procedures = permite procedimientos mínimamente invasivos más precisos" },
+      { q:"What is the main concern critics raise about automation's impact on jobs?", options:["A. Automation will create too many jobs too quickly","B. Robots will never replace skilled workers","C. The transition will not be equitable — new jobs require different skills in different places","D. Automation is too expensive for most companies"], answer:2,
+        explanation:"El texto dice: 'new jobs will require different skills and appear in different places than the jobs that are lost, potentially causing significant social disruption.'",
+        correctEs:"C. Transition not equitable — different skills and places = transición no equitativa, requiere habilidades distintas en lugares distintos" },
+      { q:"The word 'displace' in the final paragraph most likely means:", options:["A. Employ","B. Train","C. Replace or force out","D. Improve"], answer:2,
+        explanation:"'Displace jobs' = desplazar empleos = reemplazar o eliminar puestos de trabajo.",
+        correctEs:"C. Replace or force out = reemplazar o desplazar (quitar empleos)" },
+    ]
+  },
 ];
 
 
@@ -998,6 +1363,130 @@ const QUESTIONS = {
       example:"Her texts deal with mother-daughter relationships — they are about this theme.",
       video:"https://www.youtube.com/watch?v=XAVyLOy4Y3I" },
   ]
+,
+  // ── Extra Easy Questions ──
+  easy_extra: [
+    { context:"Profesiones", q:"They help sick people in hospitals and give them medicine. What are they?",
+      options:["A. Dentists","B. Farmers","C. Nurses","D. Drivers"], answer:2,
+      explanation:"Las enfermeras ayudan a los enfermos en los hospitales y administran medicamentos.",
+      correctEs:"C. Nurses = enfermeras / enfermeros",
+      example:"Nurses help sick people in hospitals and give them medicine.",
+      video:"https://www.youtube.com/watch?v=9Kd87KUwQuo" },
+    { context:"Avisos y señales", q:"A sign shows an arrow pointing up and says 'DEPARTURES'. Where is this sign?",
+      options:["A. In a hospital","B. At the airport","C. In a library","D. At a hotel"], answer:1,
+      explanation:"'Departures' (salidas) y 'Arrivals' (llegadas) son señales típicas de aeropuertos.",
+      correctEs:"B. At the airport = en el aeropuerto",
+      example:"Departures ↑ and Arrivals → are signs you find at any airport.",
+      video:"https://www.youtube.com/watch?v=ypkBRLmJLW8" },
+    { context:"Ropa / Accesorios", q:"'Many girls wear this when they do not want to wear trousers.' What is it?",
+      options:["A. A jacket","B. Boots","C. A scarf","D. A skirt"], answer:3,
+      explanation:"Una falda (skirt) es la alternativa al pantalón para muchas chicas.",
+      correctEs:"D. A skirt = una falda",
+      example:"Many girls wear a skirt when they don't want to wear trousers.",
+      video:"https://www.youtube.com/watch?v=UkqvBX_bkfc" },
+    { context:"Deportes", q:"'You can only do this in the water.' What sport is it?",
+      options:["A. Dancing","B. Skiing","C. Swimming","D. Basketball"], answer:2,
+      explanation:"La natación (swimming) solo puede practicarse en el agua.",
+      correctEs:"C. Swimming = natación (solo en el agua)",
+      example:"You can only do swimming in the water — that is what makes it unique.",
+      video:"https://www.youtube.com/watch?v=Hs2NNRSdKgU" },
+    { context:"Conversaciones básicas", q:"— 'I must go home.' — '______'",
+      options:["A. Who is wrong?","B. That's sad!","C. It's brilliant.","D. Come here!"], answer:1,
+      explanation:"Cuando alguien dice que debe irse, 'That's sad!' (¡Qué pena!) es una respuesta natural.",
+      correctEs:"B. That's sad! = ¡Qué pena! / ¡Qué lástima!",
+      example:"— I must go home. — That's sad! We will miss you.",
+      video:"https://www.youtube.com/watch?v=fEA5d5YaUNk" },
+    { context:"Avisos y señales", q:"A sign says: 'NOT PETS ALLOWED'. Where might you see this?",
+      options:["A. In a pet shop","B. At a veterinary clinic","C. In a mall or restaurant","D. At the zoo"], answer:2,
+      explanation:"'No se permiten mascotas' es una señal común en centros comerciales, restaurantes y hoteles.",
+      correctEs:"C. In a mall or restaurant = en un centro comercial o restaurante",
+      example:"The sign on the restaurant door says: Not Pets Allowed inside.",
+      video:"https://www.youtube.com/watch?v=ypkBRLmJLW8" },
+    { context:"Vocabulario de lugares", q:"'People get on this to go to different floors.' What is it?",
+      options:["A. An escalator","B. A playground","C. An elevator","D. A corridor"], answer:2,
+      explanation:"Un ascensor (elevator) lleva a las personas a diferentes pisos del edificio.",
+      correctEs:"C. An elevator = un ascensor / elevador",
+      example:"People get on an elevator to go to different floors of the mall.",
+      video:"https://www.youtube.com/watch?v=ypkBRLmJLW8" },
+  ],
+  // ── Extra Medium Questions ──
+  medium_extra: [
+    { context:"Texto: Coffee", q:"Why did Sufi Yemenis start using coffee?",
+      options:["A. To improve their memory","B. To stay alert during special activities","C. To cure diseases","D. To make a profitable drink"], answer:1,
+      explanation:"El texto de Coffee dice: 'Sufi Yemenis started using coffee to stay alert during special activities.'",
+      correctEs:"B. To stay alert during special activities = para mantenerse alerta durante actividades especiales",
+      example:"Sufi Yemenis started using coffee to stay alert during special religious activities.",
+      video:"https://www.youtube.com/watch?v=IjJHFVq-3Mc" },
+    { context:"Gramática: Past Simple irregular", q:"Choose the correct Past Simple form: 'She ___ to the hospital after the accident.'",
+      options:["A. goed","B. go","C. went","D. going"], answer:2,
+      explanation:"'Go' es un verbo irregular. Su Past Simple es 'went'. No se forma con -ed.",
+      correctEs:"C. went = fue (Past Simple irregular de 'go')",
+      example:"She went to the hospital after the accident. (go → went)",
+      video:"https://www.youtube.com/watch?v=KK6BRJm8p90" },
+    { context:"Gramática: Condicional", q:"'If I ___ more time, I would study every day.' Choose the correct form.",
+      options:["A. have","B. had","C. will have","D. having"], answer:1,
+      explanation:"El segundo condicional (Second Conditional) usa 'if + past simple'. 'Had' es el pasado de 'have'.",
+      correctEs:"B. had = tuviera (Second Conditional: if + Past Simple)",
+      example:"If I had more time, I would study English every day.",
+      video:"https://www.youtube.com/watch?v=LIe3UxCYQWI" },
+    { context:"Vocabulario: Medio ambiente", q:"What does 'deforestation' mean?",
+      options:["A. Planting new trees","B. Protecting animal habitats","C. Cutting down large areas of forest","D. Studying forest ecosystems"], answer:2,
+      explanation:"'Deforestation' = deforestación = la tala masiva y destrucción de bosques.",
+      correctEs:"C. Cutting down large areas of forest = talar grandes extensiones de bosque",
+      example:"Deforestation destroys the habitat of millions of animals.",
+      video:"https://www.youtube.com/watch?v=XAVyLOy4Y3I" },
+    { context:"Texto: Vaccines", q:"What does 'immunological memory' mean according to the vaccine text?",
+      options:["A. The ability to forget diseases","B. The immune system's ability to remember and quickly fight a pathogen after vaccination","C. A type of vaccine","D. The process of producing antibodies for the first time"], answer:1,
+      explanation:"El texto de vacunas dice: 'If the vaccinated person later encounters the real disease, their body can respond quickly. This process is called immunological memory.'",
+      correctEs:"B. Immune system remembers and quickly fights a pathogen = el sistema inmune recuerda y combate rápidamente el patógeno",
+      example:"Immunological memory means your immune system remembers a pathogen after vaccination.",
+      video:"https://www.youtube.com/watch?v=XAVyLOy4Y3I" },
+    { context:"Gramática: Future with 'will'", q:"'Don't worry! I ___ help you with the homework.' Choose the correct form.",
+      options:["A. am going to","B. will","C. would","D. shall be"], answer:1,
+      explanation:"'Will' se usa para promesas espontáneas y decisiones en el momento. 'I will help you' = te ayudaré.",
+      correctEs:"B. will = usamos 'will' para promesas espontáneas",
+      example:"Don't worry! I will help you with the homework — I promise.",
+      video:"https://www.youtube.com/watch?v=YMJhcNpEJtw" },
+  ],
+  // ── Extra Hard Questions ──
+  hard_extra: [
+    { context:"Texto: Climate Change", q:"What does 'unprecedented' mean in the context of climate change?",
+      options:["A. Expected and normal","B. Having happened many times before","C. Never having occurred at this level before","D. Scientifically uncertain"], answer:2,
+      explanation:"'Unprecedented' = sin precedentes. En el texto se usa para describir la velocidad del calentamiento actual, que nunca había ocurrido a este nivel.",
+      correctEs:"C. Never having occurred at this level before = sin precedentes / nunca había ocurrido a este nivel",
+      example:"The current rate of warming is unprecedented — it has never happened this fast before.",
+      video:"https://www.youtube.com/watch?v=XAVyLOy4Y3I" },
+    { context:"Gramática: Reported Speech", q:"Direct: 'I have finished the project.' Reported: She said that she ___.",
+      options:["A. has finished the project","B. had finished the project","C. finished the project","D. will finish the project"], answer:1,
+      explanation:"En Reported Speech, el Present Perfect (have finished) cambia a Past Perfect (had finished).",
+      correctEs:"B. had finished the project = había terminado el proyecto (Past Perfect en reported speech)",
+      example:"She said: 'I have finished.' → She said that she HAD finished. (backshift)",
+      video:"https://www.youtube.com/watch?v=LIe3UxCYQWI" },
+    { context:"Vocabulario avanzado", q:"'The government's decision was met with widespread criticism.' What does 'widespread' mean?",
+      options:["A. Very specific and targeted","B. Limited to one region","C. Existing or happening over a large area","D. Official and formal"], answer:2,
+      explanation:"'Widespread' = generalizado = que ocurre o existe en una gran área o entre muchas personas.",
+      correctEs:"C. Existing or happening over a large area = generalizado / que ocurre en una gran área",
+      example:"The decision was met with widespread criticism — people everywhere disagreed with it.",
+      video:"https://www.youtube.com/watch?v=GQAUNZoGxFg" },
+    { context:"Texto: Urbanisation", q:"What is 'per-capita resource consumption'?",
+      options:["A. The total amount of resources used by a country","B. The amount of resources used per person","C. The resources saved by using technology","D. The government's budget for infrastructure"], answer:1,
+      explanation:"'Per capita' = por persona. 'Per-capita consumption' = el consumo por persona (no el total).",
+      correctEs:"B. The amount of resources used per person = la cantidad de recursos usada por persona",
+      example:"Dense cities reduce per-capita resource consumption because infrastructure is shared.",
+      video:"https://www.youtube.com/watch?v=XAVyLOy4Y3I" },
+    { context:"Gramática: Passive Voice", q:"Active: 'Scientists discovered caffeine in 1820.' Passive: 'Caffeine ___ by scientists in 1820.'",
+      options:["A. discovered","B. was discovering","C. was discovered","D. has discovered"], answer:2,
+      explanation:"Voz pasiva en Past Simple = was/were + past participle. 'Discover' → 'discovered' (participio).",
+      correctEs:"C. was discovered = fue descubierta (Past Simple Passive: was + past participle)",
+      example:"Caffeine was discovered by scientists in 1820. (Active: Scientists discovered caffeine.)",
+      video:"https://www.youtube.com/watch?v=LIe3UxCYQWI" },
+    { context:"Inferencia", q:"The text says: 'Although it wasn't her goal to be a recognized author, this quickly became her reality.' What does this imply about Kincaid?",
+      options:["A. She worked hard specifically to become famous","B. She was surprised by her own success","C. She stopped writing when she became famous","D. She regretted becoming a recognized author"], answer:1,
+      explanation:"'Although it wasn't her goal' + 'this quickly became her reality' implica que el éxito llegó sin haberlo buscado, lo cual sorprendió a Kincaid.",
+      correctEs:"B. She was surprised by her own success = fue sorprendida por su propio éxito",
+      example:"She wrote to save herself, not to be famous — yet fame found her anyway.",
+      video:"https://www.youtube.com/watch?v=XAVyLOy4Y3I" },
+  ],
 };
 
 
@@ -1076,6 +1565,50 @@ const DIALOGS = [
     answer:1, explanation:"La respuesta más honesta y académicamente apropiada es admitir que no entendiste y pedir una explicación.",
     correctEs:"B. Not really. Could you explain it again? = No del todo. ¿Podría explicarlo de nuevo?",
     example:"— Did everyone understand? — Not really. Could you explain it again, please?" },
+
+  // ── Extra Dialogs ──
+  { level:"easy", scene:"🏫 Primer día en una nueva escuela. Un estudiante te saluda.",
+    bubbles:[{who:"👦 Compañero",text:"Are you here for the music class?"}],
+    q:"What is the best response if you are new?",
+    options:["A. See you!","B. I'm not from here.","C. Yes, I'm new."],
+    answer:2, explanation:"'Yes, I'm new.' es la respuesta natural para confirmar que eres nuevo en la clase.",
+    correctEs:"C. Yes, I'm new. = Sí, soy nuevo/a.",
+    example:"— Are you here for the music class? — Yes, I'm new. My name is Carlos." },
+  { level:"easy", scene:"☀️ Es un día soleado. Tu amigo propone salir.",
+    bubbles:[{who:"👧 Amiga",text:"Let's go for a ride, it's a sunny day!"}],
+    q:"What is the best enthusiastic response?",
+    options:["A. Are we around?","B. Nothing more.","C. It's the best idea!"],
+    answer:2, explanation:"'It's the best idea!' expresa entusiasmo ante una propuesta para aprovechar el buen tiempo.",
+    correctEs:"C. It's the best idea! = ¡Es la mejor idea!",
+    example:"— Let's go for a ride! — It's the best idea! I'll get my jacket." },
+  { level:"easy", scene:"🎫 Tu amigo menciona un concierto de rock.",
+    bubbles:[{who:"🎸 Amigo",text:"Everyone bought tickets for the rock concert."}],
+    q:"What is the most natural follow-up question?",
+    options:["A. Is it on Saturday?","B. There was noise.","C. It is fair!"],
+    answer:0, explanation:"Preguntar el día del evento es la respuesta más natural cuando te enteran de un concierto.",
+    correctEs:"A. Is it on Saturday? = ¿Es el sábado?",
+    example:"— Everyone bought tickets! — Is it on Saturday? I want to go too!" },
+  { level:"medium", scene:"🔧 Un amigo acaba de arreglar algo que estaba roto.",
+    bubbles:[{who:"🛠️ Amigo",text:"I can go to the restaurant and get some food now!"}],
+    q:"What is the best positive response?",
+    options:["A. Whose rice?","B. That's really nice!","C. Look at me."],
+    answer:1, explanation:"'That's really nice!' expresa una reacción positiva y alentadora ante las buenas noticias.",
+    correctEs:"B. That's really nice! = ¡Qué bueno! / ¡Qué bien!",
+    example:"— I can go get food now! — That's really nice! I'm hungry too." },
+  { level:"medium", scene:"🎉 Te enteras de que un amigo obtuvo algo que quería mucho.",
+    bubbles:[{who:"😊 Amigo",text:"Did you get the appointment?"}],
+    q:"If the answer is positive, what do you say?",
+    options:["A. Never again!","B. Come back!","C. Of course!"],
+    answer:2, explanation:"'Of course!' confirma positivamente que sí se obtuvo lo que se buscaba.",
+    correctEs:"C. Of course! = ¡Por supuesto! / ¡Claro que sí!",
+    example:"— Did you get the appointment? — Of course! It's next Monday." },
+  { level:"hard", scene:"📚 Tu profesor pregunta sobre tu comprensión del tema.",
+    bubbles:[{who:"👨‍🏫 Profesor",text:"Reading about James Salter's years in cinema could be interesting, don't you think?"}],
+    q:"What is the most academically appropriate response?",
+    options:["A. Not really, it's just fair.","B. Absolutely, his experiences were quite fascinating.","C. I don't like cinema."],
+    answer:1, explanation:"'Absolutely, his experiences were quite fascinating' muestra comprensión y un nivel académico apropiado.",
+    correctEs:"B. Absolutely, his experiences were quite fascinating. = Absolutamente, sus experiencias fueron bastante fascinantes.",
+    example:"— Could it be interesting? — Absolutely, his experiences in cinema were quite fascinating!" },
 ];
 
 // ══════════════════════════════════════════
@@ -1192,6 +1725,65 @@ function playPartial() {
     gain.gain.setValueAtTime(0.13, now);
     gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
     osc.start(now); osc.stop(now + 0.35);
+  } catch(e) {}
+}
+function playExamPass() {
+  if (!soundEnabled) return;
+  try {
+    const ctx = getAudioCtx();
+    const now = ctx.currentTime;
+    // Victory fanfare: C-E-G-C ascending
+    const notes = [523,659,784,1047];
+    notes.forEach((freq, i) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(freq, now + i*0.12);
+      gain.gain.setValueAtTime(0, now + i*0.12);
+      gain.gain.linearRampToValueAtTime(0.18, now + i*0.12 + 0.04);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + i*0.12 + 0.35);
+      osc.start(now + i*0.12); osc.stop(now + i*0.12 + 0.4);
+    });
+  } catch(e) {}
+}
+
+function playExamFail() {
+  if (!soundEnabled) return;
+  try {
+    const ctx = getAudioCtx();
+    const now = ctx.currentTime;
+    // Two gentle descending tones — motivating, not harsh
+    [[330,280],[280,240]].forEach(([f1,f2],i) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(f1, now + i*0.25);
+      osc.frequency.linearRampToValueAtTime(f2, now + i*0.25 + 0.22);
+      gain.gain.setValueAtTime(0.12, now + i*0.25);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + i*0.25 + 0.28);
+      osc.start(now + i*0.25); osc.stop(now + i*0.25 + 0.3);
+    });
+  } catch(e) {}
+}
+
+function playTimeUp() {
+  if (!soundEnabled) return;
+  try {
+    const ctx = getAudioCtx();
+    const now = ctx.currentTime;
+    // Three urgent beeps
+    [0,0.22,0.44].forEach(offset => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.type = 'square';
+      osc.frequency.setValueAtTime(880, now + offset);
+      gain.gain.setValueAtTime(0.1, now + offset);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + offset + 0.18);
+      osc.start(now + offset); osc.stop(now + offset + 0.2);
+    });
   } catch(e) {}
 }
 
@@ -1964,228 +2556,387 @@ document.getElementById("btnReset").addEventListener("click",()=>{
 //  FULL EXAM — Examen Completo Saber 11
 // ══════════════════════════════════════════
 
+// ══════════════════════════════════════════
+//  FULL EXAM SYSTEM v2
+// ══════════════════════════════════════════
+
+// ── State ──
 let feItems=[], feIdx=0, feUserAnswers=[];
 let feTimerDuration=45*60, feTimerLeft=0, feTimerInterval=null;
-let feSelectedDuration=45, feSelectedDiff="mixed";
+let feStartTime=0, feSelectedDuration=45, feSelectedType="mixed";
+let feTenSecInterval=null;
 
-// Config toggles
-document.querySelectorAll("#timerGroup .toggle-btn").forEach(b=>{
-  b.addEventListener("click",()=>{
-    document.querySelectorAll("#timerGroup .toggle-btn").forEach(x=>x.classList.remove("active"));
-    b.classList.add("active"); feSelectedDuration=parseInt(b.dataset.val);
+// ── Helpers to build question pool by type ──
+function buildPool(type) {
+  const allRT = READING_TEXTS.flatMap(t => t.questions.map(rq => ({
+    ...rq, context: t.title, type:"readq",
+    textTitle: t.title, textBody: t.body.substring(0,520)+"...",
+    lvl: t.level
+  })));
+
+  const qEasy   = [...(QUESTIONS.easy   ||[]), ...(QUESTIONS.easy_extra   ||[])].map(q=>({...q,lvl:"easy",  qtype:"vocab"}));
+  const qMedium = [...(QUESTIONS.medium ||[]), ...(QUESTIONS.medium_extra ||[])].map(q=>({...q,lvl:"medium",qtype:"grammar"}));
+  const qHard   = [...(QUESTIONS.hard   ||[]), ...(QUESTIONS.hard_extra   ||[])].map(q=>({...q,lvl:"hard",  qtype:"grammar"}));
+  const dialogs = DIALOGS.map(d=>({...d, type:"dialog", qtype:"dialog",
+    lvl: d.level==="easy"?"easy": d.level==="medium"?"medium":"hard"}));
+
+  let pool = [];
+  if (type==="basic") {
+    pool = [
+      ...shuffle(qEasy).slice(0,6),
+      ...shuffle(qMedium).slice(0,4),
+      ...shuffle(dialogs.filter(d=>d.lvl==="easy"||d.lvl==="medium")).slice(0,5),
+      ...shuffle(allRT.filter(t=>t.lvl==="easy"||t.lvl==="medium")).slice(0,10),
+    ];
+  } else if (type==="intermediate") {
+    pool = [
+      ...shuffle(qMedium).slice(0,6),
+      ...shuffle(qHard).slice(0,4),
+      ...shuffle(dialogs.filter(d=>d.lvl==="medium"||d.lvl==="hard")).slice(0,5),
+      ...shuffle(allRT.filter(t=>t.lvl==="medium"||t.lvl==="hard")).slice(0,10),
+    ];
+  } else if (type==="advanced") {
+    pool = [
+      ...shuffle(qHard).slice(0,8),
+      ...shuffle(dialogs.filter(d=>d.lvl==="hard")).slice(0,4),
+      ...shuffle(allRT.filter(t=>t.lvl==="hard")).slice(0,13),
+    ];
+  } else { // mixed
+    pool = [
+      ...shuffle(qEasy).slice(0,3),
+      ...shuffle(qMedium).slice(0,4),
+      ...shuffle(qHard).slice(0,4),
+      ...shuffle(dialogs).slice(0,4),
+      ...shuffle(allRT).slice(0,10),
+    ];
+  }
+  return shuffle(pool).slice(0,25);
+}
+
+// ── Exam type card selection ──
+document.querySelectorAll(".exam-type-card").forEach(card => {
+  card.addEventListener("click", () => {
+    document.querySelectorAll(".exam-type-card").forEach(c => c.classList.remove("selected"));
+    card.classList.add("selected");
+    feSelectedType = card.dataset.type;
   });
 });
-document.querySelectorAll("#examDiffGroup .toggle-btn").forEach(b=>{
-  b.addEventListener("click",()=>{
-    document.querySelectorAll("#examDiffGroup .toggle-btn").forEach(x=>x.classList.remove("active"));
-    b.classList.add("active"); feSelectedDiff=b.dataset.val;
+
+// ── Timer duration buttons ──
+document.querySelectorAll("#timerGroup .toggle-btn").forEach(b => {
+  b.addEventListener("click", () => {
+    document.querySelectorAll("#timerGroup .toggle-btn").forEach(x => x.classList.remove("active"));
+    b.classList.add("active");
+    feSelectedDuration = parseInt(b.dataset.val);
   });
 });
 
-// Render exam history on page load
-function renderExamHistory(){
-  const exams = JSON.parse(localStorage.getItem("em_full_exams")||"[]");
+// ── Render exam history ──
+function renderExamHistory() {
+  const exams = JSON.parse(localStorage.getItem("em_full_exams") || "[]");
   const container = document.getElementById("examHistory");
-  if(!exams.length){ container.innerHTML=""; return; }
-  container.innerHTML=`<h3 class="exam-hist-title">📅 Historial de simulacros</h3><div class="exam-hist-list"></div>`;
+  if (!container) return;
+  if (!exams.length) { container.innerHTML = ""; return; }
+  container.innerHTML = `<h3 class="exam-hist-title">📅 Historial de simulacros</h3><div class="exam-hist-list"></div>`;
   const list = container.querySelector(".exam-hist-list");
-  exams.slice(0,8).forEach(e=>{
-    const item=document.createElement("div");
-    item.className="exam-hist-item";
-    item.innerHTML=`<div class="ehi-score">${e.pct}%</div><div class="ehi-info"><strong>${e.correct}/${e.total} correctas</strong><div class="ehi-date">${e.date} · ${e.duration} min</div></div><div style="font-size:1.2rem">${e.pct>=70?"🏆":e.pct>=50?"⭐":"📚"}</div>`;
+  exams.slice(0,8).forEach(e => {
+    const item = document.createElement("div");
+    item.className = "exam-hist-item";
+    item.innerHTML = `<div class="ehi-score">${e.pct}%</div>
+      <div class="ehi-info"><strong>${e.correct}/${e.total} correctas</strong>
+      <div class="ehi-date">${e.date} · ${e.duration === 0 ? "Sin límite" : e.duration+" min"} · ${e.examType||"mixto"}</div></div>
+      <div style="font-size:1.3rem">${e.pct>=70?"🏆":e.pct>=50?"⭐":"📚"}</div>`;
     list.appendChild(item);
   });
 }
 
+// ── Start exam ──
 document.getElementById("btnStartFullExam").addEventListener("click", startFullExam);
-document.getElementById("btnRetryFE").addEventListener("click",()=>{
+document.getElementById("btnRetryFE").addEventListener("click", () => {
   document.getElementById("examResultScreen").classList.add("hidden");
   document.getElementById("examConfig").classList.remove("hidden");
   renderExamHistory();
 });
 
-function startFullExam(){
-  // Build question pool based on difficulty
-  let pool=[];
-  if(feSelectedDiff==="easy"){
-    pool=[...QUESTIONS.easy.map(q=>({...q,lvl:"easy",type:"q"})),
-          ...DIALOGS.filter(d=>d.level==="easy").map(d=>({...d,type:"dialog"})),
-          ...READING_TEXTS.filter(t=>t.level==="easy").flatMap(t=>t.questions.map(rq=>({...rq,context:t.title,type:"readq",textTitle:t.title,textBody:t.body.substring(0,500)+"..."}))),
-    ];
-  } else if(feSelectedDiff==="hard"){
-    pool=[...QUESTIONS.hard.map(q=>({...q,lvl:"hard",type:"q"})),
-          ...QUESTIONS.medium.map(q=>({...q,lvl:"medium",type:"q"})),
-          ...READING_TEXTS.filter(t=>t.level==="hard").flatMap(t=>t.questions.map(rq=>({...rq,context:t.title,type:"readq",textTitle:t.title,textBody:t.body.substring(0,500)+"..."}))),
-    ];
-  } else {
-    pool=[
-      ...QUESTIONS.easy.map(q=>({...q,lvl:"easy",type:"q"})),
-      ...QUESTIONS.medium.map(q=>({...q,lvl:"medium",type:"q"})),
-      ...QUESTIONS.hard.map(q=>({...q,lvl:"hard",type:"q"})),
-      ...DIALOGS.map(d=>({...d,type:"dialog"})),
-      ...READING_TEXTS.flatMap(t=>t.questions.map(rq=>({...rq,context:t.title,type:"readq",textTitle:t.title,textBody:t.body.substring(0,500)+"..."}))),
-    ];
-  }
-
-  feItems=shuffle(pool).slice(0,25);
-  feUserAnswers=new Array(feItems.length).fill(null);
-  feIdx=0;
-  feTimerDuration=feSelectedDuration*60;
-  feTimerLeft=feTimerDuration;
+function startFullExam() {
+  feItems = buildPool(feSelectedType);
+  feUserAnswers = new Array(feItems.length).fill(null);
+  feIdx = 0;
+  feTimerDuration = feSelectedDuration > 0 ? feSelectedDuration * 60 : Infinity;
+  feTimerLeft = feSelectedDuration > 0 ? feSelectedDuration * 60 : 99999;
+  feStartTime = Date.now();
 
   document.getElementById("examConfig").classList.add("hidden");
   document.getElementById("examResultScreen").classList.add("hidden");
   document.getElementById("examArena").classList.remove("hidden");
 
-  startFETimer();
-  showFEQuestion();
+  const typeNames = {basic:"📚 Básico",intermediate:"🎯 Intermedio",advanced:"🔥 Avanzado",mixed:"🏆 Mixto"};
+  document.getElementById("examTypeLabel").textContent = typeNames[feSelectedType] || "Examen";
+
+  if (feSelectedDuration === 0) {
+    document.getElementById("examTimerDisplay").textContent = "∞";
+    document.getElementById("examTimerProgress").style.width = "100%";
+  } else {
+    startFETimer();
+  }
+
+  // 3-2-1 countdown then show first question
+  showExamCountdown(() => showFEQuestion());
 }
 
-function startFETimer(){
-  clearInterval(feTimerInterval);
-  updateFETimerDisplay();
-  const progressEl=document.getElementById("examTimerProgress");
-  progressEl.style.width="100%";
-  progressEl.className="exam-timer-progress";
+function showExamCountdown(cb) {
+  const overlay = document.getElementById("examCountdown");
+  const numEl   = document.getElementById("ecdNumber");
+  overlay.classList.remove("hidden");
+  let count = 3;
+  numEl.textContent = count;
+  const iv = setInterval(() => {
+    count--;
+    if (count <= 0) {
+      clearInterval(iv);
+      overlay.classList.add("hidden");
+      cb();
+    } else {
+      numEl.textContent = count;
+      // trigger animation restart
+      numEl.style.animation = "none";
+      void numEl.offsetWidth;
+      numEl.style.animation = "countPulse .8s ease";
+    }
+  }, 900);
+}
 
-  feTimerInterval=setInterval(()=>{
+// ── Timer ──
+function startFETimer() {
+  clearInterval(feTimerInterval);
+  clearInterval(feTenSecInterval);
+  updateFETimerDisplay();
+  const progEl = document.getElementById("examTimerProgress");
+  progEl.style.width = "100%";
+  progEl.className = "exam-timer-progress";
+
+  feTimerInterval = setInterval(() => {
     feTimerLeft--;
     updateFETimerDisplay();
-    const pct=(feTimerLeft/feTimerDuration)*100;
-    progressEl.style.width=pct+"%";
 
-    const warn5=feTimerLeft<=300;
-    const danger1=feTimerLeft<=60;
-    const display=document.getElementById("examTimerDisplay");
-    const warnBanner=document.getElementById("examWarn");
+    const pct = (feTimerLeft / feTimerDuration) * 100;
+    progEl.style.width = pct + "%";
 
-    if(danger1){ display.className="exam-timer-display danger"; progressEl.className="exam-timer-progress danger"; }
-    else if(warn5){ display.className="exam-timer-display warning"; progressEl.className="exam-timer-progress warning"; warnBanner.classList.remove("hidden"); document.getElementById("examTimerIcon").textContent="⚠️"; }
-    else { display.className="exam-timer-display"; }
+    const warn5  = feTimerLeft <= 300 && feTimerLeft > 60;
+    const warn1  = feTimerLeft <= 60  && feTimerLeft > 10;
+    const warn10 = feTimerLeft <= 10  && feTimerLeft > 0;
 
-    if(feTimerLeft<=0){ clearInterval(feTimerInterval); finishFullExam(); }
-  },1000);
+    if (warn10) {
+      progEl.className = "exam-timer-progress danger";
+      document.getElementById("examTimerDisplay").className = "exam-timer-display danger";
+      document.getElementById("examWarn").classList.add("hidden");
+      document.getElementById("examDangerWarn").classList.add("hidden");
+      const tenEl = document.getElementById("tenSecCountdown");
+      const numEl = document.getElementById("tenSecNum");
+      tenEl.classList.remove("hidden");
+      numEl.textContent = feTimerLeft;
+    } else if (warn1) {
+      progEl.className = "exam-timer-progress danger";
+      document.getElementById("examTimerDisplay").className = "exam-timer-display danger";
+      document.getElementById("examDangerWarn").classList.remove("hidden");
+      document.getElementById("tenSecCountdown").classList.add("hidden");
+    } else if (warn5) {
+      progEl.className = "exam-timer-progress warning";
+      document.getElementById("examTimerDisplay").className = "exam-timer-display warning";
+      document.getElementById("examWarn").classList.remove("hidden");
+      document.getElementById("examTimerIcon").textContent = "⚠️";
+    } else {
+      document.getElementById("examTimerDisplay").className = "exam-timer-display";
+    }
+
+    if (feTimerLeft <= 0) {
+      clearInterval(feTimerInterval);
+      document.getElementById("tenSecCountdown").classList.add("hidden");
+      playTimeUp();
+      finishFullExam(true);
+    }
+  }, 1000);
 }
 
-function updateFETimerDisplay(){
-  const m=Math.floor(feTimerLeft/60), s=feTimerLeft%60;
-  document.getElementById("examTimerDisplay").textContent=`${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
+function updateFETimerDisplay() {
+  if (feSelectedDuration === 0) return;
+  const m = Math.floor(feTimerLeft / 60);
+  const sec = feTimerLeft % 60;
+  document.getElementById("examTimerDisplay").textContent =
+    `${String(m).padStart(2,"0")}:${String(sec).padStart(2,"0")}`;
 }
 
-function showFEQuestion(){
-  if(feIdx>=feItems.length){ finishFullExam(); return; }
-  const q=feItems[feIdx];
-  document.getElementById("examQCounter").textContent=`${feIdx+1}/${feItems.length}`;
-  document.getElementById("feContext").textContent=q.context||q.scene||"";
-  const tb=document.getElementById("feTextBlock");
-  if(q.type==="readq"&&q.textBody){
+// ── Show question ──
+function showFEQuestion() {
+  if (feIdx >= feItems.length) { finishFullExam(false); return; }
+  const q = feItems[feIdx];
+  document.getElementById("examQCounter").textContent = `${feIdx+1}/${feItems.length}`;
+  document.getElementById("feContext").textContent = q.context || q.scene || "";
+
+  const tb = document.getElementById("feTextBlock");
+  if (q.type === "readq" && q.textBody) {
     tb.classList.remove("hidden");
-    document.getElementById("feTextTitle").textContent=q.textTitle||"";
-    document.getElementById("feTextBody").textContent=q.textBody;
-  } else { tb.classList.add("hidden"); }
-  document.getElementById("feQuestion").textContent=q.q;
-  const opts=document.getElementById("feOptions");
-  opts.innerHTML="";
-  q.options.forEach((opt,i)=>{
-    const btn=document.createElement("button");
-    btn.className="option-btn";
-    btn.innerHTML=`<span class="opt-letter">${String.fromCharCode(65+i)}</span> ${opt.replace(/^[A-D]\.\s*/,"")}`;
-    btn.addEventListener("click",()=>selectFEAnswer(i,q));
-    opts.appendChild(btn);
+    document.getElementById("feTextTitle").textContent = q.textTitle || "";
+    document.getElementById("feTextBody").textContent = q.textBody;
+  } else {
+    tb.classList.add("hidden");
+  }
+
+  document.getElementById("feQuestion").textContent = q.q;
+  const optsEl = document.getElementById("feOptions");
+  optsEl.innerHTML = "";
+  q.options.forEach((opt, i) => {
+    const btn = document.createElement("button");
+    btn.className = "option-btn";
+    btn.innerHTML = `<span class="opt-letter">${String.fromCharCode(65+i)}</span> ${opt.replace(/^[A-D]\.\s*/, "")}`;
+    btn.addEventListener("click", () => selectFEAnswer(i, q));
+    optsEl.appendChild(btn);
   });
+
   document.getElementById("feFeedback").classList.add("hidden");
 }
 
-function selectFEAnswer(chosen,q){
-  document.querySelectorAll("#feOptions .option-btn").forEach((btn,i)=>{
-    btn.disabled=true;
-    if(i===q.answer) btn.classList.add("correct");
-    else if(i===chosen&&chosen!==q.answer) btn.classList.add("wrong");
+// ── Select answer ──
+function selectFEAnswer(chosen, q) {
+  document.querySelectorAll("#feOptions .option-btn").forEach((btn, i) => {
+    btn.disabled = true;
+    if (i === q.answer) btn.classList.add("correct");
+    else if (i === chosen && chosen !== q.answer) btn.classList.add("wrong");
   });
-  const correct=chosen===q.answer;
-  feUserAnswers[feIdx]={chosen,correct,q};
-  if(correct) playCorrect(); else playWrong();
-  document.getElementById("feFbResult").innerHTML=correct
-    ?`<span style="color:var(--green)">✓ ¡Correcto!</span>`
-    :`<span style="color:var(--red)">✗ Incorrecto.</span>`;
-  document.getElementById("feFbCorrect").textContent=`✓ Respuesta correcta: ${q.correctEs||q.options[q.answer]}`;
-  document.getElementById("feFbExpl").textContent=q.explanation||"";
+
+  const correct = chosen === q.answer;
+  feUserAnswers[feIdx] = { chosen, correct, q };
+  if (correct) playCorrect(); else playWrong();
+
+  document.getElementById("feFbResult").innerHTML = correct
+    ? `<span style="color:var(--green)">✓ ¡Correcto!</span>`
+    : `<span style="color:var(--red)">✗ Incorrecto.</span>`;
+  document.getElementById("feFbCorrect").textContent =
+    `✓ Respuesta correcta: ${q.correctEs || q.options[q.answer]}`;
+  document.getElementById("feFbExpl").textContent = q.explanation || "";
   document.getElementById("feFeedback").classList.remove("hidden");
   feIdx++;
 }
 
-document.getElementById("btnNextFE").addEventListener("click",()=>{
-  if(feIdx>=feItems.length) finishFullExam();
+document.getElementById("btnNextFE").addEventListener("click", () => {
+  if (feIdx >= feItems.length) finishFullExam(false);
   else showFEQuestion();
 });
 
-function finishFullExam(){
+// ── Finish exam ──
+function finishFullExam(timedOut) {
   clearInterval(feTimerInterval);
+  clearInterval(feTenSecInterval);
   document.getElementById("examArena").classList.add("hidden");
   document.getElementById("examResultScreen").classList.remove("hidden");
 
-  const answered = feUserAnswers.filter(a=>a!==null);
-  const correct = answered.filter(a=>a.correct).length;
-  const total = feItems.length;
-  const pct = total?Math.round((correct/total)*100):0;
+  const timeUsed = Math.round((Date.now() - feStartTime) / 1000);
+  const answered = feUserAnswers.filter(a => a !== null);
+  const correct  = answered.filter(a => a.correct).length;
+  const total    = feItems.length;
+  const pct      = total ? Math.round((correct / total) * 100) : 0;
 
-  document.getElementById("feResultEmoji").textContent=pct>=80?"🏆":pct>=60?"⭐":"📚";
-  document.getElementById("feResultTitle").textContent=pct>=80?"¡Excelente resultado!":pct>=60?"¡Buen trabajo!":"Sigue practicando";
-  document.getElementById("feScoreBig").textContent=pct+"%";
+  // Play result sound
+  if (pct >= 60) playExamPass(); else playExamFail();
+  if (timedOut) playTimeUp();
 
-  // Result grid
-  const grid=document.getElementById("feResultGrid");
-  grid.innerHTML=`
+  document.getElementById("feResultEmoji").textContent = pct>=80?"🏆":pct>=60?"⭐":pct>=40?"📚":"💪";
+  document.getElementById("feResultTitle").textContent =
+    timedOut ? "¡Tiempo agotado!" : pct>=80 ? "¡Excelente resultado!" : pct>=60 ? "¡Buen trabajo!" : "Sigue practicando";
+  document.getElementById("feScoreBig").textContent = pct + "%";
+
+  // Main stats grid
+  const timeStr = `${Math.floor(timeUsed/60)}m ${timeUsed%60}s`;
+  const avgTime = answered.length ? Math.round(timeUsed / answered.length) : 0;
+  document.getElementById("feResultGrid").innerHTML = `
     <div class="fe-rg-item"><div class="fe-rg-num green">${correct}</div><div class="fe-rg-label">Correctas</div></div>
     <div class="fe-rg-item"><div class="fe-rg-num red">${answered.length-correct}</div><div class="fe-rg-label">Incorrectas</div></div>
     <div class="fe-rg-item"><div class="fe-rg-num">${total-answered.length}</div><div class="fe-rg-label">Sin responder</div></div>
     <div class="fe-rg-item"><div class="fe-rg-num accent">${pct}%</div><div class="fe-rg-label">Precisión</div></div>`;
 
+  // Time stats
+  document.getElementById("feTimeStats").innerHTML = `
+    <div class="fe-ts-item"><div class="fe-ts-num">${timeStr}</div><div class="fe-ts-label">Tiempo usado</div></div>
+    <div class="fe-ts-item"><div class="fe-ts-num">${avgTime}s</div><div class="fe-ts-label">Promedio por pregunta</div></div>
+    <div class="fe-ts-item"><div class="fe-ts-num">${feSelectedDuration===0?"∞":feSelectedDuration+"m"}</div><div class="fe-ts-label">Duración configurada</div></div>`;
+
   // Category breakdown
-  const cats={};
-  answered.forEach(a=>{
-    const cat=a.q.type==="readq"?"Comprensión Lectora":a.q.type==="dialog"?"Diálogos":(a.q.context||"Vocabulario");
-    if(!cats[cat]) cats[cat]={correct:0,total:0};
+  const cats = {};
+  answered.forEach(a => {
+    const cat = a.q.type==="readq"?"Comprensión Lectora":
+                a.q.type==="dialog"?"Diálogos":
+                (a.q.context||"Vocabulario").substring(0,22);
+    if (!cats[cat]) cats[cat] = {correct:0,total:0};
     cats[cat].total++;
-    if(a.correct) cats[cat].correct++;
+    if (a.correct) cats[cat].correct++;
   });
-  const cb=document.getElementById("feCatBreakdown");
-  cb.innerHTML="<h3 style='font-family:Syne,sans-serif;font-weight:700;font-size:1rem;margin-bottom:.75rem'>Rendimiento por categoría</h3>";
-  Object.entries(cats).slice(0,6).forEach(([cat,d])=>{
-    const pp=Math.round((d.correct/d.total)*100);
-    const row=document.createElement("div");
-    row.className="fe-cat-row";
-    row.innerHTML=`<div class="fe-cat-name">${cat.length>18?cat.substring(0,18)+"…":cat}</div><div class="fe-cat-bar-wrap"><div class="fe-cat-bar" style="width:${pp}%"></div></div><div class="fe-cat-pct">${pp}%</div>`;
-    cb.appendChild(row);
+  const cbEl = document.getElementById("feCatBreakdown");
+  cbEl.innerHTML = `<div class="fe-lb-title">📊 Rendimiento por categoría</div>`;
+  const catColors = {"Comprensión Lectora":"#1e88e5","Diálogos":"#7c3aed","Vocabulario":"#00c853","Gramática":"#f9a825"};
+  Object.entries(cats).slice(0,6).forEach(([cat, d]) => {
+    const pp = Math.round((d.correct/d.total)*100);
+    const col = catColors[cat] || "var(--accent)";
+    const row = document.createElement("div");
+    row.className = "fe-cat-row";
+    row.innerHTML = `<div class="fe-cat-name">${cat.length>20?cat.slice(0,20)+"…":cat}</div>
+      <div class="fe-cat-bar-wrap"><div class="fe-cat-bar" style="width:${pp}%;background:${col}"></div></div>
+      <div class="fe-cat-pct">${pp}%</div>`;
+    cbEl.appendChild(row);
+  });
+
+  // Level breakdown
+  const levels = {easy:{correct:0,total:0},medium:{correct:0,total:0},hard:{correct:0,total:0}};
+  answered.forEach(a => {
+    const lvl = a.q.lvl || "medium";
+    if (!levels[lvl]) levels[lvl] = {correct:0,total:0};
+    levels[lvl].total++;
+    if (a.correct) levels[lvl].correct++;
+  });
+  const lbEl = document.getElementById("feLevelBreakdown");
+  lbEl.innerHTML = `<div class="fe-lb-title">📈 Rendimiento por nivel</div>`;
+  [{key:"easy",label:"🌱 Básico A1–A2",col:"#00c853"},
+   {key:"medium",label:"⚡ Intermedio A2–B1",col:"#f9a825"},
+   {key:"hard",label:"🔥 Avanzado B1",col:"#e53935"}].forEach(({key,label,col}) => {
+    const d = levels[key] || {correct:0,total:0};
+    if (!d.total) return;
+    const pp = Math.round((d.correct/d.total)*100);
+    const row = document.createElement("div");
+    row.className = "fe-lb-row";
+    row.innerHTML = `<div class="fe-lb-name">${label}</div>
+      <div class="fe-lb-bar-wrap"><div class="fe-lb-bar" style="width:${pp}%;background:${col}"></div></div>
+      <div class="fe-lb-pct">${pp}%</div>
+      <div class="fe-lb-count">${d.correct}/${d.total}</div>`;
+    lbEl.appendChild(row);
   });
 
   // Review list
-  const rl=document.getElementById("feReviewList");
-  rl.innerHTML="";
-  answered.forEach((a,i)=>{
-    const item=document.createElement("div");
-    item.className="fe-review-item "+(a.correct?"correct-item":"wrong-item");
-    item.innerHTML=`<div class="fe-rev-q">${i+1}. ${a.q.q}</div>
-      ${!a.correct?`<div class="fe-rev-your">Tu respuesta: ${a.q.options[a.chosen]||"Sin responder"}</div>`:""}
-      <div class="fe-rev-correct">✓ ${a.q.correctEs||a.q.options[a.q.answer]}</div>
-      ${a.q.explanation?`<div class="fe-rev-expl">${a.q.explanation}</div>`:""}`;
+  const rl = document.getElementById("feReviewList");
+  rl.innerHTML = "";
+  answered.forEach((a, i) => {
+    const item = document.createElement("div");
+    item.className = "fe-review-item " + (a.correct ? "correct-item" : "wrong-item");
+    item.innerHTML = `<div class="fe-rev-q">${i+1}. ${a.q.q}</div>
+      ${!a.correct ? `<div class="fe-rev-your">Tu respuesta: ${a.q.options[a.chosen] || "Sin responder"}</div>` : ""}
+      <div class="fe-rev-correct">✓ ${a.q.correctEs || a.q.options[a.q.answer]}</div>
+      ${a.q.explanation ? `<div class="fe-rev-expl">${a.q.explanation}</div>` : ""}`;
     rl.appendChild(item);
   });
 
-  // Save to localStorage
-  const exams=JSON.parse(localStorage.getItem("em_full_exams")||"[]");
-  exams.unshift({pct,correct,total,date:new Date().toLocaleDateString("es-CO"),duration:feSelectedDuration});
-  if(exams.length>10) exams.pop();
-  localStorage.setItem("em_full_exams",JSON.stringify(exams));
+  // Save history
+  const exams = JSON.parse(localStorage.getItem("em_full_exams") || "[]");
+  exams.unshift({ pct, correct, total, date: new Date().toLocaleDateString("es-CO"),
+    duration: feSelectedDuration, examType: feSelectedType, timeUsed });
+  if (exams.length > 10) exams.pop();
+  localStorage.setItem("em_full_exams", JSON.stringify(exams));
 
-  // Update state modeStats
-  if(!state.modeStats) state.modeStats={};
-  if(!state.modeStats.fullexam) state.modeStats.fullexam={correct:0,wrong:0};
-  state.modeStats.fullexam.correct+=correct;
-  state.modeStats.fullexam.wrong+=(answered.length-correct);
-  state.totalAnswered+=answered.length;
-  state.totalCorrect+=correct;
-  state.totalWrong+=(answered.length-correct);
+  // Update global stats
+  if (!state.modeStats) state.modeStats = {};
+  if (!state.modeStats.fullexam) state.modeStats.fullexam = {correct:0,wrong:0};
+  state.modeStats.fullexam.correct += correct;
+  state.modeStats.fullexam.wrong   += (answered.length - correct);
+  state.totalAnswered += answered.length;
+  state.totalCorrect  += correct;
+  state.totalWrong    += (answered.length - correct);
   saveState();
 }
 

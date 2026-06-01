@@ -374,38 +374,68 @@
 
   <!-- ══════════════ FULL EXAM ══════════════ -->
   <section id="fullexam" class="section">
-    <!-- Config screen -->
+
+    <!-- CONFIG SCREEN -->
     <div id="examConfig">
       <h1 class="page-title">🏆 Examen Completo Saber 11</h1>
-      <p class="page-sub">Simulacro con temporizador, revisión detallada y análisis de resultados.</p>
-      <div class="exam-config-card">
-        <h3>⏱️ Duración del examen</h3>
-        <div class="btn-group" id="timerGroup">
-          <button class="toggle-btn" data-val="30">30 minutos</button>
-          <button class="toggle-btn active" data-val="45">45 minutos</button>
-          <button class="toggle-btn" data-val="60">60 minutos</button>
+      <p class="page-sub">Simulacro real con temporizador, revisión detallada y análisis de resultados por nivel.</p>
+
+      <div class="exam-type-grid" id="examTypeGrid">
+        <div class="exam-type-card" data-type="basic">
+          <div class="etc-icon">📚</div>
+          <div class="etc-name">Básico</div>
+          <div class="etc-desc">Niveles A1 + A2<br/>Vocabulario, señales y conversaciones</div>
+          <div class="etc-badge badge-green">Recomendado para empezar</div>
         </div>
-        <h3 style="margin-top:1.5rem">📊 Nivel de dificultad</h3>
-        <div class="btn-group" id="examDiffGroup">
-          <button class="toggle-btn" data-val="easy">🌱 Solo Básico</button>
-          <button class="toggle-btn active" data-val="mixed">⚡ Mixto (recomendado)</button>
-          <button class="toggle-btn" data-val="hard">🔥 Solo Avanzado</button>
+        <div class="exam-type-card" data-type="intermediate">
+          <div class="etc-icon">🎯</div>
+          <div class="etc-name">Intermedio</div>
+          <div class="etc-desc">Niveles A2 + B1<br/>Gramática, lectura y comprensión</div>
+          <div class="etc-badge badge-yellow">Nivel promedio Saber 11</div>
         </div>
-        <div class="exam-config-info">
-          <div class="eci-item">📝 <strong>25 preguntas</strong> mezcladas automáticamente</div>
-          <div class="eci-item">📖 <strong>Comprensión lectora</strong> + vocabulario + gramática</div>
-          <div class="eci-item">🔍 <strong>Revisión completa</strong> al finalizar</div>
-          <div class="eci-item">💾 <strong>Historial guardado</strong> en tu dispositivo</div>
+        <div class="exam-type-card" data-type="advanced">
+          <div class="etc-icon">🔥</div>
+          <div class="etc-name">Avanzado</div>
+          <div class="etc-desc">Solo B1<br/>Textos complejos e inferencia</div>
+          <div class="etc-badge badge-red">Nivel máximo</div>
         </div>
-        <button class="btn-primary big-start-btn" id="btnStartFullExam">🚀 Iniciar Examen</button>
+        <div class="exam-type-card selected" data-type="mixed">
+          <div class="etc-icon">🏆</div>
+          <div class="etc-name">Mixto Completo</div>
+          <div class="etc-desc">A1 + A2 + B1<br/>Todo el contenido Saber 11</div>
+          <div class="etc-badge" style="background:linear-gradient(90deg,var(--accent),#7c3aed);color:#fff">Simulacro real</div>
+        </div>
       </div>
 
-      <!-- Past exams -->
+      <div class="exam-config-card" style="margin-top:1.5rem">
+        <h3>⏱️ Duración del examen</h3>
+        <div class="btn-group" id="timerGroup">
+          <button class="toggle-btn" data-val="15">15 min</button>
+          <button class="toggle-btn" data-val="30">30 min</button>
+          <button class="toggle-btn active" data-val="45">45 min</button>
+          <button class="toggle-btn" data-val="60">60 min</button>
+          <button class="toggle-btn" data-val="0">Sin límite</button>
+        </div>
+        <div class="exam-config-info" style="margin-top:1.25rem">
+          <div class="eci-item">📝 <strong>25 preguntas</strong> mezcladas aleatoriamente cada vez</div>
+          <div class="eci-item">📖 <strong>Comprensión lectora</strong> + vocabulario + gramática + diálogos</div>
+          <div class="eci-item">🔍 <strong>Revisión completa</strong> con explicaciones al finalizar</div>
+          <div class="eci-item">💾 <strong>Historial guardado</strong> en tu dispositivo</div>
+        </div>
+        <button class="btn-primary big-start-btn" id="btnStartFullExam" style="margin-top:1rem">🚀 Iniciar Examen</button>
+      </div>
+
       <div id="examHistory" style="margin-top:2rem"></div>
     </div>
 
-    <!-- Exam arena -->
+    <!-- EXAM ARENA -->
     <div id="examArena" class="hidden">
+      <!-- Countdown overlay -->
+      <div id="examCountdown" class="exam-countdown-overlay hidden">
+        <div class="ecd-number" id="ecdNumber">3</div>
+        <div class="ecd-label">¡Prepárate!</div>
+      </div>
+
       <!-- Timer bar -->
       <div class="exam-timer-bar">
         <div class="exam-timer-left">
@@ -418,10 +448,16 @@
         <div class="exam-q-counter" id="examQCounter">1/25</div>
       </div>
       <div class="exam-warn hidden" id="examWarn">⚠️ ¡Quedan menos de 5 minutos!</div>
+      <div class="exam-warn exam-danger-warn hidden" id="examDangerWarn">🔴 ¡Último minuto!</div>
 
-      <!-- Question area -->
+      <!-- Ten-second countdown -->
+      <div class="ten-sec-countdown hidden" id="tenSecCountdown">
+        <span id="tenSecNum">10</span>
+      </div>
+
+      <!-- Question card -->
       <div class="quiz-card" id="examQuestionCard">
-        <div class="exam-info">📝 <strong>Examen Completo</strong> — Estilo Saber 11</div>
+        <div class="exam-info">📝 <strong id="examTypeLabel">Examen Mixto</strong> — Estilo Saber 11</div>
         <div class="quiz-context" id="feContext"></div>
         <div class="exam-text-block hidden" id="feTextBlock">
           <div class="exam-text-title" id="feTextTitle"></div>
@@ -438,16 +474,29 @@
       </div>
     </div>
 
-    <!-- Exam result screen -->
+    <!-- RESULT SCREEN -->
     <div id="examResultScreen" class="hidden">
       <div class="fe-result-card">
         <div class="result-emoji" id="feResultEmoji">🏆</div>
         <h2 id="feResultTitle">¡Examen completado!</h2>
         <div class="fe-score-big" id="feScoreBig"></div>
+
+        <!-- Main stats grid -->
         <div class="fe-result-grid" id="feResultGrid"></div>
+
+        <!-- Time stats -->
+        <div class="fe-time-stats" id="feTimeStats"></div>
+
+        <!-- Category breakdown -->
         <div class="fe-cat-breakdown" id="feCatBreakdown"></div>
-        <h3 style="margin:1.5rem 0 .75rem;font-family:'Syne',sans-serif">📋 Revisión de respuestas</h3>
+
+        <!-- Level breakdown -->
+        <div class="fe-level-breakdown" id="feLevelBreakdown"></div>
+
+        <!-- Review -->
+        <h3 style="margin:1.5rem 0 .75rem;font-family:'Syne',sans-serif;font-size:1.05rem">📋 Revisión de respuestas</h3>
         <div class="fe-review-list" id="feReviewList"></div>
+
         <div class="result-btns" style="margin-top:1.5rem">
           <button class="btn-primary" id="btnRetryFE">↺ Nuevo Examen</button>
           <button class="btn-outline" data-nav="home">🏠 Inicio</button>
