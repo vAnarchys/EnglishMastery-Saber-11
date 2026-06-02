@@ -1616,24 +1616,24 @@ const DIALOGS = [
 // ══════════════════════════════════════════
 
 const RESOURCES = [
-  { topic:"Present Simple", icon:"📝", title:"Present Simple — Full Lesson for Beginners", channel:"English with Lucy", url:"https://www.youtube.com/watch?v=FHi-j2R2bGo", duration:"14 min" },
-  { topic:"Present Continuous", icon:"⏳", title:"Present Continuous — When & How to Use It", channel:"English Grammar Revolution", url:"https://www.youtube.com/watch?v=Bs7Qcb0mncc", duration:"8 min" },
-  { topic:"Past Simple", icon:"🕐", title:"Past Simple Tense — Complete Lesson", channel:"Learn English with Rebecca", url:"https://www.youtube.com/watch?v=KK6BRJm8p90", duration:"12 min" },
-  { topic:"Present Perfect", icon:"✅", title:"Present Perfect vs Past Simple (Explained!)", channel:"BBC Learning English", url:"https://www.youtube.com/watch?v=LIe3UxCYQWI", duration:"7 min" },
-  { topic:"Past Perfect", icon:"🔙", title:"Past Perfect Tense Made Easy", channel:"English Grammar Revolution", url:"https://www.youtube.com/watch?v=LIe3UxCYQWI", duration:"9 min" },
-  { topic:"Future Tenses", icon:"🚀", title:"Will vs Going To — Future Tenses Explained", channel:"English with Lucy", url:"https://www.youtube.com/watch?v=YMJhcNpEJtw", duration:"10 min" },
-  { topic:"Vocabulario Hospital", icon:"🏥", title:"Medical & Hospital Vocabulary in English", channel:"Twominute English", url:"https://www.youtube.com/watch?v=XAVyLOy4Y3I", duration:"6 min" },
-  { topic:"Rutinas Diarias", icon:"⏰", title:"Daily Routine Vocabulary & Phrases", channel:"Learn English with Emma", url:"https://www.youtube.com/watch?v=3T1fHMrW7Fo", duration:"9 min" },
-  { topic:"Comprensión Lectora", icon:"📖", title:"How to Improve Reading Comprehension", channel:"JamesESL English Lessons", url:"https://www.youtube.com/watch?v=4drs1MJgCjE", duration:"11 min" },
-  { topic:"Vocabulario Ropa", icon:"👔", title:"Clothes and Fashion Vocabulary", channel:"English with Lucy", url:"https://www.youtube.com/watch?v=UkqvBX_bkfc", duration:"8 min" },
-  { topic:"Vocabulario Deportes", icon:"⚽", title:"Sports Vocabulary in English", channel:"Twominute English", url:"https://www.youtube.com/watch?v=Hs2NNRSdKgU", duration:"5 min" },
-  { topic:"Conversaciones Básicas", icon:"💬", title:"Basic English Conversations for Beginners", channel:"English Singsing", url:"https://www.youtube.com/watch?v=fEA5d5YaUNk", duration:"13 min" },
-  { topic:"Vocabulario Lugares", icon:"🏢", title:"Places in a City / Mall Vocabulary", channel:"Smile and Learn", url:"https://www.youtube.com/watch?v=ypkBRLmJLW8", duration:"6 min" },
-  { topic:"Modismos en Inglés", icon:"🎭", title:"Common English Idioms and Expressions", channel:"Learn English with TV Series", url:"https://www.youtube.com/watch?v=GQAUNZoGxFg", duration:"10 min" },
-  { topic:"Tips Saber 11", icon:"🏆", title:"Cómo prepararse para el inglés del ICFES", channel:"Aprende con la Profe", url:"https://www.youtube.com/watch?v=IjJHFVq-3Mc", duration:"15 min" },
-  { topic:"Conectores Lógicos", icon:"🔗", title:"Linking Words and Connectors in English", channel:"English with Lucy", url:"https://www.youtube.com/watch?v=GQAUNZoGxFg", duration:"12 min" },
-  { topic:"Voz Pasiva", icon:"🔄", title:"Passive Voice — Complete English Grammar", channel:"English Grammar Revolution", url:"https://www.youtube.com/watch?v=LIe3UxCYQWI", duration:"10 min" },
-  { topic:"Lectura Inferencial", icon:"🔍", title:"How to Make Inferences While Reading", channel:"JamesESL English Lessons", url:"https://www.youtube.com/watch?v=4drs1MJgCjE", duration:"8 min" },
+  { topic:"Present Simple", icon:"📝", title:"Present Simple - Complete Lesson for Beginners", channel:"English with Lucy", url:"https://www.youtube.com/watch?v=FHi-j2R2bGo", duration:"14 min" },
+  { topic:"Present Continuous", icon:"⏳", title:"Present Continuous Tense - When and How to Use It", channel:"Anglo-Link", url:"https://www.youtube.com/watch?v=3GBzBPX5Ep4", duration:"10 min" },
+  { topic:"Past Simple", icon:"🕐", title:"Past Simple vs Present Perfect - Clear Explanation", channel:"English with Lucy", url:"https://www.youtube.com/watch?v=3GBzBPX5Ep4", duration:"11 min" },
+  { topic:"Present Perfect", icon:"✅", title:"Present Perfect Tense - Learn English Grammar", channel:"BBC Learning English", url:"https://www.youtube.com/watch?v=LIe3UxCYQWI", duration:"7 min" },
+  { topic:"Past Perfect", icon:"🔙", title:"Past Perfect Tense - English Grammar Lesson", channel:"Oxford Online English", url:"https://www.youtube.com/watch?v=c3GcfSWW5FA", duration:"8 min" },
+  { topic:"Future Tenses", icon:"🚀", title:"Will vs Going To - Future Tenses in English", channel:"English with Lucy", url:"https://www.youtube.com/watch?v=YMJhcNpEJtw", duration:"10 min" },
+  { topic:"Second Conditional", icon:"🔀", title:"Conditional Sentences - All Types Explained", channel:"English with Lucy", url:"https://www.youtube.com/watch?v=AVnt5oGCXPw", duration:"12 min" },
+  { topic:"Passive Voice", icon:"🔄", title:"Passive Voice - Complete English Grammar Guide", channel:"mmmEnglish", url:"https://www.youtube.com/watch?v=3bTmZXXqr7Q", duration:"10 min" },
+  { topic:"Reported Speech", icon:"💬", title:"Reported Speech in English - Full Lesson", channel:"English with Lucy", url:"https://www.youtube.com/watch?v=GXH2MKaIYyU", duration:"12 min" },
+  { topic:"Reading Comprehension", icon:"📖", title:"How to Read Better - Comprehension Strategies", channel:"English Lessons with Adam", url:"https://www.youtube.com/watch?v=UxFYW9ydoF4", duration:"13 min" },
+  { topic:"Vocabulario Hospital", icon:"🏥", title:"Medical Vocabulary in English - Hospital Words", channel:"Twominute English", url:"https://www.youtube.com/watch?v=l-GKLOfNOFo", duration:"6 min" },
+  { topic:"Rutinas Diarias", icon:"⏰", title:"Daily Routine - English Vocabulary and Phrases", channel:"Speak English with Vanessa", url:"https://www.youtube.com/watch?v=2QMEGfxOGUQ", duration:"9 min" },
+  { topic:"Vocabulario Ropa", icon:"👔", title:"Clothes and Fashion - English Vocabulary", channel:"English with Lucy", url:"https://www.youtube.com/watch?v=UkqvBX_bkfc", duration:"8 min" },
+  { topic:"Vocabulario Deportes", icon:"⚽", title:"Sports Vocabulary in English", channel:"Learn English with Emma", url:"https://www.youtube.com/watch?v=Hs2NNRSdKgU", duration:"5 min" },
+  { topic:"Conectores Lógicos", icon:"🔗", title:"Linking Words - Connectors and Transitions", channel:"mmmEnglish", url:"https://www.youtube.com/watch?v=Y5boa_I8MgI", duration:"11 min" },
+  { topic:"Inglés para Saber 11", icon:"🏆", title:"English Reading Comprehension - ICFES Tips", channel:"English for All", url:"https://www.youtube.com/watch?v=WBiVe1SqOXE", duration:"15 min" },
+  { topic:"Pronunciación", icon:"🗣️", title:"English Pronunciation - Sounds and Stress", channel:"Rachel's English", url:"https://www.youtube.com/watch?v=n4NVPg2os0M", duration:"10 min" },
+  { topic:"Vocabulario B1", icon:"📚", title:"B1 English Vocabulary - Intermediate Level", channel:"Oxford Online English", url:"https://www.youtube.com/watch?v=0pIlV9dTi0s", duration:"12 min" },
 ];
 
 
@@ -1641,6 +1641,24 @@ const RESOURCES = [
 // ══════════════════════════════════════════
 //  STATE
 // ══════════════════════════════════════════
+
+// ── Session-level seen-question tracker for study modes ──
+const studySeenMap = {};  // key: "level_mode" -> Set of question indices seen this session
+
+function getStudySeen(key) {
+  if (!studySeenMap[key]) studySeenMap[key] = new Set();
+  return studySeenMap[key];
+}
+
+function pickUnseen(arr, key, n) {
+  const seen = getStudySeen(key);
+  let unseen = arr.map((q,i) => ({q,i})).filter(({i}) => !seen.has(i));
+  // If fewer than n unseen, reset
+  if (unseen.length < n) { seen.clear(); unseen = arr.map((q,i) => ({q,i})); }
+  const picked = shuffle(unseen).slice(0, n);
+  picked.forEach(({i}) => seen.add(i));
+  return picked.map(({q}) => q);
+}
 
 const defaultState = () => ({
   totalAnswered:0, totalCorrect:0, totalWrong:0,
@@ -2142,7 +2160,9 @@ let mqItems=[], mqIdx=0;
 
 function initMultiple(){
   document.getElementById("modeMultiple").classList.remove("hidden");
-  mqItems=shuffle([...QUESTIONS[selectedLevel]]);
+  const base = [...(QUESTIONS[selectedLevel]||[]), ...(QUESTIONS[selectedLevel+"_extra"]||[])];
+  const key = selectedLevel+"_multiple";
+  mqItems = pickUnseen(base, key, Math.min(base.length, 15)).map(q => shuffleOptions(q));
   mqIdx=0; arenaTotal=mqItems.length; showMQ();
 }
 
@@ -2267,7 +2287,9 @@ let dlItems=[], dlIdx=0;
 function initDialogs(){
   document.getElementById("modeDialogs").classList.remove("hidden");
   const filtered=DIALOGS.filter(d=>d.level===selectedLevel);
-  dlItems=shuffle(filtered.length?filtered:DIALOGS);
+  const pool = filtered.length ? filtered : DIALOGS;
+  const key = selectedLevel+"_dialogs";
+  dlItems = pickUnseen(pool, key, Math.min(pool.length, 10));
   dlIdx=0; arenaTotal=dlItems.length; showDialog();
 }
 
@@ -2557,60 +2579,110 @@ document.getElementById("btnReset").addEventListener("click",()=>{
 // ══════════════════════════════════════════
 
 // ══════════════════════════════════════════
-//  FULL EXAM SYSTEM v2
+//  FULL EXAM SYSTEM v3 — Corrected & Complete
 // ══════════════════════════════════════════
 
 // ── State ──
-let feItems=[], feIdx=0, feUserAnswers=[];
-let feTimerDuration=45*60, feTimerLeft=0, feTimerInterval=null;
-let feStartTime=0, feSelectedDuration=45, feSelectedType="mixed";
-let feTenSecInterval=null;
+let feItems = [], feIdx = 0, feUserAnswers = [];
+let feTimerDuration = 45 * 60, feTimerLeft = 0, feTimerInterval = null;
+let feStartTime = 0, feSelectedDuration = 45, feSelectedType = "mixed";
 
-// ── Helpers to build question pool by type ──
+// ── Question seen history (session-level, prevents immediate repeats) ──
+let feSeenQuestions = new Set();
+
+// ── Shuffle options and update answer index ──
+function shuffleOptions(q) {
+  const orig = [...q.options];
+  const correctText = orig[q.answer];
+  const shuffled = [...orig].sort(() => Math.random() - 0.5);
+  const newAnswer = shuffled.indexOf(correctText);
+  return { ...q, options: shuffled, answer: newAnswer };
+}
+
+// ── Build pool by exam type ──
 function buildPool(type) {
-  const allRT = READING_TEXTS.flatMap(t => t.questions.map(rq => ({
-    ...rq, context: t.title, type:"readq",
-    textTitle: t.title, textBody: t.body.substring(0,520)+"...",
-    lvl: t.level
+  const allRT = READING_TEXTS.flatMap(t => t.questions.map((rq, qi) => ({
+    ...rq,
+    _uid: `rt_${t.id}_${qi}`,
+    context: t.title,
+    type: "readq",
+    textTitle: t.title,
+    textBody: t.body.substring(0, 520) + "...",
+    lvl: t.level,
+    qtype: "reading"
   })));
 
-  const qEasy   = [...(QUESTIONS.easy   ||[]), ...(QUESTIONS.easy_extra   ||[])].map(q=>({...q,lvl:"easy",  qtype:"vocab"}));
-  const qMedium = [...(QUESTIONS.medium ||[]), ...(QUESTIONS.medium_extra ||[])].map(q=>({...q,lvl:"medium",qtype:"grammar"}));
-  const qHard   = [...(QUESTIONS.hard   ||[]), ...(QUESTIONS.hard_extra   ||[])].map(q=>({...q,lvl:"hard",  qtype:"grammar"}));
-  const dialogs = DIALOGS.map(d=>({...d, type:"dialog", qtype:"dialog",
-    lvl: d.level==="easy"?"easy": d.level==="medium"?"medium":"hard"}));
+  const qEasy = [
+    ...(QUESTIONS.easy || []),
+    ...(QUESTIONS.easy_extra || [])
+  ].map((q, i) => ({ ...q, _uid: `qe_${i}`, lvl: "easy", qtype: q.qtype || "vocab" }));
+
+  const qMedium = [
+    ...(QUESTIONS.medium || []),
+    ...(QUESTIONS.medium_extra || [])
+  ].map((q, i) => ({ ...q, _uid: `qm_${i}`, lvl: "medium", qtype: q.qtype || "grammar" }));
+
+  const qHard = [
+    ...(QUESTIONS.hard || []),
+    ...(QUESTIONS.hard_extra || [])
+  ].map((q, i) => ({ ...q, _uid: `qh_${i}`, lvl: "hard", qtype: q.qtype || "grammar" }));
+
+  const dialogs = DIALOGS.map((d, i) => ({
+    ...d,
+    _uid: `dl_${i}`,
+    type: "dialog",
+    qtype: "dialog",
+    lvl: d.level === "easy" ? "easy" : d.level === "medium" ? "medium" : "hard"
+  }));
+
+  // Filter out recently seen items (anti-repetition)
+  function notSeen(arr) {
+    const unseen = arr.filter(q => !feSeenQuestions.has(q._uid));
+    // If too few unseen, reset and use all
+    return unseen.length >= Math.ceil(arr.length * 0.3) ? unseen : arr;
+  }
 
   let pool = [];
-  if (type==="basic") {
+
+  if (type === "basic") {
     pool = [
-      ...shuffle(qEasy).slice(0,6),
-      ...shuffle(qMedium).slice(0,4),
-      ...shuffle(dialogs.filter(d=>d.lvl==="easy"||d.lvl==="medium")).slice(0,5),
-      ...shuffle(allRT.filter(t=>t.lvl==="easy"||t.lvl==="medium")).slice(0,10),
+      ...shuffle(notSeen(qEasy)).slice(0, 7),
+      ...shuffle(notSeen(dialogs.filter(d => d.lvl === "easy"))).slice(0, 4),
+      ...shuffle(notSeen(allRT.filter(t => t.lvl === "easy" || t.lvl === "medium"))).slice(0, 14),
     ];
-  } else if (type==="intermediate") {
+  } else if (type === "intermediate") {
     pool = [
-      ...shuffle(qMedium).slice(0,6),
-      ...shuffle(qHard).slice(0,4),
-      ...shuffle(dialogs.filter(d=>d.lvl==="medium"||d.lvl==="hard")).slice(0,5),
-      ...shuffle(allRT.filter(t=>t.lvl==="medium"||t.lvl==="hard")).slice(0,10),
+      ...shuffle(notSeen(qMedium)).slice(0, 7),
+      ...shuffle(notSeen(dialogs.filter(d => d.lvl === "medium"))).slice(0, 4),
+      ...shuffle(notSeen(allRT.filter(t => t.lvl === "medium"))).slice(0, 14),
     ];
-  } else if (type==="advanced") {
+  } else if (type === "advanced") {
     pool = [
-      ...shuffle(qHard).slice(0,8),
-      ...shuffle(dialogs.filter(d=>d.lvl==="hard")).slice(0,4),
-      ...shuffle(allRT.filter(t=>t.lvl==="hard")).slice(0,13),
+      ...shuffle(notSeen(qHard)).slice(0, 8),
+      ...shuffle(notSeen(dialogs.filter(d => d.lvl === "hard"))).slice(0, 3),
+      ...shuffle(notSeen(allRT.filter(t => t.lvl === "hard"))).slice(0, 14),
     ];
   } else { // mixed
     pool = [
-      ...shuffle(qEasy).slice(0,3),
-      ...shuffle(qMedium).slice(0,4),
-      ...shuffle(qHard).slice(0,4),
-      ...shuffle(dialogs).slice(0,4),
-      ...shuffle(allRT).slice(0,10),
+      ...shuffle(notSeen(qEasy)).slice(0, 3),
+      ...shuffle(notSeen(qMedium)).slice(0, 4),
+      ...shuffle(notSeen(qHard)).slice(0, 3),
+      ...shuffle(notSeen(dialogs)).slice(0, 3),
+      ...shuffle(notSeen(allRT)).slice(0, 12),
     ];
   }
-  return shuffle(pool).slice(0,25);
+
+  // Shuffle options for every question (anti-predictability)
+  pool = shuffle(pool).slice(0, 25).map(q => shuffleOptions(q));
+
+  // Mark as seen
+  pool.forEach(q => { if (q._uid) feSeenQuestions.add(q._uid); });
+
+  // If seen set is very large (> 70% of total), reset to allow recycling
+  const totalQs = qEasy.length + qMedium.length + qHard.length + dialogs.length + allRT.length;
+  if (feSeenQuestions.size > totalQs * 0.7) feSeenQuestions.clear();
+
+  return pool;
 }
 
 // ── Exam type card selection ──
@@ -2633,60 +2705,97 @@ document.querySelectorAll("#timerGroup .toggle-btn").forEach(b => {
 
 // ── Render exam history ──
 function renderExamHistory() {
-  const exams = JSON.parse(localStorage.getItem("em_full_exams") || "[]");
   const container = document.getElementById("examHistory");
   if (!container) return;
+  const exams = JSON.parse(localStorage.getItem("em_full_exams") || "[]");
   if (!exams.length) { container.innerHTML = ""; return; }
   container.innerHTML = `<h3 class="exam-hist-title">📅 Historial de simulacros</h3><div class="exam-hist-list"></div>`;
   const list = container.querySelector(".exam-hist-list");
-  exams.slice(0,8).forEach(e => {
+  exams.slice(0, 8).forEach(e => {
     const item = document.createElement("div");
     item.className = "exam-hist-item";
     item.innerHTML = `<div class="ehi-score">${e.pct}%</div>
       <div class="ehi-info"><strong>${e.correct}/${e.total} correctas</strong>
-      <div class="ehi-date">${e.date} · ${e.duration === 0 ? "Sin límite" : e.duration+" min"} · ${e.examType||"mixto"}</div></div>
-      <div style="font-size:1.3rem">${e.pct>=70?"🏆":e.pct>=50?"⭐":"📚"}</div>`;
+      <div class="ehi-date">${e.date} · ${e.duration === 0 ? "Sin límite" : e.duration + " min"} · ${e.examType || "mixto"}</div></div>
+      <div style="font-size:1.3rem">${e.pct >= 70 ? "🏆" : e.pct >= 50 ? "⭐" : "📚"}</div>`;
     list.appendChild(item);
   });
 }
 
-// ── Start exam ──
-document.getElementById("btnStartFullExam").addEventListener("click", startFullExam);
-document.getElementById("btnRetryFE").addEventListener("click", () => {
-  document.getElementById("examResultScreen").classList.add("hidden");
-  document.getElementById("examConfig").classList.remove("hidden");
-  renderExamHistory();
-});
+// ── Button bindings (safe — check element exists first) ──
+(function bindExamButtons() {
+  const startBtn = document.getElementById("btnStartFullExam");
+  if (startBtn) startBtn.addEventListener("click", startFullExam);
 
+  const retryBtn = document.getElementById("btnRetryFE");
+  if (retryBtn) retryBtn.addEventListener("click", () => {
+    const rs = document.getElementById("examResultScreen");
+    const ec = document.getElementById("examConfig");
+    if (rs) rs.classList.add("hidden");
+    if (ec) ec.classList.remove("hidden");
+    renderExamHistory();
+  });
+
+  const nextBtn = document.getElementById("btnNextFE");
+  if (nextBtn) nextBtn.addEventListener("click", () => {
+    if (feIdx >= feItems.length) finishFullExam(false);
+    else showFEQuestion();
+  });
+})();
+
+// ── Start exam ──
 function startFullExam() {
   feItems = buildPool(feSelectedType);
+  if (!feItems.length) {
+    showToast("⚠️ No hay preguntas disponibles. Intenta otro nivel.");
+    return;
+  }
   feUserAnswers = new Array(feItems.length).fill(null);
   feIdx = 0;
-  feTimerDuration = feSelectedDuration > 0 ? feSelectedDuration * 60 : Infinity;
-  feTimerLeft = feSelectedDuration > 0 ? feSelectedDuration * 60 : 99999;
   feStartTime = Date.now();
+  feTimerDuration = feSelectedDuration > 0 ? feSelectedDuration * 60 : 0;
+  feTimerLeft = feTimerDuration;
 
-  document.getElementById("examConfig").classList.add("hidden");
-  document.getElementById("examResultScreen").classList.add("hidden");
-  document.getElementById("examArena").classList.remove("hidden");
+  const ec = document.getElementById("examConfig");
+  const rs = document.getElementById("examResultScreen");
+  const ea = document.getElementById("examArena");
+  if (ec) ec.classList.add("hidden");
+  if (rs) rs.classList.add("hidden");
+  if (ea) ea.classList.remove("hidden");
 
-  const typeNames = {basic:"📚 Básico",intermediate:"🎯 Intermedio",advanced:"🔥 Avanzado",mixed:"🏆 Mixto"};
-  document.getElementById("examTypeLabel").textContent = typeNames[feSelectedType] || "Examen";
+  // Set exam type label
+  const typeNames = { basic: "📚 Básico", intermediate: "🎯 Intermedio", advanced: "🔥 Avanzado", mixed: "🏆 Mixto" };
+  const lbl = document.getElementById("examTypeLabel");
+  if (lbl) lbl.textContent = typeNames[feSelectedType] || "Examen";
 
+  // Timer display
+  const timerEl = document.getElementById("examTimerDisplay");
   if (feSelectedDuration === 0) {
-    document.getElementById("examTimerDisplay").textContent = "∞";
-    document.getElementById("examTimerProgress").style.width = "100%";
+    if (timerEl) timerEl.textContent = "∞";
+    const pb = document.getElementById("examTimerProgress");
+    if (pb) { pb.style.width = "100%"; pb.className = "exam-timer-progress"; }
   } else {
+    updateFETimerDisplay();
     startFETimer();
   }
 
-  // 3-2-1 countdown then show first question
+  // Reset warning banners
+  const warn = document.getElementById("examWarn");
+  const danger = document.getElementById("examDangerWarn");
+  const tenSec = document.getElementById("tenSecCountdown");
+  if (warn) warn.classList.add("hidden");
+  if (danger) danger.classList.add("hidden");
+  if (tenSec) tenSec.classList.add("hidden");
+
+  // 3-2-1 countdown overlay then show first question
   showExamCountdown(() => showFEQuestion());
 }
 
+// ── Countdown overlay 3-2-1 ──
 function showExamCountdown(cb) {
   const overlay = document.getElementById("examCountdown");
-  const numEl   = document.getElementById("ecdNumber");
+  const numEl = document.getElementById("ecdNumber");
+  if (!overlay || !numEl) { cb(); return; }
   overlay.classList.remove("hidden");
   let count = 3;
   numEl.textContent = count;
@@ -2698,7 +2807,6 @@ function showExamCountdown(cb) {
       cb();
     } else {
       numEl.textContent = count;
-      // trigger animation restart
       numEl.style.animation = "none";
       void numEl.offsetWidth;
       numEl.style.animation = "countPulse .8s ease";
@@ -2709,49 +2817,46 @@ function showExamCountdown(cb) {
 // ── Timer ──
 function startFETimer() {
   clearInterval(feTimerInterval);
-  clearInterval(feTenSecInterval);
-  updateFETimerDisplay();
   const progEl = document.getElementById("examTimerProgress");
-  progEl.style.width = "100%";
-  progEl.className = "exam-timer-progress";
+  if (progEl) { progEl.style.width = "100%"; progEl.className = "exam-timer-progress"; }
 
   feTimerInterval = setInterval(() => {
     feTimerLeft--;
     updateFETimerDisplay();
 
-    const pct = (feTimerLeft / feTimerDuration) * 100;
-    progEl.style.width = pct + "%";
+    const pct = feTimerDuration > 0 ? (feTimerLeft / feTimerDuration) * 100 : 100;
+    if (progEl) progEl.style.width = pct + "%";
 
-    const warn5  = feTimerLeft <= 300 && feTimerLeft > 60;
-    const warn1  = feTimerLeft <= 60  && feTimerLeft > 10;
-    const warn10 = feTimerLeft <= 10  && feTimerLeft > 0;
+    const timerEl = document.getElementById("examTimerDisplay");
+    const warnEl  = document.getElementById("examWarn");
+    const dangerEl = document.getElementById("examDangerWarn");
+    const tenEl   = document.getElementById("tenSecCountdown");
+    const tenNum  = document.getElementById("tenSecNum");
 
-    if (warn10) {
-      progEl.className = "exam-timer-progress danger";
-      document.getElementById("examTimerDisplay").className = "exam-timer-display danger";
-      document.getElementById("examWarn").classList.add("hidden");
-      document.getElementById("examDangerWarn").classList.add("hidden");
-      const tenEl = document.getElementById("tenSecCountdown");
-      const numEl = document.getElementById("tenSecNum");
-      tenEl.classList.remove("hidden");
-      numEl.textContent = feTimerLeft;
-    } else if (warn1) {
-      progEl.className = "exam-timer-progress danger";
-      document.getElementById("examTimerDisplay").className = "exam-timer-display danger";
-      document.getElementById("examDangerWarn").classList.remove("hidden");
-      document.getElementById("tenSecCountdown").classList.add("hidden");
-    } else if (warn5) {
-      progEl.className = "exam-timer-progress warning";
-      document.getElementById("examTimerDisplay").className = "exam-timer-display warning";
-      document.getElementById("examWarn").classList.remove("hidden");
-      document.getElementById("examTimerIcon").textContent = "⚠️";
+    if (feTimerLeft <= 10 && feTimerLeft > 0) {
+      if (timerEl) timerEl.className = "exam-timer-display danger";
+      if (progEl) progEl.className = "exam-timer-progress danger";
+      if (tenEl) { tenEl.classList.remove("hidden"); if (tenNum) tenNum.textContent = feTimerLeft; }
+      if (warnEl) warnEl.classList.add("hidden");
+      if (dangerEl) dangerEl.classList.add("hidden");
+    } else if (feTimerLeft <= 60) {
+      if (timerEl) timerEl.className = "exam-timer-display danger";
+      if (progEl) progEl.className = "exam-timer-progress danger";
+      if (dangerEl) dangerEl.classList.remove("hidden");
+      if (warnEl) warnEl.classList.add("hidden");
+      if (tenEl) tenEl.classList.add("hidden");
+    } else if (feTimerLeft <= 300) {
+      if (timerEl) timerEl.className = "exam-timer-display warning";
+      if (progEl) progEl.className = "exam-timer-progress warning";
+      if (warnEl) { warnEl.classList.remove("hidden"); document.getElementById("examTimerIcon").textContent = "⚠️"; }
+      if (tenEl) tenEl.classList.add("hidden");
     } else {
-      document.getElementById("examTimerDisplay").className = "exam-timer-display";
+      if (timerEl) timerEl.className = "exam-timer-display";
     }
 
     if (feTimerLeft <= 0) {
       clearInterval(feTimerInterval);
-      document.getElementById("tenSecCountdown").classList.add("hidden");
+      if (tenEl) tenEl.classList.add("hidden");
       playTimeUp();
       finishFullExam(true);
     }
@@ -2762,42 +2867,56 @@ function updateFETimerDisplay() {
   if (feSelectedDuration === 0) return;
   const m = Math.floor(feTimerLeft / 60);
   const sec = feTimerLeft % 60;
-  document.getElementById("examTimerDisplay").textContent =
-    `${String(m).padStart(2,"0")}:${String(sec).padStart(2,"0")}`;
+  const el = document.getElementById("examTimerDisplay");
+  if (el) el.textContent = `${String(m).padStart(2, "0")}:${String(sec).padStart(2, "0")}`;
 }
 
 // ── Show question ──
 function showFEQuestion() {
   if (feIdx >= feItems.length) { finishFullExam(false); return; }
   const q = feItems[feIdx];
-  document.getElementById("examQCounter").textContent = `${feIdx+1}/${feItems.length}`;
-  document.getElementById("feContext").textContent = q.context || q.scene || "";
+
+  const counter = document.getElementById("examQCounter");
+  if (counter) counter.textContent = `${feIdx + 1}/${feItems.length}`;
+
+  const ctxEl = document.getElementById("feContext");
+  if (ctxEl) ctxEl.textContent = q.context || q.scene || "";
 
   const tb = document.getElementById("feTextBlock");
-  if (q.type === "readq" && q.textBody) {
-    tb.classList.remove("hidden");
-    document.getElementById("feTextTitle").textContent = q.textTitle || "";
-    document.getElementById("feTextBody").textContent = q.textBody;
-  } else {
-    tb.classList.add("hidden");
+  if (tb) {
+    if (q.type === "readq" && q.textBody) {
+      tb.classList.remove("hidden");
+      const ttl = document.getElementById("feTextTitle");
+      const tbody = document.getElementById("feTextBody");
+      if (ttl) ttl.textContent = q.textTitle || "";
+      if (tbody) tbody.textContent = q.textBody;
+    } else {
+      tb.classList.add("hidden");
+    }
   }
 
-  document.getElementById("feQuestion").textContent = q.q;
-  const optsEl = document.getElementById("feOptions");
-  optsEl.innerHTML = "";
-  q.options.forEach((opt, i) => {
-    const btn = document.createElement("button");
-    btn.className = "option-btn";
-    btn.innerHTML = `<span class="opt-letter">${String.fromCharCode(65+i)}</span> ${opt.replace(/^[A-D]\.\s*/, "")}`;
-    btn.addEventListener("click", () => selectFEAnswer(i, q));
-    optsEl.appendChild(btn);
-  });
+  const qEl = document.getElementById("feQuestion");
+  if (qEl) qEl.textContent = q.q;
 
-  document.getElementById("feFeedback").classList.add("hidden");
+  const optsEl = document.getElementById("feOptions");
+  if (optsEl) {
+    optsEl.innerHTML = "";
+    q.options.forEach((opt, i) => {
+      const btn = document.createElement("button");
+      btn.className = "option-btn";
+      btn.innerHTML = `<span class="opt-letter">${String.fromCharCode(65 + i)}</span> ${opt.replace(/^[A-D]\.\s*/, "")}`;
+      btn.addEventListener("click", () => selectFEAnswer(i, q));
+      optsEl.appendChild(btn);
+    });
+  }
+
+  const fbEl = document.getElementById("feFeedback");
+  if (fbEl) fbEl.classList.add("hidden");
 }
 
 // ── Select answer ──
 function selectFEAnswer(chosen, q) {
+  // Disable all options
   document.querySelectorAll("#feOptions .option-btn").forEach((btn, i) => {
     btn.disabled = true;
     if (i === q.answer) btn.classList.add("correct");
@@ -2808,27 +2927,31 @@ function selectFEAnswer(chosen, q) {
   feUserAnswers[feIdx] = { chosen, correct, q };
   if (correct) playCorrect(); else playWrong();
 
-  document.getElementById("feFbResult").innerHTML = correct
+  const fbResult = document.getElementById("feFbResult");
+  const fbCorrect = document.getElementById("feFbCorrect");
+  const fbExpl = document.getElementById("feFbExpl");
+  const fbEl = document.getElementById("feFeedback");
+
+  if (fbResult) fbResult.innerHTML = correct
     ? `<span style="color:var(--green)">✓ ¡Correcto!</span>`
     : `<span style="color:var(--red)">✗ Incorrecto.</span>`;
-  document.getElementById("feFbCorrect").textContent =
-    `✓ Respuesta correcta: ${q.correctEs || q.options[q.answer]}`;
-  document.getElementById("feFbExpl").textContent = q.explanation || "";
-  document.getElementById("feFeedback").classList.remove("hidden");
+  if (fbCorrect) fbCorrect.textContent = `✓ Respuesta correcta: ${q.correctEs || q.options[q.answer]}`;
+  if (fbExpl) fbExpl.textContent = q.explanation || "";
+  if (fbEl) fbEl.classList.remove("hidden");
+
   feIdx++;
 }
-
-document.getElementById("btnNextFE").addEventListener("click", () => {
-  if (feIdx >= feItems.length) finishFullExam(false);
-  else showFEQuestion();
-});
 
 // ── Finish exam ──
 function finishFullExam(timedOut) {
   clearInterval(feTimerInterval);
-  clearInterval(feTenSecInterval);
-  document.getElementById("examArena").classList.add("hidden");
-  document.getElementById("examResultScreen").classList.remove("hidden");
+
+  const ea = document.getElementById("examArena");
+  const rs = document.getElementById("examResultScreen");
+  const tenEl = document.getElementById("tenSecCountdown");
+  if (ea) ea.classList.add("hidden");
+  if (rs) rs.classList.remove("hidden");
+  if (tenEl) tenEl.classList.add("hidden");
 
   const timeUsed = Math.round((Date.now() - feStartTime) / 1000);
   const answered = feUserAnswers.filter(a => a !== null);
@@ -2836,93 +2959,105 @@ function finishFullExam(timedOut) {
   const total    = feItems.length;
   const pct      = total ? Math.round((correct / total) * 100) : 0;
 
-  // Play result sound
   if (pct >= 60) playExamPass(); else playExamFail();
   if (timedOut) playTimeUp();
 
-  document.getElementById("feResultEmoji").textContent = pct>=80?"🏆":pct>=60?"⭐":pct>=40?"📚":"💪";
-  document.getElementById("feResultTitle").textContent =
-    timedOut ? "¡Tiempo agotado!" : pct>=80 ? "¡Excelente resultado!" : pct>=60 ? "¡Buen trabajo!" : "Sigue practicando";
-  document.getElementById("feScoreBig").textContent = pct + "%";
+  // Emoji & title
+  const emoji = document.getElementById("feResultEmoji");
+  const title = document.getElementById("feResultTitle");
+  if (emoji) emoji.textContent = pct >= 80 ? "🏆" : pct >= 60 ? "⭐" : pct >= 40 ? "📚" : "💪";
+  if (title) title.textContent = timedOut ? "⏱️ ¡Tiempo agotado!" :
+    pct >= 80 ? "¡Excelente resultado!" : pct >= 60 ? "¡Buen trabajo!" : "Sigue practicando";
 
-  // Main stats grid
-  const timeStr = `${Math.floor(timeUsed/60)}m ${timeUsed%60}s`;
+  const scoreBig = document.getElementById("feScoreBig");
+  if (scoreBig) scoreBig.textContent = pct + "%";
+
+  // Stats grid
+  const timeStr = `${Math.floor(timeUsed / 60)}m ${timeUsed % 60}s`;
   const avgTime = answered.length ? Math.round(timeUsed / answered.length) : 0;
-  document.getElementById("feResultGrid").innerHTML = `
+  const grid = document.getElementById("feResultGrid");
+  if (grid) grid.innerHTML = `
     <div class="fe-rg-item"><div class="fe-rg-num green">${correct}</div><div class="fe-rg-label">Correctas</div></div>
-    <div class="fe-rg-item"><div class="fe-rg-num red">${answered.length-correct}</div><div class="fe-rg-label">Incorrectas</div></div>
-    <div class="fe-rg-item"><div class="fe-rg-num">${total-answered.length}</div><div class="fe-rg-label">Sin responder</div></div>
+    <div class="fe-rg-item"><div class="fe-rg-num red">${answered.length - correct}</div><div class="fe-rg-label">Incorrectas</div></div>
+    <div class="fe-rg-item"><div class="fe-rg-num">${total - answered.length}</div><div class="fe-rg-label">Sin responder</div></div>
     <div class="fe-rg-item"><div class="fe-rg-num accent">${pct}%</div><div class="fe-rg-label">Precisión</div></div>`;
 
   // Time stats
-  document.getElementById("feTimeStats").innerHTML = `
+  const timeStats = document.getElementById("feTimeStats");
+  if (timeStats) timeStats.innerHTML = `
     <div class="fe-ts-item"><div class="fe-ts-num">${timeStr}</div><div class="fe-ts-label">Tiempo usado</div></div>
-    <div class="fe-ts-item"><div class="fe-ts-num">${avgTime}s</div><div class="fe-ts-label">Promedio por pregunta</div></div>
-    <div class="fe-ts-item"><div class="fe-ts-num">${feSelectedDuration===0?"∞":feSelectedDuration+"m"}</div><div class="fe-ts-label">Duración configurada</div></div>`;
+    <div class="fe-ts-item"><div class="fe-ts-num">${avgTime}s</div><div class="fe-ts-label">Promedio/pregunta</div></div>
+    <div class="fe-ts-item"><div class="fe-ts-num">${feSelectedDuration === 0 ? "∞" : feSelectedDuration + "m"}</div><div class="fe-ts-label">Duración config.</div></div>`;
 
   // Category breakdown
   const cats = {};
   answered.forEach(a => {
-    const cat = a.q.type==="readq"?"Comprensión Lectora":
-                a.q.type==="dialog"?"Diálogos":
-                (a.q.context||"Vocabulario").substring(0,22);
-    if (!cats[cat]) cats[cat] = {correct:0,total:0};
-    cats[cat].total++;
-    if (a.correct) cats[cat].correct++;
+    const raw = a.q.type === "readq" ? "Comprensión Lectora" :
+                a.q.type === "dialog" ? "Diálogos" :
+                (a.q.qtype === "grammar" ? "Gramática" : "Vocabulario");
+    if (!cats[raw]) cats[raw] = { correct: 0, total: 0 };
+    cats[raw].total++;
+    if (a.correct) cats[raw].correct++;
   });
   const cbEl = document.getElementById("feCatBreakdown");
-  cbEl.innerHTML = `<div class="fe-lb-title">📊 Rendimiento por categoría</div>`;
-  const catColors = {"Comprensión Lectora":"#1e88e5","Diálogos":"#7c3aed","Vocabulario":"#00c853","Gramática":"#f9a825"};
-  Object.entries(cats).slice(0,6).forEach(([cat, d]) => {
-    const pp = Math.round((d.correct/d.total)*100);
-    const col = catColors[cat] || "var(--accent)";
-    const row = document.createElement("div");
-    row.className = "fe-cat-row";
-    row.innerHTML = `<div class="fe-cat-name">${cat.length>20?cat.slice(0,20)+"…":cat}</div>
-      <div class="fe-cat-bar-wrap"><div class="fe-cat-bar" style="width:${pp}%;background:${col}"></div></div>
-      <div class="fe-cat-pct">${pp}%</div>`;
-    cbEl.appendChild(row);
-  });
+  if (cbEl) {
+    cbEl.innerHTML = `<div class="fe-lb-title">📊 Rendimiento por categoría</div>`;
+    const catColors = { "Comprensión Lectora": "#1e88e5", "Diálogos": "#7c3aed", "Vocabulario": "#00c853", "Gramática": "#f9a825" };
+    Object.entries(cats).forEach(([cat, d]) => {
+      const pp = Math.round((d.correct / d.total) * 100);
+      const col = catColors[cat] || "var(--accent)";
+      const row = document.createElement("div");
+      row.className = "fe-cat-row";
+      row.innerHTML = `<div class="fe-cat-name">${cat}</div>
+        <div class="fe-cat-bar-wrap"><div class="fe-cat-bar" style="width:${pp}%;background:${col}"></div></div>
+        <div class="fe-cat-pct">${pp}%</div>`;
+      cbEl.appendChild(row);
+    });
+  }
 
   // Level breakdown
-  const levels = {easy:{correct:0,total:0},medium:{correct:0,total:0},hard:{correct:0,total:0}};
+  const levels = { easy: { correct: 0, total: 0 }, medium: { correct: 0, total: 0 }, hard: { correct: 0, total: 0 } };
   answered.forEach(a => {
     const lvl = a.q.lvl || "medium";
-    if (!levels[lvl]) levels[lvl] = {correct:0,total:0};
+    if (!levels[lvl]) levels[lvl] = { correct: 0, total: 0 };
     levels[lvl].total++;
     if (a.correct) levels[lvl].correct++;
   });
   const lbEl = document.getElementById("feLevelBreakdown");
-  lbEl.innerHTML = `<div class="fe-lb-title">📈 Rendimiento por nivel</div>`;
-  [{key:"easy",label:"🌱 Básico A1–A2",col:"#00c853"},
-   {key:"medium",label:"⚡ Intermedio A2–B1",col:"#f9a825"},
-   {key:"hard",label:"🔥 Avanzado B1",col:"#e53935"}].forEach(({key,label,col}) => {
-    const d = levels[key] || {correct:0,total:0};
-    if (!d.total) return;
-    const pp = Math.round((d.correct/d.total)*100);
-    const row = document.createElement("div");
-    row.className = "fe-lb-row";
-    row.innerHTML = `<div class="fe-lb-name">${label}</div>
-      <div class="fe-lb-bar-wrap"><div class="fe-lb-bar" style="width:${pp}%;background:${col}"></div></div>
-      <div class="fe-lb-pct">${pp}%</div>
-      <div class="fe-lb-count">${d.correct}/${d.total}</div>`;
-    lbEl.appendChild(row);
-  });
+  if (lbEl) {
+    lbEl.innerHTML = `<div class="fe-lb-title">📈 Rendimiento por nivel</div>`;
+    [{ key: "easy", label: "🌱 Básico A1–A2", col: "#00c853" },
+     { key: "medium", label: "⚡ Intermedio A2–B1", col: "#f9a825" },
+     { key: "hard", label: "🔥 Avanzado B1", col: "#e53935" }].forEach(({ key, label, col }) => {
+      const d = levels[key];
+      if (!d || !d.total) return;
+      const pp = Math.round((d.correct / d.total) * 100);
+      const row = document.createElement("div");
+      row.className = "fe-lb-row";
+      row.innerHTML = `<div class="fe-lb-name">${label}</div>
+        <div class="fe-lb-bar-wrap"><div class="fe-lb-bar" style="width:${pp}%;background:${col}"></div></div>
+        <div class="fe-lb-pct">${pp}%</div>
+        <div class="fe-lb-count">${d.correct}/${d.total}</div>`;
+      lbEl.appendChild(row);
+    });
+  }
 
   // Review list
   const rl = document.getElementById("feReviewList");
-  rl.innerHTML = "";
-  answered.forEach((a, i) => {
-    const item = document.createElement("div");
-    item.className = "fe-review-item " + (a.correct ? "correct-item" : "wrong-item");
-    item.innerHTML = `<div class="fe-rev-q">${i+1}. ${a.q.q}</div>
-      ${!a.correct ? `<div class="fe-rev-your">Tu respuesta: ${a.q.options[a.chosen] || "Sin responder"}</div>` : ""}
-      <div class="fe-rev-correct">✓ ${a.q.correctEs || a.q.options[a.q.answer]}</div>
-      ${a.q.explanation ? `<div class="fe-rev-expl">${a.q.explanation}</div>` : ""}`;
-    rl.appendChild(item);
-  });
+  if (rl) {
+    rl.innerHTML = "";
+    answered.forEach((a, i) => {
+      const item = document.createElement("div");
+      item.className = "fe-review-item " + (a.correct ? "correct-item" : "wrong-item");
+      item.innerHTML = `<div class="fe-rev-q">${i + 1}. ${a.q.q}</div>
+        ${!a.correct ? `<div class="fe-rev-your">Tu respuesta: ${a.q.options[a.chosen] || "Sin responder"}</div>` : ""}
+        <div class="fe-rev-correct">✓ ${a.q.correctEs || a.q.options[a.q.answer]}</div>
+        ${a.q.explanation ? `<div class="fe-rev-expl">${a.q.explanation}</div>` : ""}`;
+      rl.appendChild(item);
+    });
+  }
 
-  // Save history
+  // Save to history
   const exams = JSON.parse(localStorage.getItem("em_full_exams") || "[]");
   exams.unshift({ pct, correct, total, date: new Date().toLocaleDateString("es-CO"),
     duration: feSelectedDuration, examType: feSelectedType, timeUsed });
@@ -2931,7 +3066,7 @@ function finishFullExam(timedOut) {
 
   // Update global stats
   if (!state.modeStats) state.modeStats = {};
-  if (!state.modeStats.fullexam) state.modeStats.fullexam = {correct:0,wrong:0};
+  if (!state.modeStats.fullexam) state.modeStats.fullexam = { correct: 0, wrong: 0 };
   state.modeStats.fullexam.correct += correct;
   state.modeStats.fullexam.wrong   += (answered.length - correct);
   state.totalAnswered += answered.length;
