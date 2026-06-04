@@ -1180,6 +1180,1146 @@ The ethical and economic implications of automation are profound and unresolved.
         correctEs:"C. Replace or force out = reemplazar o desplazar (quitar empleos)" },
     ]
   },
+
+  // ════════════════════════════════════════
+  // BATCH 1 — A1 Basic (everyday topics)
+  // ════════════════════════════════════════
+
+  {
+    id:"my_family", level:"easy",
+    meta:"Nivel A1 — Familia y vida cotidiana",
+    title:"My Family",
+    body:`My name is Carlos. I live with my family in a small house. My father is a driver and my mother is a teacher. I have one sister and one brother. My sister is twelve years old and my brother is eight.
+
+We eat breakfast together every morning. My mother cooks eggs and toast. My father drinks coffee. On weekends, we watch movies and play games.
+
+I love my family very much.`,
+    questions:[
+      { q:"What is Carlos's father's job?", options:["A. Teacher","B. Driver","C. Doctor","D. Cook"], answer:1,
+        explanation:"El texto dice: 'My father is a driver.'",
+        correctEs:"B. Driver = conductor / chofer" },
+      { q:"How many siblings does Carlos have?", options:["A. One","B. Two","C. Three","D. None"], answer:1,
+        explanation:"Carlos tiene una hermana y un hermano = dos hermanos en total.",
+        correctEs:"B. Two = dos (una hermana y un hermano)" },
+      { q:"What does Carlos's family do on weekends?", options:["A. Play sports","B. Go to the park","C. Watch movies and play games","D. Cook together"], answer:2,
+        explanation:"El texto dice: 'On weekends, we watch movies and play games.'",
+        correctEs:"C. Watch movies and play games = ver películas y jugar juegos" },
+      { q:"What does 'together' mean in the text?", options:["A. Alone","B. Quietly","C. At the same time, with others","D. Quickly"], answer:2,
+        explanation:"'Together' = juntos = al mismo tiempo, con otras personas.",
+        correctEs:"C. At the same time, with others = juntos / al mismo tiempo con otros" },
+      { q:"What is the main idea of the text?", options:["A. How to cook breakfast","B. A description of Carlos's family life","C. Schools in Colombia","D. Weekend activities"], answer:1,
+        explanation:"El texto describe la familia de Carlos, sus trabajos, rutinas y actividades.",
+        correctEs:"B. A description of Carlos's family life = una descripción de la vida familiar de Carlos" },
+      { q:"True or False: Carlos's mother is a doctor.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto dice que su madre es maestra (teacher), no doctora.",
+        correctEs:"B. False = Falso (es maestra, no doctora)" },
+      { q:"What do they eat for breakfast?", options:["A. Rice and chicken","B. Eggs and toast","C. Cereal and milk","D. Bread and butter"], answer:1,
+        explanation:"El texto dice: 'My mother cooks eggs and toast.'",
+        correctEs:"B. Eggs and toast = huevos y tostadas" },
+    ]
+  },
+  {
+    id:"my_school", level:"easy",
+    meta:"Nivel A1 — Escuela y educación básica",
+    title:"My School",
+    body:`I go to school every day from Monday to Friday. My school has twenty classrooms, a library, a cafeteria, and a big playground. There are five hundred students and thirty teachers.
+
+My favorite subject is English. I also like science and art. My English teacher is very kind and funny. She always helps us with new vocabulary.
+
+School finishes at three o'clock in the afternoon. After school, I do my homework and then play outside.`,
+    questions:[
+      { q:"How many classrooms does the school have?", options:["A. Ten","B. Fifteen","C. Twenty","D. Thirty"], answer:2,
+        explanation:"El texto dice: 'My school has twenty classrooms.'",
+        correctEs:"C. Twenty = veinte salones de clase" },
+      { q:"What is the student's favorite subject?", options:["A. Science","B. Art","C. Maths","D. English"], answer:3,
+        explanation:"El texto dice: 'My favorite subject is English.'",
+        correctEs:"D. English = inglés (es su materia favorita)" },
+      { q:"How is the English teacher described?", options:["A. Strict and serious","B. Kind and funny","C. Quiet and boring","D. Young and tall"], answer:1,
+        explanation:"El texto dice: 'My English teacher is very kind and funny.'",
+        correctEs:"B. Kind and funny = amable y divertida" },
+      { q:"What time does school finish?", options:["A. Two o'clock","B. Three o'clock","C. Four o'clock","D. Five o'clock"], answer:1,
+        explanation:"El texto dice: 'School finishes at three o'clock in the afternoon.'",
+        correctEs:"B. Three o'clock = a las tres de la tarde" },
+      { q:"What does the student do after school?", options:["A. Watches TV and sleeps","B. Does homework and plays outside","C. Goes to the library","D. Eats at the cafeteria"], answer:1,
+        explanation:"El texto dice: 'I do my homework and then play outside.'",
+        correctEs:"B. Does homework and plays outside = hace tarea y juega afuera" },
+      { q:"True or False: The school has a swimming pool.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto menciona biblioteca, cafetería y patio, pero no piscina.",
+        correctEs:"B. False = Falso (no se menciona piscina)" },
+      { q:"What does 'vocabulary' mean?", options:["A. Grammar rules","B. A list of words and their meanings","C. Pronunciation","D. Reading skills"], answer:1,
+        explanation:"'Vocabulary' = vocabulario = el conjunto de palabras y sus significados.",
+        correctEs:"B. A list of words and their meanings = un conjunto de palabras y sus significados" },
+    ]
+  },
+  {
+    id:"animals_zoo", level:"easy",
+    meta:"Nivel A1 — Animales y vocabulario básico",
+    title:"Animals at the Zoo",
+    body:`Last Saturday, my family went to the zoo. We saw many different animals. There were lions, elephants, monkeys, zebras, and giraffes. The lions were sleeping in the sun. The elephants were eating grass and leaves.
+
+My favorite animal was the giraffe because it is very tall. Giraffes have long necks and eat leaves from the tops of trees. The monkeys were very funny — they were jumping and making noise.
+
+There was a sign near the monkeys that said: "Don't feed the animals!" We had a wonderful time at the zoo.`,
+    questions:[
+      { q:"When did the family go to the zoo?", options:["A. Last Sunday","B. Last Friday","C. Last Saturday","D. Last Monday"], answer:2,
+        explanation:"El texto dice: 'Last Saturday, my family went to the zoo.'",
+        correctEs:"C. Last Saturday = el sábado pasado" },
+      { q:"What were the lions doing?", options:["A. Running","B. Eating","C. Playing","D. Sleeping in the sun"], answer:3,
+        explanation:"El texto dice: 'The lions were sleeping in the sun.'",
+        correctEs:"D. Sleeping in the sun = durmiendo al sol" },
+      { q:"Why was the giraffe the narrator's favorite animal?", options:["A. It is very fast","B. It is very tall","C. It is very funny","D. It is very colorful"], answer:1,
+        explanation:"El texto dice: 'My favorite animal was the giraffe because it is very tall.'",
+        correctEs:"B. It is very tall = es muy alta" },
+      { q:"What does a giraffe eat?", options:["A. Meat and fish","B. Grass and flowers","C. Leaves from the tops of trees","D. Fruit and vegetables"], answer:2,
+        explanation:"El texto dice: 'Giraffes eat leaves from the tops of trees.'",
+        correctEs:"C. Leaves from the tops of trees = hojas de las copas de los árboles" },
+      { q:"What did the sign near the monkeys say?", options:["A. Keep quiet!","B. Don't feed the animals!","C. No cameras!","D. Stay away!"], answer:1,
+        explanation:"El texto dice: 'There was a sign that said: Don't feed the animals!'",
+        correctEs:"B. Don't feed the animals! = ¡No alimentes a los animales!" },
+      { q:"True or False: The elephants were sleeping.", options:["A. True","B. False"], answer:1,
+        explanation:"Los elefantes estaban comiendo (eating grass and leaves), no durmiendo. Los leones eran los que dormían.",
+        correctEs:"B. False = Falso (los elefantes estaban comiendo, no durmiendo)" },
+      { q:"What does 'wonderful' mean in the last sentence?", options:["A. Terrible","B. Very good / excellent","C. Strange","D. Boring"], answer:1,
+        explanation:"'Wonderful' = maravilloso = muy bueno, excelente.",
+        correctEs:"B. Very good / excellent = maravilloso / muy bueno" },
+    ]
+  },
+  {
+    id:"weather_seasons", level:"easy",
+    meta:"Nivel A1 — El tiempo y las estaciones",
+    title:"Weather and Seasons",
+    body:`There are four seasons in a year: spring, summer, autumn, and winter. Each season has different weather.
+
+In spring, the weather is warm and flowers bloom. In summer, it is hot and sunny. People go to the beach and swim in the sea. In autumn, the leaves on trees change colour and fall to the ground. In winter, it is cold and sometimes it snows.
+
+My favorite season is summer because I love swimming and spending time outside. My sister prefers spring because she loves flowers and gardens.`,
+    questions:[
+      { q:"How many seasons are there in a year?", options:["A. Two","B. Three","C. Four","D. Five"], answer:2,
+        explanation:"El texto dice: 'There are four seasons in a year.'",
+        correctEs:"C. Four = cuatro estaciones en un año" },
+      { q:"What happens in autumn according to the text?", options:["A. It snows","B. Flowers bloom","C. Leaves change colour and fall","D. People go to the beach"], answer:2,
+        explanation:"El texto dice: 'In autumn, the leaves on trees change colour and fall to the ground.'",
+        correctEs:"C. Leaves change colour and fall = las hojas cambian de color y caen" },
+      { q:"Why does the narrator love summer?", options:["A. Because of flowers","B. Because of snow","C. Because of swimming and time outside","D. Because school is open"], answer:2,
+        explanation:"El texto dice: 'My favorite season is summer because I love swimming and spending time outside.'",
+        correctEs:"C. Because of swimming and time outside = por nadar y pasar tiempo afuera" },
+      { q:"What does 'bloom' mean as used in the text?", options:["A. Fall off","B. Open and flower","C. Change colour","D. Grow tall"], answer:1,
+        explanation:"'Bloom' = florecer = abrirse y producir flores (las flores florecen en primavera).",
+        correctEs:"B. Open and flower = abrirse y florecer" },
+      { q:"What season does the narrator's sister prefer?", options:["A. Summer","B. Winter","C. Autumn","D. Spring"], answer:3,
+        explanation:"El texto dice: 'My sister prefers spring because she loves flowers and gardens.'",
+        correctEs:"D. Spring = primavera (le gustan las flores y los jardines)" },
+      { q:"True or False: In winter, it is hot and sunny.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto dice que en invierno hace frío y a veces nieva. En verano es cuando hace calor y sol.",
+        correctEs:"B. False = Falso (en invierno hace frío, no calor)" },
+      { q:"What does 'prefer' mean?", options:["A. To dislike","B. To like more than other options","C. To choose randomly","D. To avoid"], answer:1,
+        explanation:"'Prefer' = preferir = gustar más que otras opciones.",
+        correctEs:"B. To like more than other options = preferir / gustar más" },
+    ]
+  },
+  {
+    id:"healthy_food", level:"easy",
+    meta:"Nivel A1 — Alimentación saludable",
+    title:"Eating Healthy",
+    body:`Eating healthy food is very important for our bodies. We need different types of food every day. Fruits and vegetables give us vitamins and help us stay healthy. Milk and cheese give us calcium for strong bones. Bread, rice, and pasta give us energy.
+
+We should eat less sugar and less fast food. Too much sugar can damage our teeth and make us feel tired. Fast food often has too much salt and fat.
+
+Doctors recommend drinking eight glasses of water every day. Water helps our body work well and keeps our skin healthy.`,
+    questions:[
+      { q:"What do fruits and vegetables give us?", options:["A. Calcium","B. Energy","C. Vitamins","D. Fat"], answer:2,
+        explanation:"El texto dice: 'Fruits and vegetables give us vitamins and help us stay healthy.'",
+        correctEs:"C. Vitamins = vitaminas" },
+      { q:"What gives us calcium according to the text?", options:["A. Bread and rice","B. Milk and cheese","C. Fruits and vegetables","D. Water"], answer:1,
+        explanation:"El texto dice: 'Milk and cheese give us calcium for strong bones.'",
+        correctEs:"B. Milk and cheese = leche y queso" },
+      { q:"What can too much sugar damage?", options:["A. Our eyes","B. Our bones","C. Our teeth","D. Our hair"], answer:2,
+        explanation:"El texto dice: 'Too much sugar can damage our teeth and make us feel tired.'",
+        correctEs:"C. Our teeth = nuestros dientes" },
+      { q:"How many glasses of water should we drink daily?", options:["A. Six","B. Seven","C. Eight","D. Ten"], answer:2,
+        explanation:"El texto dice: 'Doctors recommend drinking eight glasses of water every day.'",
+        correctEs:"C. Eight = ocho vasos de agua al día" },
+      { q:"What does 'recommend' mean?", options:["A. To order someone to do something","B. To suggest something as a good idea","C. To forbid something","D. To test something"], answer:1,
+        explanation:"'Recommend' = recomendar = sugerir algo como buena idea.",
+        correctEs:"B. To suggest something as a good idea = sugerir algo como buena idea" },
+      { q:"True or False: Fast food is good for our health.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto dice que la comida rápida tiene demasiada sal y grasa, y que debemos comer menos de ella.",
+        correctEs:"B. False = Falso (la comida rápida tiene mucha sal y grasa)" },
+      { q:"Why is water important according to the text?", options:["A. It gives us energy","B. It gives us vitamins","C. It helps our body work well and keeps skin healthy","D. It replaces food"], answer:2,
+        explanation:"El texto dice: 'Water helps our body work well and keeps our skin healthy.'",
+        correctEs:"C. It helps our body work well and keeps skin healthy = ayuda al cuerpo y mantiene la piel saludable" },
+    ]
+  },
+  {
+    id:"transport", level:"easy",
+    meta:"Nivel A1 — Medios de transporte",
+    title:"Getting Around the City",
+    body:`There are many ways to travel around a city. You can walk, ride a bicycle, take a bus, or travel by metro. Some people drive their own cars.
+
+Walking is free and good for your health. Bicycles are also good for the environment because they do not produce pollution. Buses and metros are cheap and can carry many passengers at one time.
+
+In big cities, there is often a lot of traffic. This makes travelling by car slow and stressful. Many people prefer public transport because it is faster and cheaper during rush hour.`,
+    questions:[
+      { q:"Which transport option is free according to the text?", options:["A. Bus","B. Metro","C. Bicycle","D. Walking"], answer:3,
+        explanation:"El texto dice: 'Walking is free and good for your health.'",
+        correctEs:"D. Walking = caminar (es gratuito)" },
+      { q:"Why are bicycles good for the environment?", options:["A. They are fast","B. They do not produce pollution","C. They are cheap to buy","D. They carry many passengers"], answer:1,
+        explanation:"El texto dice: 'Bicycles are also good for the environment because they do not produce pollution.'",
+        correctEs:"B. They do not produce pollution = no producen contaminación" },
+      { q:"What does 'rush hour' mean?", options:["A. A time when roads are empty","B. A very fast bus service","C. The time when many people travel at once","D. A special road for cyclists"], answer:2,
+        explanation:"'Rush hour' = hora pico = el momento en que muchas personas viajan al mismo tiempo (generalmente mañana y tarde).",
+        correctEs:"C. The time when many people travel at once = la hora pico cuando todos viajan" },
+      { q:"Why is driving a car slow in big cities?", options:["A. Cars are old","B. Roads are wet","C. There is a lot of traffic","D. The speed limit is low"], answer:2,
+        explanation:"El texto dice: 'In big cities, there is often a lot of traffic. This makes travelling by car slow.'",
+        correctEs:"C. There is a lot of traffic = hay mucho tráfico" },
+      { q:"True or False: Buses and metros are expensive.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto dice que buses y metros son baratos (cheap).",
+        correctEs:"B. False = Falso (son baratos, no caros)" },
+      { q:"What does 'stressful' mean?", options:["A. Relaxing","B. Causing worry or anxiety","C. Exciting","D. Comfortable"], answer:1,
+        explanation:"'Stressful' = estresante = que causa preocupación o ansiedad.",
+        correctEs:"B. Causing worry or anxiety = estresante / que causa ansiedad" },
+      { q:"According to the text, why do many people prefer public transport?", options:["A. It is more comfortable","B. It is faster and cheaper during rush hour","C. It is better for the environment","D. It runs all night"], answer:1,
+        explanation:"El texto dice: 'Many people prefer public transport because it is faster and cheaper during rush hour.'",
+        correctEs:"B. Faster and cheaper during rush hour = más rápido y barato en hora pico" },
+    ]
+  },
+
+
+
+  // ════════════════════════════════════════
+  // BATCH 2 — A2 Intermediate (expanding topics)
+  // ════════════════════════════════════════
+
+  {
+    id:"lewis_hamilton_v2", level:"easy",
+    meta:"Nivel A1-A2 — Deportes / Biografía corta",
+    title:"Lewis Hamilton: Racing Champion",
+    body:`Lewis Hamilton is one of the most successful Formula 1 drivers in history. He was born in England in 1985 and started racing go-karts when he was very young. His talent was obvious from the beginning, and he quickly moved through different racing categories.
+
+In 2007, Hamilton made his Formula 1 debut with McLaren. Just one year later, he became the youngest world champion at that time. Throughout his career, he has broken numerous records, including the most pole positions and race victories in Formula 1 history.
+
+Beyond racing, Hamilton is known for promoting diversity, environmental awareness, and equal opportunities in sports. He has used his fame to speak up for important social causes. His influence extends far beyond Formula 1.`,
+    questions:[
+      { q:"Where was Lewis Hamilton born?", options:["A. Germany","B. England","C. France","D. Italy"], answer:1,
+        explanation:"El texto dice: 'He was born in England in 1985.'",
+        correctEs:"B. England = Inglaterra" },
+      { q:"What sport is Hamilton famous for?", options:["A. Football","B. Cycling","C. Formula 1","D. Basketball"], answer:2,
+        explanation:"El texto habla de Hamilton como corredor de Formula 1.",
+        correctEs:"C. Formula 1 = Fórmula 1" },
+      { q:"In what year did Hamilton make his Formula 1 debut?", options:["A. 2005","B. 2006","C. 2007","D. 2008"], answer:2,
+        explanation:"El texto dice: 'In 2007, Hamilton made his Formula 1 debut with McLaren.'",
+        correctEs:"C. 2007 = debutó en Fórmula 1 en 2007" },
+      { q:"What does 'awareness' mean in the text?", options:["A. Ignorance","B. Knowledge and understanding of an issue","C. Competition","D. Speed"], answer:1,
+        explanation:"'Awareness' = conciencia = conocimiento y comprensión de un tema importante.",
+        correctEs:"B. Knowledge and understanding of an issue = conciencia / conocimiento de un tema" },
+      { q:"What is the main idea of the text?", options:["A. Formula 1 cars are expensive","B. Lewis Hamilton's achievements and influence","C. England produces many athletes","D. Racing is dangerous"], answer:1,
+        explanation:"El texto describe los logros de Hamilton tanto dentro como fuera del deporte.",
+        correctEs:"B. Lewis Hamilton's achievements and influence = los logros e influencia de Lewis Hamilton" },
+      { q:"True or False: Hamilton became world champion before entering Formula 1.", options:["A. True","B. False"], answer:1,
+        explanation:"Hamilton debutó en F1 en 2007 y ganó su primer campeonato en 2008, no antes.",
+        correctEs:"B. False = Falso (se hizo campeón después de entrar a la F1)" },
+      { q:"The word 'numerous' in the text means:", options:["A. Very few","B. Difficult","C. A large number of","D. Unknown"], answer:2,
+        explanation:"'Numerous' = numerosos = un gran número de.",
+        correctEs:"C. A large number of = numerosos / un gran número de" },
+      { q:"According to the text, what has Hamilton done beyond racing?", options:["A. Started a car company","B. Promoted diversity and social causes","C. Coached other drivers","D. Written a book about Formula 1"], answer:1,
+        explanation:"El texto dice que Hamilton promueve diversidad, conciencia ambiental e igualdad de oportunidades.",
+        correctEs:"B. Promoted diversity and social causes = promovió diversidad y causas sociales" },
+    ]
+  },
+  {
+    id:"supra_v2", level:"easy",
+    meta:"Nivel A1-A2 — Vehículos / Cultura",
+    title:"The Legend of the Toyota Supra",
+    body:`The Toyota Supra is one of the most famous Japanese sports cars ever created. First introduced in 1978, the Supra gained popularity because of its powerful engines, reliability, and tuning potential.
+
+The fourth-generation Supra, produced during the 1990s, became especially famous after appearing in movies, video games, and racing events. Car enthusiasts around the world admire the car for its performance and iconic design.
+
+The Supra uses a powerful turbocharged engine. With modifications, some Supras can produce enormous amounts of power. Today, the Supra remains a symbol of Japanese automotive culture and the global car enthusiast community.`,
+    questions:[
+      { q:"When was the Toyota Supra first introduced?", options:["A. 1968","B. 1978","C. 1988","D. 1998"], answer:1,
+        explanation:"El texto dice: 'First introduced in 1978.'",
+        correctEs:"B. 1978 = fue introducido por primera vez en 1978" },
+      { q:"Why did the Supra become popular?", options:["A. It was inexpensive","B. It had powerful engines and reliability","C. It was electric","D. It was the fastest car ever made"], answer:1,
+        explanation:"El texto dice: 'the Supra gained popularity because of its powerful engines, reliability, and tuning potential.'",
+        correctEs:"B. Powerful engines and reliability = motores potentes y confiabilidad" },
+      { q:"What does 'enthusiasts' mean?", options:["A. Engineers","B. Critics","C. Fans who love something passionately","D. Mechanics"], answer:2,
+        explanation:"'Enthusiasts' = entusiastas = personas que aman algo apasionadamente.",
+        correctEs:"C. Fans who love something passionately = entusiastas / fanáticos apasionados" },
+      { q:"In what decade was the fourth-generation Supra produced?", options:["A. 1970s","B. 1980s","C. 1990s","D. 2000s"], answer:2,
+        explanation:"El texto dice: 'The fourth-generation Supra, produced during the 1990s.'",
+        correctEs:"C. 1990s = en la década de los 90" },
+      { q:"True or False: The Toyota Supra is an American sports car.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto dice claramente que el Supra es un auto deportivo japonés.",
+        correctEs:"B. False = Falso (es un auto japonés, no americano)" },
+      { q:"What does 'iconic' mean?", options:["A. Unknown","B. Very old","C. Widely recognised and admired","D. Cheap"], answer:2,
+        explanation:"'Iconic' = icónico = ampliamente reconocido y admirado, que se ha vuelto símbolo de algo.",
+        correctEs:"C. Widely recognised and admired = icónico / ampliamente reconocido" },
+      { q:"What is the main purpose of the text?", options:["A. To explain how engines work","B. To describe the history and popularity of the Supra","C. To compare sports cars","D. To advertise a vehicle"], answer:1,
+        explanation:"El texto narra la historia y la popularidad del Toyota Supra.",
+        correctEs:"B. Describe the history and popularity of the Supra = describir la historia y popularidad del Supra" },
+    ]
+  },
+  {
+    id:"toriyama_v2", level:"medium",
+    meta:"Nivel A2 — Cultura popular / Manga",
+    title:"Akira Toriyama and Dragon Ball",
+    body:`Akira Toriyama was a Japanese manga artist best known for creating Dragon Ball. Born in Nagoya in 1955, he began his career drawing comic strips and eventually became one of the most influential creators in the history of Japanese entertainment.
+
+Dragon Ball began as a comedic adventure following a boy named Goku who could stretch like rubber and went on quests to collect magical balls. The series introduced memorable characters such as Vegeta, Piccolo, and Bulma. It became popular worldwide and inspired numerous television shows, movies, and video games.
+
+Toriyama's clean, expressive drawing style and his ability to combine action with humour helped shape modern anime and manga culture globally. He passed away in 2024, but his work continues to inspire new generations.`,
+    questions:[
+      { q:"What was Akira Toriyama's profession?", options:["A. Musician","B. Athlete","C. Manga artist","D. Engineer"], answer:2,
+        explanation:"El texto dice: 'Akira Toriyama was a Japanese manga artist.'",
+        correctEs:"C. Manga artist = artista de manga" },
+      { q:"Which series made him internationally famous?", options:["A. Naruto","B. One Piece","C. Dragon Ball","D. Pokémon"], answer:2,
+        explanation:"El texto dice que Dragon Ball es la obra por la que es más conocido.",
+        correctEs:"C. Dragon Ball = la serie que lo hizo famoso mundialmente" },
+      { q:"What does 'influential' mean?", options:["A. Unimportant","B. Having a great impact on others","C. Very fast","D. Expensive"], answer:1,
+        explanation:"'Influential' = influyente = que tiene un gran impacto en otros.",
+        correctEs:"B. Having a great impact on others = influyente / que tiene gran impacto" },
+      { q:"True or False: Dragon Ball only became popular in Japan.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto dice: 'It became popular worldwide' = se hizo popular en todo el mundo.",
+        correctEs:"B. False = Falso (se hizo popular en todo el mundo)" },
+      { q:"What is the main idea of the text?", options:["A. The history of anime","B. The life and influence of Akira Toriyama","C. Japanese television history","D. Video game development"], answer:1,
+        explanation:"El texto describe la vida, obra e influencia de Toriyama.",
+        correctEs:"B. The life and influence of Akira Toriyama = la vida e influencia de Akira Toriyama" },
+      { q:"The word 'comedic' in paragraph 2 means:", options:["A. Sad and dramatic","B. Funny and humorous","C. Violent and dark","D. Scientific"], answer:1,
+        explanation:"'Comedic' = cómico = gracioso y humorístico.",
+        correctEs:"B. Funny and humorous = cómico / gracioso y humorístico" },
+      { q:"What two elements did Toriyama combine in his work?", options:["A. Action and romance","B. Drama and mystery","C. Action and humour","D. History and science"], answer:2,
+        explanation:"El texto dice: 'his ability to combine action with humour helped shape modern anime.'",
+        correctEs:"C. Action and humour = acción y humor" },
+      { q:"When did Akira Toriyama pass away?", options:["A. 2020","B. 2022","C. 2023","D. 2024"], answer:3,
+        explanation:"El texto dice: 'He passed away in 2024.'",
+        correctEs:"D. 2024 = falleció en 2024" },
+    ]
+  },
+  {
+    id:"apple_story", level:"medium",
+    meta:"Nivel A2 — Tecnología / Historia empresarial",
+    title:"The Story of Apple",
+    body:`Apple was founded in 1976 by Steve Jobs, Steve Wozniak, and Ronald Wayne. The company started in a garage in California and eventually became one of the largest technology companies in the world.
+
+Steve Jobs played a key role in developing iconic products such as the iPhone, iPod, iMac, and iPad. Apple's focus on clean design, easy-to-use interfaces, and innovation helped the company stand out from competitors.
+
+After Jobs died in 2011, Tim Cook became the new CEO. Under his leadership, Apple continued to grow and released new products including the Apple Watch and AirPods. Today, Apple products are used by hundreds of millions of people worldwide.`,
+    questions:[
+      { q:"When was Apple founded?", options:["A. 1974","B. 1976","C. 1980","D. 1984"], answer:1,
+        explanation:"El texto dice: 'Apple was founded in 1976.'",
+        correctEs:"B. 1976 = fue fundada en 1976" },
+      { q:"Where did Apple start?", options:["A. A university lab","B. A factory","C. A garage in California","D. A government office"], answer:2,
+        explanation:"El texto dice: 'The company started in a garage in California.'",
+        correctEs:"C. A garage in California = un garaje en California" },
+      { q:"What does 'innovation' mean?", options:["A. Copying existing products","B. Selling cheaply","C. Creating new ideas and products","D. Advertising effectively"], answer:2,
+        explanation:"'Innovation' = innovación = crear nuevas ideas y productos.",
+        correctEs:"C. Creating new ideas and products = innovación / crear nuevas ideas" },
+      { q:"Who became CEO after Steve Jobs died?", options:["A. Steve Wozniak","B. Ronald Wayne","C. Bill Gates","D. Tim Cook"], answer:3,
+        explanation:"El texto dice: 'After Jobs died in 2011, Tim Cook became the new CEO.'",
+        correctEs:"D. Tim Cook = se convirtió en CEO después de Jobs" },
+      { q:"True or False: Steve Jobs was one of Apple's three founders.", options:["A. True","B. False"], answer:0,
+        explanation:"El texto dice que Apple fue fundada por Steve Jobs, Steve Wozniak y Ronald Wayne — tres personas.",
+        correctEs:"A. True = Verdadero (Jobs fue uno de los tres fundadores)" },
+      { q:"Why did Apple stand out from competitors?", options:["A. It had the cheapest products","B. It had clean design, easy interfaces and innovation","C. It paid the highest salaries","D. It was the oldest tech company"], answer:1,
+        explanation:"El texto dice: 'Apple's focus on clean design, easy-to-use interfaces, and innovation helped the company stand out.'",
+        correctEs:"B. Clean design, easy interfaces and innovation = diseño limpio, interfaces fáciles e innovación" },
+      { q:"Which products did Tim Cook introduce at Apple?", options:["A. iPhone and iPod","B. iMac and iPad","C. Apple Watch and AirPods","D. Macintosh and Apple II"], answer:2,
+        explanation:"El texto dice: 'Under his leadership, Apple released new products including the Apple Watch and AirPods.'",
+        correctEs:"C. Apple Watch and AirPods = los lanzó bajo el liderazgo de Tim Cook" },
+      { q:"The word 'iconic' in paragraph 2 means:", options:["A. Outdated","B. Widely recognised and admired","C. Experimental","D. Inexpensive"], answer:1,
+        explanation:"'Iconic' = icónico = ampliamente reconocido y admirado.",
+        correctEs:"B. Widely recognised and admired = icónico / muy reconocido y admirado" },
+    ]
+  },
+  {
+    id:"space_v2", level:"medium",
+    meta:"Nivel A2 — Ciencia / Exploración espacial",
+    title:"Exploring Space",
+    body:`Space exploration has helped humanity understand the universe. Since the launch of the first artificial satellites in the 1950s, scientists have gathered valuable information about planets, stars, and galaxies.
+
+NASA, the European Space Agency (ESA), and other organisations have sent missions to the Moon, Mars, and beyond. The Apollo 11 mission in 1969 was the first to land humans on the Moon. More recently, rovers on Mars have collected data about the planet's atmosphere, rocks, and potential for life.
+
+Modern technology allows researchers to study extremely distant objects using powerful telescopes. Many experts believe that future missions could eventually send humans to Mars within the next few decades.`,
+    questions:[
+      { q:"What is the main purpose of space exploration according to the text?", options:["A. Entertainment","B. Understanding the universe","C. Building vehicles","D. Selling technology"], answer:1,
+        explanation:"El texto dice: 'Space exploration has helped humanity understand the universe.'",
+        correctEs:"B. Understanding the universe = comprender el universo" },
+      { q:"When did the Apollo 11 mission land humans on the Moon?", options:["A. 1959","B. 1965","C. 1969","D. 1972"], answer:2,
+        explanation:"El texto dice: 'The Apollo 11 mission in 1969 was the first to land humans on the Moon.'",
+        correctEs:"C. 1969 = el Apolo 11 aterrizó en la Luna en 1969" },
+      { q:"What does 'distant' mean?", options:["A. Nearby","B. Small","C. Far away","D. Large"], answer:2,
+        explanation:"'Distant' = distante / lejano = muy lejos.",
+        correctEs:"C. Far away = lejano / distante" },
+      { q:"What have Mars rovers been collecting?", options:["A. Moon rocks","B. Data about atmosphere, rocks and potential for life","C. Space debris","D. Satellite signals"], answer:1,
+        explanation:"El texto dice: 'rovers on Mars have collected data about the planet's atmosphere, rocks, and potential for life.'",
+        correctEs:"B. Data about atmosphere, rocks and potential for life = datos sobre la atmósfera, rocas y posibilidad de vida" },
+      { q:"True or False: Scientists only study the Moon.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto menciona planetas, estrellas, galaxias, Marte y objetos distantes — no solo la Luna.",
+        correctEs:"B. False = Falso (estudian muchos objetos, no solo la Luna)" },
+      { q:"The word 'gathered' in paragraph 1 means:", options:["A. Lost","B. Collected","C. Destroyed","D. Studied"], answer:1,
+        explanation:"'Gathered information' = recopilaron información = recolectaron datos.",
+        correctEs:"B. Collected = recopilaron / colectaron" },
+      { q:"What technology helps researchers study distant objects?", options:["A. Submarines","B. Satellites only","C. Powerful telescopes","D. Radio signals"], answer:2,
+        explanation:"El texto dice: 'researchers study extremely distant objects using powerful telescopes.'",
+        correctEs:"C. Powerful telescopes = telescopios potentes" },
+      { q:"It can be inferred from the text that space exploration:", options:["A. Is only done by NASA","B. Has no practical benefits","C. Involves many countries and agencies working together","D. Has been stopped since the 1970s"], answer:2,
+        explanation:"El texto menciona NASA, ESA y 'other organisations' — implica cooperación internacional.",
+        correctEs:"C. Involves many countries and agencies = involucra a muchos países y agencias" },
+    ]
+  },
+
+
+
+  // ════════════════════════════════════════
+  // BATCH 3 — A2/B1 Intermediate-Advanced
+  // ════════════════════════════════════════
+
+  {
+    id:"social_networks", level:"medium",
+    meta:"Nivel A2 — Tecnología / Redes sociales",
+    title:"Social Networks and Communication",
+    body:`Social networks have completely changed the way people communicate. Platforms like Facebook, Instagram, WhatsApp, and TikTok allow users to share messages, photos, and videos instantly with people anywhere in the world.
+
+Before social networks existed, people communicated mainly by telephone, letters, and email. Today, a teenager in Colombia can speak with a friend in South Korea in seconds. This has made the world feel much smaller and more connected.
+
+However, there are risks. Cyberbullying, fake news, and privacy problems are serious concerns. Experts recommend that young people spend no more than two hours per day on social networks and always protect their personal information online.`,
+    questions:[
+      { q:"What have social networks changed according to the text?", options:["A. The way people travel","B. The way people communicate","C. The way people study","D. The way people work"], answer:1,
+        explanation:"El texto dice: 'Social networks have completely changed the way people communicate.'",
+        correctEs:"B. The way people communicate = la manera en que las personas se comunican" },
+      { q:"How did people mainly communicate before social networks?", options:["A. Through apps and video calls","B. By telephone, letters, and email","C. Through social media only","D. By radio and television"], answer:1,
+        explanation:"El texto dice: 'people communicated mainly by telephone, letters, and email.'",
+        correctEs:"B. By telephone, letters, and email = por teléfono, cartas y correo electrónico" },
+      { q:"What does 'instantly' mean?", options:["A. Slowly","B. Occasionally","C. Immediately, without delay","D. Carefully"], answer:2,
+        explanation:"'Instantly' = instantáneamente = inmediatamente, sin demora.",
+        correctEs:"C. Immediately, without delay = instantáneamente / de inmediato" },
+      { q:"What risks of social networks does the text mention?", options:["A. High costs and slow speeds","B. Cyberbullying, fake news, and privacy problems","C. Limited access and expensive devices","D. Language barriers and time zones"], answer:1,
+        explanation:"El texto dice: 'Cyberbullying, fake news, and privacy problems are serious concerns.'",
+        correctEs:"B. Cyberbullying, fake news, and privacy problems = ciberacoso, noticias falsas y problemas de privacidad" },
+      { q:"How much time do experts recommend spending on social networks daily?", options:["A. No more than one hour","B. No more than two hours","C. No more than three hours","D. As much as you want"], answer:1,
+        explanation:"El texto dice: 'Experts recommend that young people spend no more than two hours per day.'",
+        correctEs:"B. No more than two hours = no más de dos horas al día" },
+      { q:"True or False: Social networks have made the world feel more connected.", options:["A. True","B. False"], answer:0,
+        explanation:"El texto dice: 'This has made the world feel much smaller and more connected.'",
+        correctEs:"A. True = Verdadero (el texto lo afirma explícitamente)" },
+      { q:"The word 'concerns' in paragraph 3 means:", options:["A. Solutions","B. Opportunities","C. Serious problems or worries","D. Advantages"], answer:2,
+        explanation:"'Concerns' = preocupaciones = problemas o inquietudes serias.",
+        correctEs:"C. Serious problems or worries = preocupaciones / problemas serios" },
+      { q:"It can be inferred from the text that:", options:["A. Social networks are completely harmful","B. Social networks have both benefits and risks","C. Only teenagers use social networks","D. Social networks will disappear soon"], answer:1,
+        explanation:"El texto describe beneficios (conexión global, comunicación rápida) y riesgos (ciberacoso, noticias falsas), mostrando dos lados.",
+        correctEs:"B. Social networks have both benefits and risks = las redes sociales tienen beneficios y riesgos" },
+    ]
+  },
+  {
+    id:"amazon_rainforest", level:"medium",
+    meta:"Nivel A2 — Medio ambiente / Geografía",
+    title:"The Amazon Rainforest",
+    body:`The Amazon rainforest is the largest tropical forest in the world. It covers most of the northern part of South America and extends across nine countries, including Brazil, Colombia, and Peru. The Amazon River flows through it and is one of the longest rivers on Earth.
+
+The Amazon is home to an extraordinary variety of life. Scientists believe it contains about ten percent of all the species on the planet — including thousands of types of trees, birds, fish, insects, and mammals. Many of these species have not yet been discovered or studied.
+
+Unfortunately, deforestation is a serious threat. Every year, large areas of forest are cut down for farming, mining, and roads. This destroys habitats, releases carbon dioxide into the atmosphere, and contributes to climate change. Protecting the Amazon is essential for the health of the entire planet.`,
+    questions:[
+      { q:"How many countries does the Amazon rainforest extend across?", options:["A. Five","B. Seven","C. Nine","D. Twelve"], answer:2,
+        explanation:"El texto dice: 'extends across nine countries.'",
+        correctEs:"C. Nine = nueve países" },
+      { q:"What percentage of Earth's species does the Amazon contain?", options:["A. Five percent","B. Ten percent","C. Twenty percent","D. Thirty percent"], answer:1,
+        explanation:"El texto dice: 'it contains about ten percent of all the species on the planet.'",
+        correctEs:"B. Ten percent = el diez por ciento de todas las especies del planeta" },
+      { q:"What does 'deforestation' mean?", options:["A. Planting new forests","B. Protecting animals","C. Cutting down large areas of forest","D. Flooding rivers"], answer:2,
+        explanation:"'Deforestation' = deforestación = talar grandes extensiones de bosque.",
+        correctEs:"C. Cutting down large areas of forest = talar grandes extensiones de bosque" },
+      { q:"Why is deforestation a threat according to the text?", options:["A. It makes the forest bigger","B. It destroys habitats and contributes to climate change","C. It creates new roads for tourists","D. It helps local farmers"], answer:1,
+        explanation:"El texto dice que destruye hábitats, libera CO2 y contribuye al cambio climático.",
+        correctEs:"B. Destroys habitats and contributes to climate change = destruye hábitats y contribuye al cambio climático" },
+      { q:"True or False: All Amazon species have already been discovered.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto dice: 'Many of these species have not yet been discovered or studied.'",
+        correctEs:"B. False = Falso (muchas especies no han sido descubiertas aún)" },
+      { q:"The word 'extraordinary' in paragraph 2 means:", options:["A. Ordinary","B. Remarkable and impressive","C. Dangerous","D. Small"], answer:1,
+        explanation:"'Extraordinary' = extraordinario = notable e impresionante.",
+        correctEs:"B. Remarkable and impressive = extraordinario / notable e impresionante" },
+      { q:"Why is protecting the Amazon important according to the last paragraph?", options:["A. It is a tourist destination","B. It produces most of the world's food","C. It is essential for the health of the entire planet","D. It provides jobs for millions of people"], answer:2,
+        explanation:"El texto dice: 'Protecting the Amazon is essential for the health of the entire planet.'",
+        correctEs:"C. Essential for the health of the entire planet = esencial para la salud del planeta entero" },
+      { q:"The main purpose of the text is to:", options:["A. Encourage tourism in the Amazon","B. Describe and warn about the Amazon's situation","C. Explain how rivers form","D. Compare rainforests around the world"], answer:1,
+        explanation:"El texto describe el Amazonas y advierte sobre la deforestación como amenaza.",
+        correctEs:"B. Describe and warn about the Amazon's situation = describir y advertir sobre la situación del Amazonas" },
+    ]
+  },
+  {
+    id:"internet_history", level:"medium",
+    meta:"Nivel A2 — Tecnología / Historia",
+    title:"The History of the Internet",
+    body:`The internet has become one of the most important inventions in human history. It started in the 1960s as a military communication project called ARPANET, developed by the United States government. The goal was to create a communication network that could survive a nuclear attack.
+
+In the 1990s, British scientist Tim Berners-Lee invented the World Wide Web, which made the internet accessible to ordinary people. Suddenly, anyone with a computer could read news, send emails, and find information on almost any topic.
+
+Today, over five billion people use the internet every day. It has transformed education, business, entertainment, and social life. However, challenges remain — including unequal access in developing countries and the spread of misinformation online.`,
+    questions:[
+      { q:"When did the internet begin?", options:["A. The 1940s","B. The 1960s","C. The 1980s","D. The 1990s"], answer:1,
+        explanation:"El texto dice: 'It started in the 1960s as a military communication project called ARPANET.'",
+        correctEs:"B. The 1960s = comenzó en la década de los 60" },
+      { q:"Who invented the World Wide Web?", options:["A. Bill Gates","B. Steve Jobs","C. Tim Berners-Lee","D. Mark Zuckerberg"], answer:2,
+        explanation:"El texto dice: 'British scientist Tim Berners-Lee invented the World Wide Web.'",
+        correctEs:"C. Tim Berners-Lee = inventor de la World Wide Web" },
+      { q:"What was the original purpose of ARPANET?", options:["A. Commercial communication","B. Entertainment","C. Surviving a nuclear attack through communication","D. Weather forecasting"], answer:2,
+        explanation:"El texto dice: 'The goal was to create a communication network that could survive a nuclear attack.'",
+        correctEs:"C. To survive a nuclear attack = sobrevivir un ataque nuclear a través de la comunicación" },
+      { q:"The word 'accessible' in paragraph 2 means:", options:["A. Complicated","B. Available and easy to use for everyone","C. Expensive","D. Secret"], answer:1,
+        explanation:"'Accessible' = accesible = disponible y fácil de usar para todos.",
+        correctEs:"B. Available and easy to use for everyone = accesible / disponible para todos" },
+      { q:"How many people use the internet every day according to the text?", options:["A. One billion","B. Three billion","C. Five billion","D. Seven billion"], answer:2,
+        explanation:"El texto dice: 'over five billion people use the internet every day.'",
+        correctEs:"C. Five billion = más de cinco mil millones de personas" },
+      { q:"True or False: Everyone in the world has equal access to the internet.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto menciona 'unequal access in developing countries' como un desafío existente.",
+        correctEs:"B. False = Falso (hay acceso desigual en países en desarrollo)" },
+      { q:"What does 'misinformation' mean?", options:["A. Correct and verified facts","B. False or inaccurate information","C. News from foreign countries","D. Scientific research"], answer:1,
+        explanation:"'Misinformation' = desinformación = información falsa o incorrecta.",
+        correctEs:"B. False or inaccurate information = desinformación / información falsa" },
+      { q:"Which areas of life has the internet transformed according to the text?", options:["A. Only business and education","B. Education, business, entertainment and social life","C. Only entertainment","D. Agriculture and industry"], answer:1,
+        explanation:"El texto dice: 'It has transformed education, business, entertainment, and social life.'",
+        correctEs:"B. Education, business, entertainment and social life = educación, negocios, entretenimiento y vida social" },
+    ]
+  },
+  {
+    id:"olympic_games", level:"medium",
+    meta:"Nivel A2 — Deportes / Historia",
+    title:"The Olympic Games",
+    body:`The Olympic Games are the world's most important international sporting competition. They began in ancient Greece around 776 BC and were held every four years in the city of Olympia as a celebration in honour of the god Zeus.
+
+The modern Olympic Games were revived in 1896 in Athens, Greece, thanks to the efforts of French educator Pierre de Coubertin. He believed that sport could promote peace, friendship, and understanding between nations. Today, the Summer Olympics and Winter Olympics are held separately, each every four years.
+
+Thousands of athletes from nearly two hundred countries compete in hundreds of different sports. The Olympic motto is "Faster, Higher, Stronger — Together," reflecting the spirit of excellence, unity, and cooperation that the Games represent.`,
+    questions:[
+      { q:"When did the ancient Olympic Games begin?", options:["A. Around 500 BC","B. Around 776 BC","C. Around 1000 BC","D. Around 300 BC"], answer:1,
+        explanation:"El texto dice: 'They began in ancient Greece around 776 BC.'",
+        correctEs:"B. Around 776 BC = alrededor del 776 a.C." },
+      { q:"Who revived the modern Olympic Games?", options:["A. A Greek athlete","B. A British king","C. French educator Pierre de Coubertin","D. The United Nations"], answer:2,
+        explanation:"El texto dice: 'thanks to the efforts of French educator Pierre de Coubertin.'",
+        correctEs:"C. Pierre de Coubertin = educador francés que revivió los Juegos Olímpicos modernos" },
+      { q:"What did Pierre de Coubertin believe sport could promote?", options:["A. Economic growth","B. Military power","C. Peace, friendship and understanding between nations","D. National pride only"], answer:2,
+        explanation:"El texto dice: 'He believed that sport could promote peace, friendship, and understanding between nations.'",
+        correctEs:"C. Peace, friendship and understanding = paz, amistad y entendimiento entre naciones" },
+      { q:"What is the Olympic motto?", options:["A. Strength, Speed, Victory","B. Peace, Unity, Progress","C. Faster, Higher, Stronger — Together","D. Run, Jump, Swim"], answer:2,
+        explanation:"El texto dice: 'The Olympic motto is Faster, Higher, Stronger — Together.'",
+        correctEs:"C. Faster, Higher, Stronger — Together = Más rápido, más alto, más fuerte — juntos" },
+      { q:"True or False: The Summer and Winter Olympics are held in the same year.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto dice que los Juegos de Verano e Invierno se celebran por separado, cada cuatro años.",
+        correctEs:"B. False = Falso (se celebran por separado)" },
+      { q:"The word 'revived' in paragraph 2 means:", options:["A. Created for the first time","B. Destroyed","C. Brought back after a period of absence","D. Changed completely"], answer:2,
+        explanation:"'Revived' = revivir = traer de vuelta después de un período de ausencia.",
+        correctEs:"C. Brought back after a period of absence = revivido / traído de vuelta" },
+      { q:"How many countries participate in the Olympic Games?", options:["A. About one hundred","B. Nearly two hundred","C. Exactly fifty","D. More than three hundred"], answer:1,
+        explanation:"El texto dice: 'athletes from nearly two hundred countries compete.'",
+        correctEs:"B. Nearly two hundred = casi doscientos países" },
+      { q:"The main idea of the text is:", options:["A. Ancient Greece had the best athletes","B. The origin, revival, and spirit of the Olympic Games","C. How to win Olympic gold medals","D. The difference between summer and winter sports"], answer:1,
+        explanation:"El texto cubre el origen, la revivificación moderna y el espíritu de los Juegos Olímpicos.",
+        correctEs:"B. The origin, revival and spirit of the Olympics = el origen, revivificación y espíritu de los Juegos Olímpicos" },
+    ]
+  },
+  {
+    id:"water_cycle", level:"medium",
+    meta:"Nivel A2 — Ciencia / Geografía",
+    title:"The Water Cycle",
+    body:`Water is essential for all life on Earth. The water cycle describes how water moves continuously through the environment in a never-ending process.
+
+When the sun heats water in oceans, rivers, and lakes, it evaporates and rises into the atmosphere as water vapour. As the vapour rises higher, it cools and condenses to form clouds. When enough water collects in clouds, it falls back to Earth as precipitation — rain, snow, or hail.
+
+This water then flows into rivers and oceans, soaks into the ground, or is absorbed by plants. Eventually, the cycle begins again. The water cycle is fundamental to distributing fresh water around the planet and regulating the Earth's temperature and climate.`,
+    questions:[
+      { q:"What is the water cycle?", options:["A. The process by which oceans are formed","B. How water moves continuously through the environment","C. The study of rivers and lakes","D. How clouds produce electricity"], answer:1,
+        explanation:"El texto dice: 'The water cycle describes how water moves continuously through the environment.'",
+        correctEs:"B. How water moves continuously through the environment = cómo el agua se mueve continuamente por el ambiente" },
+      { q:"What happens when the sun heats water?", options:["A. It freezes","B. It evaporates and rises as water vapour","C. It becomes salty","D. It flows into rivers"], answer:1,
+        explanation:"El texto dice: 'it evaporates and rises into the atmosphere as water vapour.'",
+        correctEs:"B. It evaporates and rises as water vapour = se evapora y sube como vapor de agua" },
+      { q:"What causes water vapour to form clouds?", options:["A. Wind pushes it together","B. It cools and condenses as it rises higher","C. The Moon's gravity pulls it","D. Plants release it"], answer:1,
+        explanation:"El texto dice: 'As the vapour rises higher, it cools and condenses to form clouds.'",
+        correctEs:"B. It cools and condenses as it rises = se enfría y condensa a mayor altitud" },
+      { q:"What is 'precipitation'?", options:["A. Evaporation of water","B. Cloud formation","C. Rain, snow, or hail falling from clouds","D. Water flowing in rivers"], answer:2,
+        explanation:"'Precipitation' = precipitación = lluvia, nieve o granizo que cae desde las nubes.",
+        correctEs:"C. Rain, snow, or hail = precipitación (lluvia, nieve o granizo)" },
+      { q:"True or False: The water cycle only involves the ocean.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto menciona océanos, ríos, lagos, la atmósfera, plantas y el suelo — no solo el océano.",
+        correctEs:"B. False = Falso (involucra océanos, ríos, lagos, atmósfera y plantas)" },
+      { q:"The word 'fundamental' in the last sentence means:", options:["A. Optional","B. Basic and essential","C. Complex","D. Beautiful"], answer:1,
+        explanation:"'Fundamental' = fundamental = básico y esencial, de gran importancia.",
+        correctEs:"B. Basic and essential = fundamental / básico y esencial" },
+      { q:"What two things does the water cycle regulate according to the text?", options:["A. Wind and sunlight","B. Ocean depth and river length","C. Fresh water distribution and Earth's temperature","D. Plant growth and soil quality"], answer:2,
+        explanation:"El texto dice: 'distributing fresh water around the planet and regulating the Earth's temperature and climate.'",
+        correctEs:"C. Fresh water distribution and Earth's temperature = distribución de agua dulce y temperatura de la Tierra" },
+    ]
+  },
+
+
+
+  // ════════════════════════════════════════
+  // BATCH 4 — B1 Advanced
+  // ════════════════════════════════════════
+
+  {
+    id:"music_influence", level:"hard",
+    meta:"Nivel B1 — Cultura / Música",
+    title:"How Music Shapes Culture",
+    body:`Music is one of the most universal forms of human expression, transcending language barriers and connecting people across cultures and generations. Every society throughout history has developed its own musical traditions — from the complex polyrhythms of West African drumming to the intricate harmonies of European classical music — yet music simultaneously serves as a vehicle for cultural exchange and transformation.
+
+The twentieth century saw music become a powerful agent of social change. Rock and roll in the 1950s challenged racial segregation in the United States by bringing Black musical traditions to mainstream white audiences. The protest songs of the 1960s articulated the frustrations of a generation opposing war and demanding civil rights. Hip-hop, emerging from the South Bronx in the 1970s, gave voice to communities experiencing poverty and racial discrimination, eventually evolving into a global cultural force worth billions of dollars.
+
+Digital technology has fundamentally altered the way music is created, distributed, and consumed. Streaming platforms like Spotify and Apple Music have made virtually any song in history accessible to anyone with a smartphone. While this democratisation of music offers tremendous benefits, it has also created economic challenges for artists, who earn a fraction of a cent per stream.`,
+    questions:[
+      { q:"What does 'transcending' mean in paragraph 1?", options:["A. Respecting","B. Going beyond the limits of something","C. Following","D. Describing"], answer:1,
+        explanation:"'Transcending language barriers' = trascendiendo las barreras del idioma = yendo más allá de los límites del idioma.",
+        correctEs:"B. Going beyond the limits = trascender / ir más allá de los límites" },
+      { q:"How did rock and roll challenge racial segregation?", options:["A. By supporting government policies","B. By bringing Black musical traditions to mainstream white audiences","C. By replacing African music","D. By promoting classical music"], answer:1,
+        explanation:"El texto dice: 'Rock and roll challenged racial segregation by bringing Black musical traditions to mainstream white audiences.'",
+        correctEs:"B. By bringing Black musical traditions to mainstream white audiences = llevando tradiciones musicales negras al público blanco general" },
+      { q:"Where did hip-hop emerge?", options:["A. Chicago","B. Los Angeles","C. The South Bronx","D. Detroit"], answer:2,
+        explanation:"El texto dice: 'Hip-hop, emerging from the South Bronx in the 1970s.'",
+        correctEs:"C. The South Bronx = el Sur del Bronx (Nueva York)" },
+      { q:"What economic challenge does streaming create for artists?", options:["A. It makes music too expensive","B. It prevents music from being heard","C. Artists earn very little per stream","D. It promotes only famous artists"], answer:2,
+        explanation:"El texto dice: 'artists earn a fraction of a cent per stream.'",
+        correctEs:"C. Artists earn very little per stream = los artistas ganan muy poco por reproducción" },
+      { q:"The word 'democratisation' in paragraph 3 implies:", options:["A. Making something available only to the wealthy","B. Making something accessible to a much wider group of people","C. A political movement","D. The decline of music quality"], answer:1,
+        explanation:"'Democratisation of music' = democratización = hacer la música accesible a muchas más personas.",
+        correctEs:"B. Making something accessible to a wider group = democratizar / hacer accesible a más personas" },
+      { q:"True or False: Music only serves as entertainment with no social significance.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto demuestra que la música ha sido agente de cambio social, protestas y voz de comunidades marginadas.",
+        correctEs:"B. False = Falso (el texto muestra múltiples funciones sociales de la música)" },
+      { q:"What can be inferred about hip-hop's evolution?", options:["A. It remained local to New York","B. It became a global multi-billion dollar cultural force","C. It lost its political message over time","D. It was banned in the United States"], answer:1,
+        explanation:"El texto dice: 'eventually evolving into a global cultural force worth billions of dollars.'",
+        correctEs:"B. It became a global multi-billion dollar cultural force = se convirtió en una fuerza cultural global de miles de millones de dólares" },
+      { q:"The main argument of the text is that music:", options:["A. Is declining in quality due to digital technology","B. Should be protected from commercial interests","C. Transcends entertainment to shape society and culture","D. Is only important in Western countries"], answer:2,
+        explanation:"El texto argumenta que la música va más allá del entretenimiento y moldea la sociedad, culturas y cambios sociales.",
+        correctEs:"C. Transcends entertainment to shape society and culture = trasciende el entretenimiento para moldear la sociedad" },
+    ]
+  },
+  {
+    id:"global_warming_effects", level:"hard",
+    meta:"Nivel B1 — Ciencia / Medio ambiente",
+    title:"The Effects of Global Warming",
+    body:`Global warming refers to the long-term rise in Earth's average surface temperature, primarily caused by the increased concentration of greenhouse gases — particularly carbon dioxide and methane — in the atmosphere. These gases trap heat from the sun, preventing it from escaping back into space, in a process known as the greenhouse effect.
+
+The consequences of global warming are already manifesting across the planet in multiple and interconnected ways. Melting polar ice caps are raising sea levels, threatening to submerge low-lying coastal cities and entire island nations within decades. Changes in precipitation patterns are intensifying droughts in some regions while causing devastating floods in others. Ocean acidification — caused by the absorption of excess CO2 — is bleaching coral reefs and disrupting marine food chains.
+
+Perhaps most concerning is the concept of tipping points: thresholds beyond which certain climate systems can shift suddenly and irreversibly. The collapse of the West Antarctic Ice Sheet or the dieback of the Amazon rainforest — both increasingly plausible — could trigger feedback loops that accelerate warming far beyond current projections, regardless of subsequent human action to reduce emissions.`,
+    questions:[
+      { q:"What are the main greenhouse gases mentioned?", options:["A. Oxygen and nitrogen","B. Carbon dioxide and methane","C. Hydrogen and helium","D. Ozone and argon"], answer:1,
+        explanation:"El texto dice: 'particularly carbon dioxide and methane.'",
+        correctEs:"B. Carbon dioxide and methane = dióxido de carbono y metano" },
+      { q:"What does 'manifesting' mean in paragraph 2?", options:["A. Disappearing","B. Becoming visible or apparent","C. Being studied","D. Being prevented"], answer:1,
+        explanation:"'Manifesting' = manifestándose = haciéndose visible o evidente.",
+        correctEs:"B. Becoming visible or apparent = manifestándose / haciéndose evidente" },
+      { q:"What causes ocean acidification?", options:["A. Industrial waste","B. Plastic pollution","C. Absorption of excess CO2","D. Rising temperatures alone"], answer:2,
+        explanation:"El texto dice: 'Ocean acidification — caused by the absorption of excess CO2.'",
+        correctEs:"C. Absorption of excess CO2 = absorción del exceso de CO2" },
+      { q:"What is a 'tipping point' according to the text?", options:["A. The maximum temperature ever recorded","B. A point where climate systems shift suddenly and irreversibly","C. A scientific measurement tool","D. A government policy decision"], answer:1,
+        explanation:"El texto dice: 'thresholds beyond which certain climate systems can shift suddenly and irreversibly.'",
+        correctEs:"B. A threshold where systems shift suddenly and irreversibly = punto de inflexión donde los sistemas cambian de forma irreversible" },
+      { q:"The word 'plausible' in paragraph 3 means:", options:["A. Impossible","B. Certain to happen","C. Reasonably likely or believable","D. Scientifically proven"], answer:2,
+        explanation:"'Plausible' = plausible = razonablemente probable o creíble.",
+        correctEs:"C. Reasonably likely or believable = plausible / razonablemente probable" },
+      { q:"True or False: Reducing emissions guarantees stopping climate tipping points.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto dice que los bucles de retroalimentación podrían acelerar el calentamiento 'regardless of subsequent human action to reduce emissions' = sin importar las acciones futuras.",
+        correctEs:"B. False = Falso (el texto dice que podrían ocurrir sin importar las reducciones futuras de emisiones)" },
+      { q:"What can be inferred about the relationship between different climate effects?", options:["A. Each effect is completely independent","B. The effects are interconnected and can trigger each other","C. Only sea level rise is significant","D. The effects only occur in rich countries"], answer:1,
+        explanation:"El texto menciona 'multiple and interconnected ways' y 'feedback loops', indicando que los efectos están interconectados.",
+        correctEs:"B. Effects are interconnected and can trigger each other = los efectos están interconectados y pueden activarse entre sí" },
+      { q:"The author's main purpose in this text is to:", options:["A. Propose specific solutions to climate change","B. Describe and warn about the severity and complexity of global warming","C. Criticise governments for inaction","D. Explain the history of climate science"], answer:1,
+        explanation:"El texto describe los efectos y advierte sobre la gravedad del calentamiento global, sin proponer soluciones específicas.",
+        correctEs:"B. Describe and warn about severity and complexity = describir y advertir sobre la gravedad y complejidad del calentamiento global" },
+    ]
+  },
+  {
+    id:"psychology_habits", level:"hard",
+    meta:"Nivel B1 — Psicología / Ciencia del comportamiento",
+    title:"The Science of Habit Formation",
+    body:`Habits are the brain's way of conserving energy. When a behaviour is repeated consistently in the same context, the brain gradually automates it, transferring control from the conscious, deliberate prefrontal cortex to the more automatic basal ganglia. This neurological shift is why habits, once established, can be extraordinarily difficult to break — even when we consciously want to change them.
+
+Psychologist Charles Duhigg, in his influential book The Power of Habit, describes all habits as consisting of a three-part loop: a cue, a routine, and a reward. The cue is the trigger that initiates the behaviour — it might be a time of day, an emotional state, a physical location, or the presence of certain people. The routine is the behaviour itself. The reward is what the brain receives that reinforces the loop and makes it worth repeating.
+
+Understanding this loop is the key to changing habits. Rather than attempting to eliminate a bad habit entirely — which research suggests is extremely difficult — psychologists recommend keeping the same cue and reward while substituting a different, healthier routine. This approach, known as habit substitution, works because it respects the brain's need for the reward without requiring it to abandon the familiar cue-response pattern entirely.`,
+    questions:[
+      { q:"Why does the brain form habits according to the text?", options:["A. To improve memory","B. To conserve energy","C. To increase creativity","D. To process emotions"], answer:1,
+        explanation:"El texto dice: 'Habits are the brain's way of conserving energy.'",
+        correctEs:"B. To conserve energy = para conservar energía (el cerebro automatiza comportamientos repetidos)" },
+      { q:"What does 'automated' mean in the context of the text?", options:["A. Done manually with effort","B. Performed unconsciously without deliberate thought","C. Controlled by technology","D. Learned in school"], answer:1,
+        explanation:"'Automates it' = lo automatiza = lo realiza de forma inconsciente, sin pensamiento deliberado.",
+        correctEs:"B. Performed unconsciously without deliberate thought = realizado inconscientemente sin pensamiento deliberado" },
+      { q:"According to Duhigg, what are the three parts of a habit loop?", options:["A. Start, middle, end","B. Thought, action, result","C. Cue, routine, reward","D. Trigger, decision, outcome"], answer:2,
+        explanation:"El texto dice: 'a cue, a routine, and a reward.'",
+        correctEs:"C. Cue, routine, reward = señal, rutina y recompensa" },
+      { q:"What does 'substituting' mean in paragraph 3?", options:["A. Removing completely","B. Repeating","C. Replacing with something else","D. Ignoring"], answer:2,
+        explanation:"'Substituting a different routine' = sustituyendo una rutina diferente = reemplazando por otra cosa.",
+        correctEs:"C. Replacing with something else = sustituir / reemplazar por otra cosa" },
+      { q:"What is 'habit substitution'?", options:["A. Completely eliminating a bad habit","B. Keeping the cue and reward but changing the routine","C. Adding new habits without removing old ones","D. Using willpower to avoid all habits"], answer:1,
+        explanation:"El texto dice: 'keeping the same cue and reward while substituting a different, healthier routine.'",
+        correctEs:"B. Keeping cue and reward but changing the routine = mantener la señal y recompensa, cambiar la rutina" },
+      { q:"True or False: According to research, completely eliminating a bad habit is easy.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto dice: 'attempting to eliminate a bad habit entirely — which research suggests is extremely difficult.'",
+        correctEs:"B. False = Falso (la investigación sugiere que es extremadamente difícil)" },
+      { q:"The word 'reinforces' in paragraph 2 means:", options:["A. Weakens","B. Replaces","C. Strengthens and encourages repetition","D. Interrupts"], answer:2,
+        explanation:"'Reinforces the loop' = refuerza el ciclo = lo fortalece y lo hace repetirse.",
+        correctEs:"C. Strengthens and encourages repetition = refuerza / fortalece y fomenta la repetición" },
+      { q:"It can be inferred from the text that:", options:["A. All habits are harmful","B. Understanding the habit loop makes change more achievable","C. The brain cannot change habits at any age","D. Willpower alone is sufficient to break habits"], answer:1,
+        explanation:"El texto explica que entender el ciclo cue-routine-reward es 'the key to changing habits', implicando que este conocimiento hace el cambio más alcanzable.",
+        correctEs:"B. Understanding the loop makes change more achievable = entender el ciclo hace el cambio más alcanzable" },
+    ]
+  },
+  {
+    id:"globalisation_culture", level:"hard",
+    meta:"Nivel B1 — Sociedad / Cultura global",
+    title:"Globalisation and Cultural Identity",
+    body:`Globalisation — the process by which the world's economies, cultures, and populations have become increasingly integrated — has generated profound and often contradictory effects on cultural identity. On one hand, it has enabled unprecedented access to art, music, cuisine, and ideas from across the world, enriching local cultures with new influences. On the other hand, it has generated anxieties about cultural homogenisation — the fear that dominant cultures, particularly American popular culture, are gradually eroding the diversity of local traditions.
+
+The debate is complicated by the fact that cultural exchange is not a new phenomenon. Trade routes, migration, and conquest have always mixed cultures, producing hybrid forms that are themselves rich and creative. What distinguishes contemporary globalisation is its speed and scale — the capacity of a single Korean pop song, American film, or Japanese video game to reach a billion people simultaneously within hours of its release.
+
+Cultural resilience also complicates simple narratives of homogenisation. Researchers have found that communities rarely simply absorb foreign cultural influences passively; instead, they actively adapt, reinterpret, and localise them. McDonald's menus differ substantially between countries. K-pop incorporates elements from dozens of musical traditions. Disney films are redubbed, recontextualised, and watched through locally specific lenses. Cultural identity, it turns out, is both more fragile and more robust than either optimists or pessimists typically acknowledge.`,
+    questions:[
+      { q:"What is 'cultural homogenisation'?", options:["A. The celebration of diverse cultures","B. The mixing of two specific cultures","C. The gradual erosion of cultural diversity as dominant cultures spread","D. The creation of new cultural traditions"], answer:2,
+        explanation:"El texto dice: 'the fear that dominant cultures are gradually eroding the diversity of local traditions.'",
+        correctEs:"C. Gradual erosion of cultural diversity = homogenización cultural / erosión gradual de la diversidad" },
+      { q:"What makes contemporary globalisation different from historical cultural exchange?", options:["A. It only involves economic trade","B. Its speed and scale — reaching a billion people simultaneously","C. It only affects Western countries","D. It is controlled by governments"], answer:1,
+        explanation:"El texto dice: 'What distinguishes contemporary globalisation is its speed and scale.'",
+        correctEs:"B. Its speed and scale = su velocidad y escala (alcanzar a miles de millones simultáneamente)" },
+      { q:"The word 'resilience' in paragraph 3 means:", options:["A. The ability to absorb influences without changing","B. The ability to resist and recover while adapting","C. Complete rejection of foreign influences","D. Dependence on other cultures"], answer:1,
+        explanation:"'Cultural resilience' = resiliencia cultural = la capacidad de resistir, adaptarse y recuperarse.",
+        correctEs:"B. Ability to resist and recover while adapting = resiliencia / capacidad de resistir y adaptarse" },
+      { q:"According to the text, how do communities respond to foreign cultural influences?", options:["A. They reject them completely","B. They absorb them passively without any change","C. They actively adapt, reinterpret and localise them","D. They are forced to adopt them by governments"], answer:2,
+        explanation:"El texto dice: 'communities rarely simply absorb foreign cultural influences passively; instead, they actively adapt, reinterpret, and localise them.'",
+        correctEs:"C. They actively adapt, reinterpret and localise = adaptan, reinterpretan y localizan activamente" },
+      { q:"True or False: Cultural exchange began with modern globalisation.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto dice: 'cultural exchange is not a new phenomenon. Trade routes, migration, and conquest have always mixed cultures.'",
+        correctEs:"B. False = Falso (el intercambio cultural no es nuevo; ha existido siempre)" },
+      { q:"What example does the text give of cultural localisation?", options:["A. American films replacing local cinema everywhere","B. McDonald's menus differing substantially between countries","C. K-pop only being popular in Korea","D. Disney films having the same content worldwide"], answer:1,
+        explanation:"El texto dice: 'McDonald's menus differ substantially between countries' como ejemplo de localización.",
+        correctEs:"B. McDonald's menus differing between countries = los menús de McDonald's difieren sustancialmente entre países" },
+      { q:"The word 'contradictory' in paragraph 1 means:", options:["A. Consistent and predictable","B. Positive and negative at the same time","C. Opposing and inconsistent","D. Scientific and measurable"], answer:2,
+        explanation:"'Contradictory effects' = efectos contradictorios = opuestos e inconsistentes entre sí.",
+        correctEs:"C. Opposing and inconsistent = contradictorio / opuesto e inconsistente" },
+      { q:"The author's view on globalisation and cultural identity seems to be:", options:["A. Strongly in favour of globalisation","B. Strongly against globalisation","C. Nuanced — recognising both threats and resilience","D. Indifferent to the issue"], answer:2,
+        explanation:"El texto presenta tanto riesgos (homogenización) como resiliencia cultural, sin tomar partido claro por ningún extremo.",
+        correctEs:"C. Nuanced — recognising both threats and resilience = matizado / reconoce tanto amenazas como resiliencia" },
+    ]
+  },
+  {
+    id:"reading_benefits", level:"hard",
+    meta:"Nivel B1 — Educación / Psicología",
+    title:"Why Reading Matters More Than Ever",
+    body:`In an era of short-form video content, instant messaging, and algorithmically curated social media feeds, sustained reading — particularly of long-form fiction and non-fiction — is increasingly rare, especially among younger generations. This shift has prompted concern among educators and cognitive scientists, who argue that regular reading cultivates cognitive capacities that other forms of media consumption do not.
+
+Research in neuroscience has demonstrated that reading activates significantly more areas of the brain than watching video. When we read a novel, for instance, we simulate the sensory experiences of characters — the smell of rain, the weight of grief, the texture of fabric — through the same neural pathways we would use to experience these things in reality. This process, sometimes called 'neural simulation', builds empathy and emotional intelligence in ways that passive viewing cannot replicate.
+
+Reading also develops what cognitive scientists call 'deep reading' skills — the ability to follow a complex argument over many pages, hold multiple threads of information in mind simultaneously, and draw inferences beyond what is explicitly stated. These skills are essential for academic success, professional competence, and critical citizenship. Paradoxically, the more we lose the habit of sustained reading, the harder reading itself becomes — creating a downward spiral that is difficult to reverse once established.`,
+    questions:[
+      { q:"What concern do educators and cognitive scientists have?", options:["A. That books are too expensive","B. That reading long-form texts cultivates capacities that other media do not","C. That young people read too much","D. That libraries are closing"], answer:1,
+        explanation:"El texto dice que los educadores y científicos 'argue that regular reading cultivates cognitive capacities that other forms of media consumption do not.'",
+        correctEs:"B. Reading cultivates capacities other media do not = leer desarrolla capacidades que otros medios no desarrollan" },
+      { q:"What is 'neural simulation'?", options:["A. A computer program that mimics the brain","B. The brain simulating sensory experiences while reading","C. A type of brain surgery","D. The process of memorising text"], answer:1,
+        explanation:"El texto dice: 'we simulate the sensory experiences of characters through the same neural pathways we would use in reality. This process is called neural simulation.'",
+        correctEs:"B. Brain simulating sensory experiences while reading = el cerebro simulando experiencias sensoriales durante la lectura" },
+      { q:"What does 'empathy' mean as used in the text?", options:["A. Intelligence","B. The ability to understand and share others' feelings","C. Logical reasoning","D. Physical strength"], answer:1,
+        explanation:"'Empathy' = empatía = la capacidad de entender y compartir los sentimientos de otros.",
+        correctEs:"B. The ability to understand and share others' feelings = empatía / entender y compartir los sentimientos de otros" },
+      { q:"What are 'deep reading' skills?", options:["A. The ability to read very quickly","B. Reading underwater","C. Following complex arguments, holding information and drawing inferences","D. Memorising entire books"], answer:2,
+        explanation:"El texto describe: 'following a complex argument over many pages, holding multiple threads in mind, and drawing inferences.'",
+        correctEs:"C. Following complex arguments and drawing inferences = seguir argumentos complejos y sacar inferencias" },
+      { q:"What 'downward spiral' does the text describe?", options:["A. Reading leads to worse academic results","B. The less you read, the harder reading becomes","C. Technology makes people less intelligent","D. Social media reduces empathy"], answer:1,
+        explanation:"El texto dice: 'the more we lose the habit of sustained reading, the harder reading itself becomes — creating a downward spiral.'",
+        correctEs:"B. The less you read, the harder reading becomes = cuanto menos lees, más difícil se vuelve leer" },
+      { q:"True or False: Watching video activates more areas of the brain than reading.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto dice: 'reading activates significantly more areas of the brain than watching video.'",
+        correctEs:"B. False = Falso (leer activa significativamente más áreas del cerebro que ver videos)" },
+      { q:"The word 'paradoxically' in the last paragraph means:", options:["A. Obviously","B. In a way that seems contradictory but is true","C. Scientifically","D. Unfortunately"], answer:1,
+        explanation:"'Paradoxically' = paradójicamente = de una manera que parece contradictoria pero es verdadera.",
+        correctEs:"B. In a way that seems contradictory but is true = paradójicamente / de manera aparentemente contradictoria" },
+      { q:"The main argument of the text is that:", options:["A. Technology is more important than books","B. Schools should ban smartphones","C. Sustained reading develops unique cognitive and emotional capacities","D. Reading is only important for academic success"], answer:2,
+        explanation:"El texto argumenta que leer desarrolla capacidades cognitivas y emocionales únicas que otros medios no pueden replicar.",
+        correctEs:"C. Reading develops unique cognitive and emotional capacities = la lectura desarrolla capacidades cognitivas y emocionales únicas" },
+    ]
+  },
+
+
+
+  // ════════════════════════════════════════
+  // BATCH 5 — Mixed A1/A2/B1 (remaining topics)
+  // ════════════════════════════════════════
+
+  {
+    id:"my_city", level:"easy",
+    meta:"Nivel A1 — La ciudad / Lugares",
+    title:"My City",
+    body:`I live in a big city. My city has many places to visit. There is a central park where people walk, run, and relax. There are also many shops, restaurants, and cinemas. The city has a large bus station and a train station.
+
+Near my house, there is a small market where we buy fresh fruit and vegetables every Saturday. My favourite place in the city is the public library. It has thousands of books and quiet rooms to study.
+
+The city is sometimes noisy and busy, but I love it because everything I need is close to my home.`,
+    questions:[
+      { q:"What can people do in the central park?", options:["A. Shop and eat","B. Walk, run and relax","C. Study and read","D. Buy vegetables"], answer:1,
+        explanation:"El texto dice: 'a central park where people walk, run, and relax.'",
+        correctEs:"B. Walk, run and relax = caminar, correr y relajarse" },
+      { q:"Where does the narrator's family buy fruit and vegetables?", options:["A. At a supermarket","B. At a restaurant","C. At a small market near their house","D. At the central park"], answer:2,
+        explanation:"El texto dice: 'a small market where we buy fresh fruit and vegetables every Saturday.'",
+        correctEs:"C. At a small market near their house = en un pequeño mercado cerca de su casa" },
+      { q:"What is the narrator's favourite place?", options:["A. The park","B. The cinema","C. The market","D. The public library"], answer:3,
+        explanation:"El texto dice: 'My favourite place in the city is the public library.'",
+        correctEs:"D. The public library = la biblioteca pública" },
+      { q:"True or False: The city only has one type of transport.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto menciona estación de buses Y estación de tren — dos tipos de transporte.",
+        correctEs:"B. False = Falso (tiene estación de buses y estación de tren)" },
+      { q:"What does 'noisy' mean?", options:["A. Very quiet","B. Full of loud sounds","C. Dangerous","D. Beautiful"], answer:1,
+        explanation:"'Noisy' = ruidoso = lleno de sonidos fuertes.",
+        correctEs:"B. Full of loud sounds = ruidoso / lleno de sonidos fuertes" },
+      { q:"Why does the narrator love the city?", options:["A. It is very quiet","B. Everything they need is close to home","C. It has the best schools","D. It is cheap to live there"], answer:1,
+        explanation:"El texto dice: 'I love it because everything I need is close to my home.'",
+        correctEs:"B. Everything they need is close to home = todo lo que necesitan está cerca de casa" },
+    ]
+  },
+  {
+    id:"hobbies", level:"easy",
+    meta:"Nivel A1 — Pasatiempos y tiempo libre",
+    title:"My Hobbies",
+    body:`I have many hobbies. My favourite hobby is reading books. I read every night before going to sleep. I also like drawing and painting. I keep all my drawings in a special notebook.
+
+On weekends, I play football with my friends in the park. We usually play for two hours. After football, we go to a café and drink juice or hot chocolate.
+
+I also like listening to music. My favourite type of music is pop. I listen to music while I do my homework. My parents say that music helps me concentrate better.`,
+    questions:[
+      { q:"What is the narrator's favourite hobby?", options:["A. Football","B. Drawing","C. Reading books","D. Listening to music"], answer:2,
+        explanation:"El texto dice: 'My favourite hobby is reading books.'",
+        correctEs:"C. Reading books = leer libros" },
+      { q:"When does the narrator read?", options:["A. In the morning","B. During lunch","C. Every night before going to sleep","D. On weekends only"], answer:2,
+        explanation:"El texto dice: 'I read every night before going to sleep.'",
+        correctEs:"C. Every night before going to sleep = cada noche antes de dormir" },
+      { q:"How long do they usually play football?", options:["A. One hour","B. Two hours","C. Three hours","D. Half an hour"], answer:1,
+        explanation:"El texto dice: 'We usually play for two hours.'",
+        correctEs:"B. Two hours = dos horas" },
+      { q:"What do they drink after football?", options:["A. Water or tea","B. Coffee or milk","C. Juice or hot chocolate","D. Soda or lemonade"], answer:2,
+        explanation:"El texto dice: 'we drink juice or hot chocolate.'",
+        correctEs:"C. Juice or hot chocolate = jugo o chocolate caliente" },
+      { q:"True or False: The narrator listens to rock music.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto dice: 'My favourite type of music is pop' — no rock.",
+        correctEs:"B. False = Falso (su música favorita es el pop, no el rock)" },
+      { q:"What does 'concentrate' mean?", options:["A. To relax","B. To sleep","C. To focus attention on something","D. To enjoy something"], answer:2,
+        explanation:"'Concentrate' = concentrarse = enfocar la atención en algo.",
+        correctEs:"C. To focus attention on something = concentrarse / enfocar la atención" },
+    ]
+  },
+  {
+    id:"volcanoes", level:"medium",
+    meta:"Nivel A2 — Ciencia / Geografía",
+    title:"Volcanoes: Fire from the Earth",
+    body:`A volcano is an opening in the Earth's surface through which molten rock, gas, and ash can escape. Volcanoes form when tectonic plates — the large sections of Earth's crust — move and create weak points in the surface. There are approximately 1,500 active volcanoes on Earth, and around 50 to 70 erupt every year.
+
+When a volcano erupts, it releases lava — molten rock that flows down the sides of the mountain at extremely high temperatures. It also produces volcanic ash, which can spread over hundreds of kilometres and block sunlight. In large eruptions, this ash can lower global temperatures temporarily.
+
+While volcanoes are dangerous, they also have benefits. Volcanic soil is extremely fertile and produces excellent crops. Many important minerals, including gold and copper, are found near volcanic regions. Additionally, geothermal energy — heat from the Earth — can be harvested near volcanoes to generate clean electricity.`,
+    questions:[
+      { q:"What is a volcano?", options:["A. A type of mountain that only occurs in cold regions","B. An opening in the Earth's surface where molten rock and gas escape","C. A deep hole in the ocean floor","D. A natural dam that holds water"], answer:1,
+        explanation:"El texto dice: 'A volcano is an opening in the Earth's surface through which molten rock, gas, and ash can escape.'",
+        correctEs:"B. An opening where molten rock and gas escape = una abertura donde escapan roca fundida y gas" },
+      { q:"How many active volcanoes are there on Earth?", options:["A. About 500","B. About 1,000","C. About 1,500","D. About 2,000"], answer:2,
+        explanation:"El texto dice: 'There are approximately 1,500 active volcanoes on Earth.'",
+        correctEs:"C. About 1,500 = aproximadamente 1,500 volcanes activos" },
+      { q:"What is lava?", options:["A. Volcanic ash that spreads through the air","B. Molten rock that flows down a volcano","C. A type of volcanic gas","D. The opening at the top of a volcano"], answer:1,
+        explanation:"El texto dice: 'lava — molten rock that flows down the sides of the mountain.'",
+        correctEs:"B. Molten rock that flows down a volcano = roca fundida que fluye por los lados del volcán" },
+      { q:"How can volcanic ash affect global temperatures?", options:["A. It raises temperatures","B. It has no effect","C. It can lower temperatures temporarily by blocking sunlight","D. It increases rainfall"], answer:2,
+        explanation:"El texto dice: 'ash can lower global temperatures temporarily.'",
+        correctEs:"C. Can lower temperatures by blocking sunlight = puede bajar temperaturas bloqueando la luz solar" },
+      { q:"What is one benefit of volcanoes mentioned in the text?", options:["A. They stop earthquakes","B. They produce clean water","C. Volcanic soil is very fertile for crops","D. They prevent coastal flooding"], answer:2,
+        explanation:"El texto dice: 'Volcanic soil is extremely fertile and produces excellent crops.'",
+        correctEs:"C. Volcanic soil is very fertile = el suelo volcánico es muy fértil para los cultivos" },
+      { q:"True or False: Volcanoes only have negative effects on humans.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto menciona beneficios: suelo fértil, minerales y energía geotérmica.",
+        correctEs:"B. False = Falso (también tienen beneficios: suelo fértil, minerales, energía geotérmica)" },
+      { q:"What is geothermal energy?", options:["A. Energy from the sun","B. Energy from wind","C. Energy from heat inside the Earth","D. Energy from ocean waves"], answer:2,
+        explanation:"El texto dice: 'geothermal energy — heat from the Earth.'",
+        correctEs:"C. Energy from heat inside the Earth = energía del calor dentro de la Tierra" },
+    ]
+  },
+  {
+    id:"migration_birds", level:"medium",
+    meta:"Nivel A2 — Ciencia / Naturaleza",
+    title:"Why Birds Migrate",
+    body:`Every year, billions of birds travel thousands of kilometres between their breeding grounds and their wintering areas in a remarkable phenomenon called migration. These journeys can take days, weeks, or even months, and many birds return to exactly the same location year after year with extraordinary precision.
+
+Birds migrate primarily to find food and suitable conditions for breeding. As seasons change, food sources in certain regions become scarce. Arctic terns, for example, make the longest migration of any animal — travelling around 70,000 kilometres from the Arctic to the Antarctic and back every year to follow the summer season and its abundance of food.
+
+Scientists are still discovering exactly how birds navigate during migration. Evidence suggests they use multiple systems simultaneously, including the position of the sun and stars, Earth's magnetic field, landmarks, and even smell. Climate change is increasingly disrupting migration patterns, forcing some species to alter the timing and routes of their journeys, with consequences for the entire ecosystems that depend on them.`,
+    questions:[
+      { q:"Why do birds migrate primarily?", options:["A. To escape predators","B. To find new territories","C. To find food and suitable conditions for breeding","D. To follow ocean currents"], answer:2,
+        explanation:"El texto dice: 'Birds migrate primarily to find food and suitable conditions for breeding.'",
+        correctEs:"C. To find food and suitable breeding conditions = para encontrar alimento y condiciones adecuadas para reproducirse" },
+      { q:"How far do Arctic terns travel each year?", options:["A. Around 10,000 kilometres","B. Around 30,000 kilometres","C. Around 50,000 kilometres","D. Around 70,000 kilometres"], answer:3,
+        explanation:"El texto dice: 'Arctic terns travel around 70,000 kilometres from the Arctic to the Antarctic and back every year.'",
+        correctEs:"D. Around 70,000 kilometres = alrededor de 70,000 kilómetros al año" },
+      { q:"What does 'scarce' mean?", options:["A. Plentiful","B. In very limited supply","C. Dangerous","D. Easy to find"], answer:1,
+        explanation:"'Scarce' = escaso = disponible en cantidad muy limitada.",
+        correctEs:"B. In very limited supply = escaso / disponible en cantidad limitada" },
+      { q:"Which navigation system do birds NOT use according to the text?", options:["A. The sun and stars","B. Earth's magnetic field","C. Smell","D. Sound echoes"], answer:3,
+        explanation:"El texto menciona sol, estrellas, campo magnético, puntos de referencia y olfato — no ecos de sonido.",
+        correctEs:"D. Sound echoes = ecos de sonido (no se menciona este sistema)" },
+      { q:"True or False: All birds return to exactly the same location every year.", options:["A. True","B. False"], answer:0,
+        explanation:"El texto dice: 'many birds return to exactly the same location year after year' — no todos, pero muchos sí.",
+        correctEs:"A. True = Verdadero (muchos pájaros regresan exactamente al mismo lugar)" },
+      { q:"How is climate change affecting migration?", options:["A. Birds are migrating more frequently","B. It is disrupting patterns and forcing species to alter timing and routes","C. It makes migration easier","D. It has no effect on migration"], answer:1,
+        explanation:"El texto dice: 'Climate change is increasingly disrupting migration patterns, forcing species to alter the timing and routes.'",
+        correctEs:"B. Disrupting patterns and forcing changes in timing/routes = alterando patrones y forzando cambios en tiempos y rutas" },
+      { q:"The word 'precision' in paragraph 1 means:", options:["A. Speed","B. Distance","C. Accuracy and exactness","D. Difficulty"], answer:2,
+        explanation:"'Extraordinary precision' = precisión extraordinaria = exactitud y precisión notables.",
+        correctEs:"C. Accuracy and exactness = precisión / exactitud" },
+    ]
+  },
+  {
+    id:"entrepreneurs", level:"hard",
+    meta:"Nivel B1 — Economía / Emprendimiento",
+    title:"The Rise of Young Entrepreneurs",
+    body:`Entrepreneurship — the process of creating and building a new business venture — has traditionally been associated with experienced professionals in their thirties and forties. However, the digital revolution has fundamentally disrupted this pattern, dramatically lowering the barriers to starting a business and enabling a generation of young people, including teenagers, to build successful companies from their bedrooms.
+
+The most celebrated example remains Mark Zuckerberg, who co-founded Facebook as a nineteen-year-old Harvard student in 2004. More recently, figures like Kylie Jenner, who built a cosmetics brand worth over one billion dollars by the age of twenty-one, and teenage climate activist-turned-entrepreneur Boyan Slat, who founded The Ocean Cleanup at eighteen, have demonstrated the capacity of young people to achieve remarkable things when talent meets opportunity and determination.
+
+Yet the narrative of effortless youthful success obscures important realities. Research consistently shows that the vast majority of startups fail within their first three years. Young entrepreneurs typically lack the industry knowledge, professional networks, and financial reserves that provide older founders with crucial advantages. Many of the most celebrated young success stories are also exceptional in ways that involve significant privilege — access to top universities, wealthy family networks, or existing platforms that amplify early efforts. Celebrating entrepreneurship as a universal path to success without acknowledging these structural factors does a disservice to the young people it claims to inspire.`,
+    questions:[
+      { q:"What has the digital revolution done to entrepreneurship?", options:["A. Made it more expensive and complicated","B. Lowered barriers and enabled young people to start businesses","C. Limited it to technology companies only","D. Made it exclusive to university graduates"], answer:1,
+        explanation:"El texto dice: 'the digital revolution has dramatically lowered the barriers to starting a business.'",
+        correctEs:"B. Lowered barriers and enabled young people = redujo las barreras y permitió que jóvenes emprendieran" },
+      { q:"How old was Mark Zuckerberg when he co-founded Facebook?", options:["A. Seventeen","B. Eighteen","C. Nineteen","D. Twenty-one"], answer:2,
+        explanation:"El texto dice: 'Mark Zuckerberg, who co-founded Facebook as a nineteen-year-old Harvard student in 2004.'",
+        correctEs:"C. Nineteen = diecinueve años" },
+      { q:"What does 'obscures' mean in paragraph 3?", options:["A. Highlights and clarifies","B. Hides or makes difficult to see","C. Celebrates","D. Creates"], answer:1,
+        explanation:"'Obscures important realities' = oculta realidades importantes = las hace difíciles de ver.",
+        correctEs:"B. Hides or makes difficult to see = oculta / hace difícil ver" },
+      { q:"According to the text, what percentage of startups succeed?", options:["A. The vast majority","B. About half","C. The vast majority fail within three years","D. Almost all succeed eventually"], answer:2,
+        explanation:"El texto dice: 'the vast majority of startups fail within their first three years.'",
+        correctEs:"C. The vast majority fail = la gran mayoría fracasa en los primeros tres años" },
+      { q:"What advantages do older founders have over young entrepreneurs?", options:["A. More social media followers","B. Better physical health","C. Industry knowledge, professional networks and financial reserves","D. More creative ideas"], answer:2,
+        explanation:"El texto dice: 'industry knowledge, professional networks, and financial reserves that provide older founders with crucial advantages.'",
+        correctEs:"C. Industry knowledge, networks and financial reserves = conocimiento del sector, redes y reservas financieras" },
+      { q:"True or False: The text fully supports entrepreneurship as a universal path to success.", options:["A. True","B. False"], answer:1,
+        explanation:"El último párrafo critica esta narrativa, señalando que ignora factores estructurales como el privilegio y el acceso a recursos.",
+        correctEs:"B. False = Falso (el texto critica esta narrativa por ignorar factores estructurales)" },
+      { q:"What does 'privilege' refer to in the last paragraph?", options:["A. Natural talent","B. Hard work and dedication","C. Advantages some people have that others do not","D. The ability to use technology"], answer:2,
+        explanation:"'Privilege' = privilegio = ventajas que algunas personas tienen y otras no (universidades de élite, redes familiares adineradas).",
+        correctEs:"C. Advantages some people have that others do not = privilegio / ventajas que algunos tienen y otros no" },
+      { q:"The author's main purpose is to:", options:["A. Discourage young people from starting businesses","B. Celebrate all young entrepreneurs equally","C. Present a balanced and critical view of youth entrepreneurship","D. Argue that only older people can succeed in business"], answer:2,
+        explanation:"El texto celebra logros pero también critica narrativas simplistas, presentando una visión equilibrada y crítica.",
+        correctEs:"C. Present a balanced and critical view = presentar una visión equilibrada y crítica del emprendimiento juvenil" },
+    ]
+  },
+  {
+    id:"biodiversity", level:"hard",
+    meta:"Nivel B1 — Ciencia / Medio ambiente",
+    title:"Biodiversity and Why It Matters",
+    body:`Biodiversity refers to the variety of life on Earth — the millions of species of plants, animals, fungi, and microorganisms that have evolved over billions of years, the ecosystems they form, and the genetic diversity within each species. Scientists estimate that Earth is home to between eight and ten million species, of which fewer than two million have been formally identified and described.
+
+This diversity is not merely an aesthetic or philosophical concern — it is the foundation of ecosystem services that human civilisation depends on. Bees and other pollinators are responsible for fertilising approximately seventy-five percent of the world's food crops. Forests regulate water cycles, prevent soil erosion, and absorb carbon dioxide. Microorganisms in soil decompose organic matter and recycle nutrients. Remove any significant component from these systems, and the cascading effects can destabilise entire ecosystems.
+
+The current rate of species extinction is estimated to be between one hundred and one thousand times higher than the natural background rate — what scientists call the sixth mass extinction event. The primary drivers are habitat destruction, climate change, invasive species, pollution, and overexploitation. Unlike previous mass extinctions caused by natural events such as asteroid impacts or volcanic eruptions, this one is entirely the result of human activity, making it both uniquely concerning and, in principle, preventable.`,
+    questions:[
+      { q:"What does 'biodiversity' mean according to the text?", options:["A. The study of plants and animals","B. The variety of all life on Earth including species, ecosystems and genetic diversity","C. The number of species in a single forest","D. The protection of endangered animals only"], answer:1,
+        explanation:"El texto dice: 'Biodiversity refers to the variety of life on Earth — species, ecosystems and genetic diversity within each species.'",
+        correctEs:"B. Variety of all life including species, ecosystems and genetic diversity = variedad de toda la vida incluyendo especies, ecosistemas y diversidad genética" },
+      { q:"What percentage of food crops do bees help fertilise?", options:["A. About twenty-five percent","B. About fifty percent","C. About seventy-five percent","D. Almost one hundred percent"], answer:2,
+        explanation:"El texto dice: 'pollinators are responsible for fertilising approximately seventy-five percent of the world's food crops.'",
+        correctEs:"C. About seventy-five percent = aproximadamente el 75% de los cultivos alimentarios" },
+      { q:"What is the 'sixth mass extinction'?", options:["A. A natural event that happened millions of years ago","B. The current human-caused rate of species extinction far exceeding natural rates","C. A prediction about future climate change","D. The extinction of dinosaurs"], answer:1,
+        explanation:"El texto describe la tasa actual de extinción como 100-1000 veces mayor que la natural, causada por el ser humano.",
+        correctEs:"B. Human-caused extinction rate far exceeding natural rates = tasa de extinción causada por humanos muy superior a la natural" },
+      { q:"What does 'cascading effects' mean in paragraph 2?", options:["A. Effects that are small and unimportant","B. Effects in water systems only","C. A chain of consequences where one change triggers many others","D. Positive environmental changes"], answer:2,
+        explanation:"'Cascading effects' = efectos en cascada = una cadena de consecuencias donde un cambio desencadena muchos otros.",
+        correctEs:"C. A chain of consequences where one change triggers many others = efectos en cascada" },
+      { q:"True or False: Previous mass extinctions were caused by human activity.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto dice que las extinciones anteriores fueron causadas por eventos naturales; la actual es causada por la actividad humana.",
+        correctEs:"B. False = Falso (las anteriores fueron por eventos naturales; la actual es por actividad humana)" },
+      { q:"The word 'overexploitation' in the last paragraph most likely means:", options:["A. Using resources carefully and sustainably","B. Using resources excessively until they are depleted","C. Exploring new territories","D. Protecting natural habitats"], answer:1,
+        explanation:"'Overexploitation' = sobreexplotación = usar recursos en exceso hasta agotarlos.",
+        correctEs:"B. Using resources excessively until depleted = sobreexplotación / usar recursos hasta agotarlos" },
+      { q:"Why is the current mass extinction 'preventable' according to the text?", options:["A. Because scientists have the technology to revive extinct species","B. Because governments have already passed protective laws","C. Because it is caused by human activity, which can change","D. Because most species can survive habitat loss"], answer:2,
+        explanation:"El texto dice que al ser causado por actividad humana, en principio es 'preventable' — puede prevenirse cambiando el comportamiento humano.",
+        correctEs:"C. Because it is caused by humans, which can change = porque es causada por humanos, que pueden cambiar" },
+      { q:"The main argument of the text is that:", options:["A. We should study more species","B. Biodiversity is only important for science","C. Biodiversity is essential for human survival and is being destroyed by human activity","D. Climate change is the only threat to biodiversity"], answer:2,
+        explanation:"El texto argumenta que la biodiversidad es fundamental para la civilización humana y está siendo destruida principalmente por acciones humanas.",
+        correctEs:"C. Biodiversity is essential for survival and is being destroyed = la biodiversidad es esencial y está siendo destruida por el ser humano" },
+    ]
+  },
+
+
+
+  // ════════════════════════════════════════
+  // BATCH 6 — Final mixed batch A1/A2/B1
+  // ════════════════════════════════════════
+
+  {
+    id:"dreams_sleep", level:"easy",
+    meta:"Nivel A1 — Ciencia básica / Vida cotidiana",
+    title:"Dreams and Sleep",
+    body:`Everyone dreams. Scientists say that people dream three to six times every night, but we usually do not remember most of our dreams. We only remember the last dream before we wake up.
+
+Dreams happen during a special stage of sleep called REM (Rapid Eye Movement). During REM sleep, our eyes move quickly and our brain is very active. This is when the most vivid dreams occur.
+
+No one knows exactly why we dream. Some scientists think dreams help us process our feelings and memories. Others think they are just random images. Sweet dreams!`,
+    questions:[
+      { q:"How many times do people dream each night?", options:["A. One to two times","B. Three to six times","C. Seven to ten times","D. Only once"], answer:1,
+        explanation:"El texto dice: 'people dream three to six times every night.'",
+        correctEs:"B. Three to six times = de tres a seis veces cada noche" },
+      { q:"What is REM sleep?", options:["A. A very deep sleep with no brain activity","B. A stage of sleep when eyes move quickly and the brain is active","C. The first stage of falling asleep","D. A type of sleep medicine"], answer:1,
+        explanation:"El texto dice: 'REM (Rapid Eye Movement) — our eyes move quickly and our brain is very active.'",
+        correctEs:"B. A stage when eyes move quickly and brain is active = la etapa REM donde los ojos se mueven rápido" },
+      { q:"Why do we usually not remember our dreams?", options:["A. We are too tired","B. Dreams are too short","C. We only remember the last dream before waking up","D. The brain deletes them"], answer:2,
+        explanation:"El texto dice: 'We only remember the last dream before we wake up.'",
+        correctEs:"C. We only remember the last dream before waking = solo recordamos el último sueño antes de despertar" },
+      { q:"What does 'vivid' mean?", options:["A. Short and forgettable","B. Very clear and detailed","C. Strange and confusing","D. Quiet and calm"], answer:1,
+        explanation:"'Vivid dreams' = sueños vívidos = muy claros, detallados e intensos.",
+        correctEs:"B. Very clear and detailed = vívido / muy claro y detallado" },
+      { q:"True or False: Scientists know exactly why we dream.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto dice: 'No one knows exactly why we dream.'",
+        correctEs:"B. False = Falso (nadie sabe exactamente por qué soñamos)" },
+      { q:"What do some scientists think dreams help us do?", options:["A. Learn new languages","B. Grow taller","C. Process our feelings and memories","D. Predict the future"], answer:2,
+        explanation:"El texto dice: 'Some scientists think dreams help us process our feelings and memories.'",
+        correctEs:"C. Process feelings and memories = procesar sentimientos y memorias" },
+    ]
+  },
+  {
+    id:"coral_reefs", level:"medium",
+    meta:"Nivel A2 — Ciencia / Medio ambiente marino",
+    title:"Coral Reefs: Rainforests of the Sea",
+    body:`Coral reefs are often called the rainforests of the sea because they support an extraordinary amount of biodiversity. Despite covering less than one percent of the ocean floor, coral reefs provide habitat for approximately twenty-five percent of all marine species — including thousands of types of fish, crustaceans, molluscs, and sea plants.
+
+Corals are not plants but animals — tiny creatures called polyps that live in colonies and build hard calcium carbonate skeletons over hundreds and thousands of years. The Great Barrier Reef in Australia, the world's largest coral reef system, stretches over 2,300 kilometres and is visible from space.
+
+Unfortunately, coral reefs are under severe threat. Rising ocean temperatures cause corals to expel the algae that give them their colour and nutrition, a process known as coral bleaching. Bleached corals are stressed and can die if conditions do not improve quickly. Ocean acidification, pollution, and destructive fishing practices also damage reefs significantly. Scientists estimate that without urgent action, seventy to ninety percent of coral reefs could be lost by the end of this century.`,
+    questions:[
+      { q:"Why are coral reefs compared to rainforests?", options:["A. They are found in tropical regions","B. They are both green in colour","C. They support an extraordinary amount of biodiversity","D. They produce oxygen"], answer:2,
+        explanation:"El texto dice: 'called the rainforests of the sea because they support an extraordinary amount of biodiversity.'",
+        correctEs:"C. They support extraordinary biodiversity = sustentan una biodiversidad extraordinaria" },
+      { q:"What percentage of marine species do coral reefs support?", options:["A. About five percent","B. About ten percent","C. About twenty-five percent","D. About fifty percent"], answer:2,
+        explanation:"El texto dice: 'provide habitat for approximately twenty-five percent of all marine species.'",
+        correctEs:"C. About twenty-five percent = aproximadamente el 25% de todas las especies marinas" },
+      { q:"What are corals actually?", options:["A. Plants that grow underwater","B. Rocks covered in algae","C. Tiny animals called polyps","D. A type of underwater moss"], answer:2,
+        explanation:"El texto dice: 'Corals are not plants but animals — tiny creatures called polyps.'",
+        correctEs:"C. Tiny animals called polyps = pequeños animales llamados pólipos" },
+      { q:"What is coral bleaching?", options:["A. A process of coral reproduction","B. When corals expel their algae due to rising temperatures","C. The natural colour change of corals in winter","D. A cleaning method used by scientists"], answer:1,
+        explanation:"El texto dice: 'corals expel the algae that give them their colour and nutrition — a process known as coral bleaching.'",
+        correctEs:"B. When corals expel algae due to rising temperatures = cuando los corales expulsan las algas por el aumento de temperatura" },
+      { q:"True or False: The Great Barrier Reef is invisible from space.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto dice: 'is visible from space.'",
+        correctEs:"B. False = Falso (el texto dice que es visible desde el espacio)" },
+      { q:"How much of the ocean floor do coral reefs cover?", options:["A. About ten percent","B. About five percent","C. Less than one percent","D. About twenty-five percent"], answer:2,
+        explanation:"El texto dice: 'Despite covering less than one percent of the ocean floor.'",
+        correctEs:"C. Less than one percent = menos del uno por ciento del fondo oceánico" },
+      { q:"According to scientists, what could happen to coral reefs by the end of this century?", options:["A. They could double in size","B. They could move to colder waters","C. Seventy to ninety percent could be lost","D. They could be saved completely"], answer:2,
+        explanation:"El texto dice: 'seventy to ninety percent of coral reefs could be lost by the end of this century.'",
+        correctEs:"C. Seventy to ninety percent could be lost = del 70 al 90% podría perderse para fin de siglo" },
+    ]
+  },
+  {
+    id:"language_learning", level:"medium",
+    meta:"Nivel A2 — Educación / Lingüística",
+    title:"How We Learn Languages",
+    body:`Learning a second language is one of the most rewarding and challenging intellectual activities a person can undertake. Research in linguistics and cognitive science has revealed that the age at which we begin learning a language significantly affects how naturally and completely we acquire it.
+
+Children under the age of ten learn languages with remarkable ease. Their brains are in a highly plastic phase, meaning new neural connections form quickly and efficiently. Children absorb grammar rules without being explicitly taught them — they simply internalise the patterns through exposure and use. This is why children of immigrants often become more fluent in their new country's language than their parents, even when both are exposed to the same environment.
+
+After puberty, the brain becomes less plastic and language acquisition becomes more conscious and effortful. Adults learn through explicit instruction, grammar study, and vocabulary memorisation — processes that are less efficient than childhood immersion. However, adults are not at a complete disadvantage: research shows they often achieve higher levels of academic and formal language proficiency more quickly than children, precisely because they can use their developed cognitive skills to analyse and systematise linguistic input.`,
+    questions:[
+      { q:"When do children learn languages most easily?", options:["A. After the age of twelve","B. Under the age of ten","C. Between ten and fifteen","D. After puberty"], answer:1,
+        explanation:"El texto dice: 'Children under the age of ten learn languages with remarkable ease.'",
+        correctEs:"B. Under the age of ten = menores de diez años" },
+      { q:"What does 'plastic' mean when describing the brain?", options:["A. Made of artificial material","B. Rigid and unchangeable","C. Flexible and able to form new connections","D. Fully developed"], answer:2,
+        explanation:"'Plastic phase' del cerebro = fase plástica = flexible y capaz de formar nuevas conexiones rápidamente.",
+        correctEs:"C. Flexible and able to form new connections = plástico / flexible, capaz de formar nuevas conexiones" },
+      { q:"How do children learn grammar according to the text?", options:["A. Through textbooks and formal lessons","B. By memorising rules","C. By absorbing patterns through exposure without being explicitly taught","D. Through translation exercises"], answer:2,
+        explanation:"El texto dice: 'Children absorb grammar rules without being explicitly taught them — through exposure and use.'",
+        correctEs:"C. Absorbing patterns through exposure without explicit teaching = absorbiendo patrones por exposición sin enseñanza explícita" },
+      { q:"What advantage do adults have in language learning?", options:["A. They learn faster than children in all areas","B. They never forget what they learn","C. They can use developed cognitive skills to analyse language","D. Their brains are more plastic"], answer:2,
+        explanation:"El texto dice: 'adults can use their developed cognitive skills to analyse and systematise linguistic input.'",
+        correctEs:"C. They use developed cognitive skills to analyse language = usan habilidades cognitivas desarrolladas para analizar el idioma" },
+      { q:"True or False: Adults are at a complete disadvantage compared to children in all aspects of language learning.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto dice que los adultos 'often achieve higher levels of academic and formal language proficiency more quickly than children.'",
+        correctEs:"B. False = Falso (los adultos tienen ventajas en lenguaje académico y formal)" },
+      { q:"The word 'internalise' in paragraph 2 most likely means:", options:["A. To translate into another language","B. To absorb and make part of your own thinking","C. To write down and memorise","D. To teach to others"], answer:1,
+        explanation:"'Internalise the patterns' = interiorizar los patrones = absorberlos y hacerlos parte de su propio pensamiento.",
+        correctEs:"B. To absorb and make part of your own thinking = interiorizar / absorber y hacer propio" },
+      { q:"Why do children of immigrants often become more fluent than their parents?", options:["A. They study harder","B. Their brains are more plastic and they learn through immersion","C. They take special language classes","D. They watch more television"], answer:1,
+        explanation:"El texto explica que los cerebros de los niños están en una fase plástica y aprenden por exposición sin esfuerzo consciente.",
+        correctEs:"B. Their brains are plastic and they learn through immersion = sus cerebros son plásticos y aprenden por inmersión" },
+    ]
+  },
+  {
+    id:"poverty_education", level:"hard",
+    meta:"Nivel B1 — Sociedad / Educación",
+    title:"Education as a Path Out of Poverty",
+    body:`Education has long been promoted as the most reliable pathway out of poverty, and the evidence largely supports this claim. On average, each additional year of schooling increases an individual's earnings by approximately ten percent globally. Literacy and numeracy skills open access to formal employment, better health outcomes, and greater civic participation. When girls and women receive education, the benefits extend to entire communities — research consistently shows that educated mothers have healthier, better-nourished children who are themselves more likely to remain in school.
+
+However, the relationship between education and poverty reduction is more complex than simple optimism suggests. Quality matters enormously: a child who attends school for ten years but learns little — a situation distressingly common in underfunded educational systems — gains few of the promised economic benefits. The UNESCO Learning Crisis Report found that over half of children and adolescents worldwide are not meeting minimum proficiency standards in reading and mathematics, despite attending school.
+
+Furthermore, education alone cannot address the structural inequalities that perpetuate poverty. A highly educated young person from a low-income background still faces discrimination, lack of professional networks, and barriers to capital that their peers from privileged backgrounds do not. Treating education as a complete solution risks placing the burden of systemic failure on individuals rather than addressing the policies, institutions, and power structures that create and maintain inequality in the first place.`,
+    questions:[
+      { q:"By approximately how much does each additional year of schooling increase earnings?", options:["A. Five percent","B. Ten percent","C. Twenty percent","D. Thirty percent"], answer:1,
+        explanation:"El texto dice: 'each additional year of schooling increases an individual's earnings by approximately ten percent globally.'",
+        correctEs:"B. Ten percent = aproximadamente el diez por ciento" },
+      { q:"What specific benefit does educating girls and women produce?", options:["A. Higher government revenue","B. Better sports performance","C. Healthier, better-nourished children more likely to stay in school","D. Lower population growth"], answer:2,
+        explanation:"El texto dice: 'educated mothers have healthier, better-nourished children who are themselves more likely to remain in school.'",
+        correctEs:"C. Healthier children more likely to stay in school = niños más sanos y con más probabilidad de permanecer en la escuela" },
+      { q:"What does the UNESCO Learning Crisis Report reveal?", options:["A. Most children worldwide are performing above average","B. Over half of children are not meeting minimum proficiency standards","C. Education quality has improved significantly","D. Most schools are well-funded"], answer:1,
+        explanation:"El texto dice: 'over half of children and adolescents worldwide are not meeting minimum proficiency standards in reading and mathematics.'",
+        correctEs:"B. Over half are not meeting minimum proficiency standards = más de la mitad no alcanza estándares mínimos de competencia" },
+      { q:"What does 'perpetuate' mean in paragraph 3?", options:["A. Reduce","B. Study","C. Make something continue indefinitely","D. Eliminate"], answer:2,
+        explanation:"'Perpetuate poverty' = perpetuar la pobreza = hacer que continúe indefinidamente.",
+        correctEs:"C. Make something continue indefinitely = perpetuar / hacer que algo continúe indefinidamente" },
+      { q:"True or False: The text argues that education is a complete solution to poverty.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto argumenta que la educación sola no puede abordar las desigualdades estructurales y advierte contra tratarla como solución completa.",
+        correctEs:"B. False = Falso (el texto dice que la educación sola no es solución completa)" },
+      { q:"What barriers do educated young people from low-income backgrounds still face?", options:["A. Lack of intelligence","B. Poor language skills","C. Discrimination, lack of networks and barriers to capital","D. Difficulty learning technical skills"], answer:2,
+        explanation:"El texto dice: 'discrimination, lack of professional networks, and barriers to capital that their privileged peers do not face.'",
+        correctEs:"C. Discrimination, lack of networks and barriers to capital = discriminación, falta de redes y barreras de capital" },
+      { q:"What risk does the text identify in treating education as a complete solution?", options:["A. Students will stop valuing education","B. Schools will become overcrowded","C. It places the burden of systemic failure on individuals","D. Governments will reduce education funding"], answer:2,
+        explanation:"El texto dice: 'risks placing the burden of systemic failure on individuals rather than addressing the policies and structures that create inequality.'",
+        correctEs:"C. Places burden of systemic failure on individuals = coloca la carga del fracaso sistémico en los individuos" },
+      { q:"The author's tone in this text is best described as:", options:["A. Enthusiastically optimistic about education","B. Completely dismissive of education's value","C. Balanced and critically analytical","D. Emotionally distressed"], answer:2,
+        explanation:"El texto reconoce los beneficios de la educación pero también sus limitaciones con un enfoque crítico y equilibrado.",
+        correctEs:"C. Balanced and critically analytical = equilibrado y analítico-crítico" },
+    ]
+  },
+  {
+    id:"film_industry", level:"hard",
+    meta:"Nivel B1 — Cultura / Industria del cine",
+    title:"The Global Film Industry",
+    body:`Cinema began as a curiosity — a flickering novelty demonstrated in Parisian cafés in 1895 — and has evolved into one of the world's most powerful cultural and economic industries. Today, global box office revenues exceed fifty billion dollars annually, and films reach audiences of hundreds of millions across every continent through theatrical releases, streaming platforms, and digital distribution.
+
+Hollywood — the Los Angeles-based centre of American film production — has dominated global cinema for over a century. This dominance is not merely commercial: Hollywood films have profoundly shaped global perceptions of America, normalising particular values, aesthetics, and ways of life on a worldwide scale. Film scholars describe this as a form of 'soft power' — the ability to influence others not through coercion but through cultural attractiveness.
+
+Yet Hollywood's dominance has never been absolute, and in recent decades it has faced increasingly significant challenges. Bollywood, India's Mumbai-based film industry, produces more films annually than Hollywood and serves a vast domestic and diaspora audience. South Korean cinema achieved global recognition with Bong Joon-ho's Parasite winning the Academy Award for Best Picture in 2020 — the first non-English-language film to do so. Streaming platforms have further fragmented the market, enabling films from Nigeria, Colombia, Turkey, and elsewhere to find international audiences that theatrical distribution would never have reached.`,
+    questions:[
+      { q:"When and where did cinema begin?", options:["A. In New York in 1900","B. In London in 1890","C. In Parisian cafés in 1895","D. In Los Angeles in 1905"], answer:2,
+        explanation:"El texto dice: 'a flickering novelty demonstrated in Parisian cafés in 1895.'",
+        correctEs:"C. In Parisian cafés in 1895 = en cafeterías parisinas en 1895" },
+      { q:"What does 'soft power' mean in the context of the text?", options:["A. Military influence through entertainment","B. Economic pressure on foreign markets","C. The ability to influence through cultural attractiveness rather than force","D. The popularity of romantic films"], answer:2,
+        explanation:"El texto dice: 'influence others not through coercion but through cultural attractiveness.'",
+        correctEs:"C. Influence through cultural attractiveness rather than force = influencia a través del atractivo cultural, no la fuerza" },
+      { q:"What historic achievement did Parasite accomplish?", options:["A. It was the highest-grossing film of all time","B. It was the first non-English-language film to win Best Picture at the Oscars","C. It was the first South Korean film ever made","D. It won every major film award worldwide"], answer:1,
+        explanation:"El texto dice: 'first non-English-language film to win the Academy Award for Best Picture in 2020.'",
+        correctEs:"B. First non-English-language film to win Best Picture = primera película en idioma no inglés en ganar Mejor Película" },
+      { q:"The word 'fragmented' in paragraph 3 means:", options:["A. United and concentrated","B. Divided into many smaller parts","C. Expanded significantly","D. Improved in quality"], answer:1,
+        explanation:"'Fragmented the market' = fragmentado el mercado = dividido en muchas partes más pequeñas.",
+        correctEs:"B. Divided into many smaller parts = fragmentado / dividido en muchas partes" },
+      { q:"True or False: Bollywood produces fewer films annually than Hollywood.", options:["A. True","B. False"], answer:1,
+        explanation:"El texto dice: 'Bollywood produces more films annually than Hollywood.'",
+        correctEs:"B. False = Falso (Bollywood produce MÁS películas al año que Hollywood)" },
+      { q:"How have streaming platforms affected the film industry?", options:["A. They have made only Hollywood films available worldwide","B. They have reduced the number of films made globally","C. They have enabled films from many countries to reach international audiences","D. They have replaced all theatrical film releases"], answer:2,
+        explanation:"El texto dice: 'enabling films from Nigeria, Colombia, Turkey, and elsewhere to find international audiences.'",
+        correctEs:"C. Enabled films from many countries to reach international audiences = permitieron que películas de muchos países lleguen a audiencias internacionales" },
+      { q:"What can be inferred about the future of Hollywood's dominance?", options:["A. It will increase as streaming grows","B. It is likely to decrease as global cinema diversifies","C. It will remain unchanged","D. Hollywood will move to another city"], answer:1,
+        explanation:"El texto describe desafíos crecientes de Bollywood, el cine coreano y el streaming — infiriendo una tendencia hacia mayor diversificación y menor dominación de Hollywood.",
+        correctEs:"B. Likely to decrease as global cinema diversifies = probablemente disminuya a medida que el cine global se diversifica" },
+      { q:"The main argument of the text is that:", options:["A. Hollywood is the best film industry","B. Cinema is only important as entertainment","C. Cinema has evolved from a novelty into a major global cultural and economic force with shifting power dynamics","D. Streaming has destroyed traditional cinema"], answer:2,
+        explanation:"El texto narra la evolución del cine, el poder de Hollywood y los cambios recientes en la dinámica global de la industria.",
+        correctEs:"C. Cinema evolved into major global force with shifting power dynamics = el cine evolucionó en una fuerza global con dinámicas de poder cambiantes" },
+    ]
+  },
+
+
 ];
 
 
