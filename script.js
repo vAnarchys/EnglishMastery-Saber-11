@@ -3481,71 +3481,6 @@ function selectDialog(chosen,d){
 document.getElementById("btnNextDialog").addEventListener("click",showDialog);
 
 // ══════════════════════════════════════════
-//  EXAM
-// ══════════════════════════════════════════
-
-let exItems=[], exIdx=0;
-
-function initExam(){
-  document.getElementById("modeExam").classList.remove("hidden");
-  const allQ=[
-    ...QUESTIONS.easy.map(q=>({...q,lvl:"easy",type:"q"})),
-    ...QUESTIONS.medium.map(q=>({...q,lvl:"medium",type:"q"})),
-    ...QUESTIONS.hard.map(q=>({...q,lvl:"hard",type:"q"})),
-    ...DIALOGS.map(d=>({...d,type:"dialog"})),
-    ...READING_TEXTS.flatMap(t=>t.questions.map(rq=>({
-      ...rq,context:t.title,type:"readq",
-      textTitle:t.title,textBody:t.body.substring(0,500)+"..."
-    }))),
-  ];
-  exItems=shuffle(allQ).slice(0,25);
-  exIdx=0; arenaTotal=exItems.length; showExam();
-}
-
-function showExam(){
-  if(exIdx>=exItems.length){ showResult(); return; }
-  const q=exItems[exIdx];
-  document.getElementById("examContext").textContent=q.context||q.scene||"";
-  const tb=document.getElementById("examTextBlock");
-  if(q.type==="readq"&&q.textBody){
-    tb.classList.remove("hidden");
-    document.getElementById("examTextTitle").textContent=q.textTitle||"";
-    document.getElementById("examTextBody").textContent=q.textBody;
-  } else { tb.classList.add("hidden"); }
-  document.getElementById("examQuestion").textContent=q.q;
-  const opts=document.getElementById("examOptions");
-  opts.innerHTML="";
-  q.options.forEach((opt,i)=>{
-    const btn=document.createElement("button");
-    btn.className="option-btn";
-    btn.innerHTML=`<span class="opt-letter">${String.fromCharCode(65+i)}</span> ${opt.replace(/^[A-D]\.\s*/,"")}`;
-    btn.addEventListener("click",()=>selectExam(i,q));
-    opts.appendChild(btn);
-  });
-  document.getElementById("examFeedback").classList.add("hidden");
-  arenaIdx=exIdx; updateArenaScore();
-}
-
-function selectExam(chosen,q){
-  document.querySelectorAll("#examOptions .option-btn").forEach((btn,i)=>{
-    btn.disabled=true;
-    if(i===q.answer) btn.classList.add("correct");
-    else if(i===chosen&&chosen!==q.answer) btn.classList.add("wrong");
-  });
-  const correct=chosen===q.answer;
-  if(correct) arenaCorrect++; else arenaWrong++;
-  recordAnswer(correct); updateArenaScore();
-  document.getElementById("examFbResult").innerHTML=correct
-    ?`<span style="color:var(--green)">✓ ¡Correcto!</span>`
-    :`<span style="color:var(--red)">✗ Incorrecto.</span>`;
-  document.getElementById("examFbCorrect").textContent=`✓ Respuesta correcta: ${q.correctEs||q.options[q.answer]}`;
-  document.getElementById("examFbExpl").textContent=q.explanation||"";
-  document.getElementById("examFeedback").classList.remove("hidden");
-  exIdx++;
-}
-document.getElementById("btnNextExam").addEventListener("click",showExam);
-
-// ══════════════════════════════════════════
 //  RESULT
 // ══════════════════════════════════════════
 
@@ -3741,6 +3676,7 @@ function shuffleOptions(q) {
 
 // ── Build pool by exam type ──
 function buildPool(type) {
+  console.log('[EXAM] buildPool — type:', type);
   const allRT = READING_TEXTS.flatMap(t => t.questions.map((rq, qi) => ({
     ...rq,
     _uid: `rt_${t.id}_${qi}`,
@@ -3822,6 +3758,7 @@ function buildPool(type) {
   const totalQs = qEasy.length + qMedium.length + qHard.length + dialogs.length + allRT.length;
   if (feSeenQuestions.size > totalQs * 0.7) feSeenQuestions.clear();
 
+  console.log('[EXAM] pool built — size:', pool.length);
   return pool;
 }
 
@@ -3831,6 +3768,7 @@ document.querySelectorAll(".exam-type-card").forEach(card => {
     document.querySelectorAll(".exam-type-card").forEach(c => c.classList.remove("selected"));
     card.classList.add("selected");
     feSelectedType = card.dataset.type;
+    console.log('[EXAM] type selected:', feSelectedType);
   });
 });
 
@@ -3840,6 +3778,7 @@ document.querySelectorAll("#timerGroup .toggle-btn").forEach(b => {
     document.querySelectorAll("#timerGroup .toggle-btn").forEach(x => x.classList.remove("active"));
     b.classList.add("active");
     feSelectedDuration = parseInt(b.dataset.val);
+    console.log('[EXAM] duration selected:', feSelectedDuration);
   });
 });
 
@@ -3885,6 +3824,7 @@ function renderExamHistory() {
 
 // ── Start exam ──
 function startFullExam() {
+  console.log('[EXAM] startFullExam called — type:', feSelectedType, '| duration:', feSelectedDuration);
   feItems = buildPool(feSelectedType);
   if (!feItems.length) {
     showToast("⚠️ No hay preguntas disponibles. Intenta otro nivel.");
@@ -4013,6 +3953,7 @@ function updateFETimerDisplay() {
 
 // ── Show question ──
 function showFEQuestion() {
+  console.log('[EXAM] showFEQuestion — idx:', feIdx, '/', feItems.length);
   if (feIdx >= feItems.length) { finishFullExam(false); return; }
   const q = feItems[feIdx];
 
@@ -4056,6 +3997,7 @@ function showFEQuestion() {
 
 // ── Select answer ──
 function selectFEAnswer(chosen, q) {
+  console.log('[EXAM] answer selected — chosen:', chosen, '| correct:', q.answer, '| match:', chosen === q.answer);
   // Disable all options
   document.querySelectorAll("#feOptions .option-btn").forEach((btn, i) => {
     btn.disabled = true;
@@ -4084,6 +4026,7 @@ function selectFEAnswer(chosen, q) {
 
 // ── Finish exam ──
 function finishFullExam(timedOut) {
+  console.log('[EXAM] finishFullExam — timedOut:', timedOut, '| answered:', feUserAnswers.filter(a=>a!==null).length);
   clearInterval(feTimerInterval);
 
   const ea = document.getElementById("examArena");
